@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "jidu_photo.jpg"
+  avatar           : "Jidu_photo.jpg"
   name             : "Jidu YU"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in computational geomechanics"
