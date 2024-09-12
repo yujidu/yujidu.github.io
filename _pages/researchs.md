@@ -7,7 +7,7 @@ author_profile: true
 
 ## 1. Thermo-hydro-mechanical coupled MPM for saturated porous media
 
-Jidu works on develop stablized and efficient MPM algrithms for modelling the thermo-hydro-mechanical （THM reponses in porous media.
+Jidu works on develop stablized and efficient MPM algrithms for modelling the thermo-hydro-mechanical (THM) reponses in porous media.
 
 * Four-variable *u-v-p-T* formualtion for non-isothermal saturated porous media.
 * A semi-implicit solution scheme based on fractional step method;
