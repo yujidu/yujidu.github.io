@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: archive
-title: "Jidu Yu"
+title: "Welcome to my homepage!"
 excerpt: "Home"
 author_profile: true
 redirect_from: 
@@ -11,11 +11,9 @@ redirect_from:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0" style="max-width: 1000px; margin: auto;"> 
-        {% include figure.html path="images/polyu.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="images/hkust.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-Welcome to my homepage! 
 
 I am Jidu Yu (Chinese: 于际都) and I was born and raised in [XuZhou](https://en.wikipedia.org/wiki/Xuzhou), a famous historical and cultural city in China. 
 
