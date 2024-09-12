@@ -22,7 +22,6 @@ Education
 
 * __B.Eng__ in Water Conservancy and Hydropower Engineering, 
   * Hohai University, Nanjing, China, Sept. 2014 - Jul. 2018
-  * Dissertation: Experimental Study on Compression Behavior of Crushable Coarse-Grained Materials 
 
 Experience
 -----
