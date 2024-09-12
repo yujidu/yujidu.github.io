@@ -110,18 +110,18 @@ $xing-color                 : #006567;
 
 @include breakpoint-set("to ems", true);
 
-$small                      : 600px;
-$medium                     : 800px;
-$medium-wide                : 960px;
-$large                      : 1280px;
-$x-large                    : 1440px;
+// $small                      : 600px;
+// $medium                     : 800px;
+// $medium-wide                : 960px;
+// $large                      : 1280px;
+// $x-large                    : 2160px;
 
 
-// $small                      : 600px !default;
-// $medium                     : 768px !default;
-// $medium-wide                : 900px !default;
-// $large                      : 925px !default;
-// $x-large                    : 1280px !default;
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 900px !default;
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
 
 /*
    Grid
