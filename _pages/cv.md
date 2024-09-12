@@ -45,11 +45,16 @@ Awards
 * Excellent Master’s Thesis in Major of Hydraulic Engineering of Chinese Higher Education Institutions, 2022
 * Excellent Master’s Thesis of Jiangsu Province, Jiangsu Provincial Degree Committee, 2022
 * RedBird PhD Scholarship Program, HKUST, 2021
+* Excellent Master’s Thesis, HHU, 2021
 * Postgraduate "Science and Technology Star", HHU, 2021
+* Postgraduate Research & Practice Innovation Program of Jiangsu Province， 2020 
+* Outstanding Master Thesis Cultivation Program (1 quota each college), HHU, 2019
 * National Scholarship for Postgraduates (x2), MOE, 2019 & 2020
 * First Class Postgraduate Scholarship (x3), HHU, 2018 & 2019 & 2020
 * First Class prize of the “MathorCup” - the 9th College Mathematical Modeling Challenge, 2019  
-* Second Class prize of “HUWEI Cup”- the 15th China Postgraduate Mathematical Contest in Modeling, 2018  
+* Second Class prize of “HUWEI Cup”- the 15th China Postgraduate Mathematical Contest in Modeling, 2018
+* "Geokon" Scholarship, 2017 
+* "Zhejiang Reclaim Group" Scholarship, 2015
 * Miscellaneous scholarships and awards at HHU, 2014 ~ 2018
 
 Academic service
