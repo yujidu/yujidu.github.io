@@ -1,5 +1,6 @@
 ---
 permalink: /
+layout: archive
 title: "Jidu Yu"
 excerpt: "Home"
 author_profile: true
