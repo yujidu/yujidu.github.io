@@ -39,11 +39,11 @@ author_profile: true
 {: reversed="reversed"}
 
 ## Conference Paper
-4. Yu J.D., Zhao J.D.*, Zhao S.W., Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for simulating the freeze-thaw behavior of porous media.16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics, Vancouver, Canada.
+4. **Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for simulating the freeze-thaw behavior of porous media.16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics, Vancouver, Canada.
 
-3. Yu J.D., Zhao J.D.*,  Zhao S.W. & **Liang W.J.** (2024) Multiphysics simulation of freezing and thawing granular media using material point method. GeoShanghai International Conference (GeoShanghai 2024), 26 - 29 May 2024, Shanghai, China. [Link](https://doi.org/10.1088/1755-1315/1330/1/012035)
+3. **Yu J.D.**, Zhao J.D.\*,  Zhao S.W., Liang W.J. (2024) Multiphysics simulation of freezing and thawing granular media using material point method. GeoShanghai International Conference (GeoShanghai 2024), 26 - 29 May 2024, Shanghai, China. [Link](https://doi.org/10.1088/1755-1315/1330/1/012035)
    
-2. Yu J.D., Liang W.J., Zhao S.W., Zhao J.D.* (2023). A semi-implicit MPM for modeling the thermal effect in saturated porous media. International Symposium on Innovations in Geotechnical Engineering towards Sustainability (IGES2023), Hong Kong, China..
+2. **Yu J.D.**, Liang W.J., Zhao S.W., Zhao J.D.\* (2023). A semi-implicit MPM for modeling the thermal effect in saturated porous media. International Symposium on Innovations in Geotechnical Engineering towards Sustainability (IGES2023), Hong Kong, China..
    
-1. Yu J.D., Zhao J.D.*, Zhao S.W., Liang W.J. (2023) An explicit-implicit THM-Coupled MPM for saturated porous media. The 26th Annual Conference of HKSTAM 2023 in conjunction with The 18th Shanghai–Hong Kong Forum on Mechanics and Its Application, Hong Kong, China, p. 30.
+1. **Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2023) An explicit-implicit THM-Coupled MPM for saturated porous media. The 26th Annual Conference of HKSTAM 2023 in conjunction with The 18th Shanghai–Hong Kong Forum on Mechanics and Its Application, Hong Kong, China, p. 30.
 {: reversed="reversed"}
