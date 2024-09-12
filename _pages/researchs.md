@@ -21,3 +21,16 @@ Jidu works on develop stablized and efficient MPM algrithms for modelling the th
         </div>
     </div>
 </div>
+
+## 2. Coupled MPM for modelling freezing and thawing of porous media
+
+Jidu develops thermo-hydro-mechanical MPM to simualte the thawing and freezing process in granualr soils.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 750px; margin: auto;"> 
+        {% include figure.html path="images/ThawingFooting.gif" title="" class="img-fluid rounded z-depth-1" %}
+        <div class="caption center">
+            <h3> Rapid penetration of strip footing on unthawed (left) and thawing (right) grounds.</h3>
+        </div>
+    </div>
+</div>
