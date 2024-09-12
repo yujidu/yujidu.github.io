@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 1000px; margin: auto;"> 
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 2160px; margin: auto;"> 
         {% include figure.html path="images/hkust.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
