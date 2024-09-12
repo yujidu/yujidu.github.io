@@ -9,7 +9,7 @@ Please find updated works in [Google Scholar](https://scholar.google.com/citatio
 
 ## Journal paper
 
-<small>(*Comput. Methods Appl. Mech. Eng.* ***3***,
+<small>(*Comput. Methods Appl. Mech. Eng.* ***1***,
  *Int. J. Numer. Methods Eng.* ***2***,
  *J. Geotech. Geoenviron. Eng.* ***1***,
  *Int. J. Numer. Anal. Methods Geomech.* ***4***,
