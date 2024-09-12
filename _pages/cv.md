@@ -10,17 +10,17 @@ redirect_from:
 
 Education
 -----
-* __Ph.D. Candidate__ in Geotechnical Engineering, GPA: 3.9/4.2
+* __Ph.D. Candidate__ in Geotechnical Engineering 
 The Hong Kong University of Science and Technology, Hong Kong SAR, Sept. 2021 - Present
   * Thesis: Multiphysics and Multiscale Modeling of Granular Soils Involving Phase Transition and Large Deformation
   * Supervisor: [Prof. Jidong Zhao](http://jzhao.people.ust.hk/group.html)
 
-* __M.Eng__ in Hydraulic Structure Engineering, GPA: 88.94/100  
+* __M.Eng__ in Hydraulic Structure Engineering  
 Hohai University, Nanjing, China, Sept. 2018 - Jul. 2021
   * Dissertation: Multiscale Investigation of Crushing behavior of Coarse-Grained Materials
   * Supervisor: [Prof. Sihong Liu](https://www.shliu.com/)
 
-* __B.Eng__ in Water Conservancy and Hydropower Engineering, GPA: 4.62/5.0  
+* __B.Eng__ in Water Conservancy and Hydropower Engineering  
 Hohai University, Nanjing, China, Sept. 2014~Jul. 2018
   * Dissertation: Experimental Study on Compression Behavior of Crushable Coarse-Grained Materials 
 
