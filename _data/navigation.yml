@@ -14,8 +14,10 @@ main:
     url: /research/   
 
   - title: "Blogs"
+    url: /blogs/ 
 
   - title: "Notes"
+    url: /notes/
 
   # - title: "Talks"
   #   url: /talks/    
