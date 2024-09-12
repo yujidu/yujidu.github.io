@@ -20,23 +20,22 @@ Hohai University, Nanjing, China, Sept. 2018 - Jul. 2021
   * Dissertation: Multiscale Investigation of Crushing behavior of Coarse-Grained Materials
   * Supervisor: [Prof. Sihong Liu](https://www.shliu.com/)
 
-* __B.Eng__ in Water Conservancy and Hydropower Engineering, GPA: 4.62/5.0 
+* __B.Eng__ in Water Conservancy and Hydropower Engineering, GPA: 4.62/5.0  
 Hohai University, Nanjing, China, Sept. 2014~Jul. 2018
   * Dissertation: Experimental Study on Compression Behavior of Crushable Coarse-Grained Materials 
 
 Experience
 -----
-* Research Assistant Professor
-  * The Hong Kong Polytechnic University, July 2022 - present
-  * Cooperator: [Prof. Zhenyu Yin](https://zhenyuyin.wixsite.com/polyu)
-
-* Post-doctoral Fellow
-  * The Hong Kong University of Science and Technology, September 2020 - June 2022
-  * Supervisor: [Prof. Jidong Zhao](http://jzhao.people.ust.hk/group.html)
-
 * Visiting Scholar	
-  * University of California, Berkeley, September 2019 - March 2020
+  * University of California, Berkeley, Oct. 2019 - May 2020
   * Host supervisor: [Prof. Kenichi Soga](http://geomechanics.berkeley.edu/people/soga/)
+
+* Visiting Student	
+  * University College London, Jul. 2019 - Oct. 2019
+  * Host supervisor: [Prof. Yi Pik Helen Cheng](https://profiles.ucl.ac.uk/6010)
+
+* Internship	
+  * Nanjing Hydaulic Research Institute, Sept. 2017 - Aug. 2018
   
 Awards
 -----
