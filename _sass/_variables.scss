@@ -111,10 +111,10 @@ $xing-color                 : #006567;
 @include breakpoint-set("to ems", true);
 
 $small                      : 600px;
-$medium                     : 800px;
-$medium-wide                : 1080px;
-$large                      : 1440px;
-$x-large                    : 1920px;
+$medium                     : 960px;
+$medium-wide                : 1280px;
+$large                      : 1920px;
+$x-large                    : 2560px;
 
 
 // $small                      : 600px !default;
