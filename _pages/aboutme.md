@@ -15,7 +15,7 @@ redirect_from:
     </div>
 </div>
 
-I am Jidu Yu (Chinese: 于际都) and I was born and raised in [XuZhou](https://en.wikipedia.org/wiki/Xuzhou), a famous historical and cultural city in China. 
+I am Jidu Yu (Chinese: 于际都) and I was born and raised in [XuZhou](https://en.wikipedia.org/wiki/Xuzhou), a historical and cultural city in China. 
 
 I obtained my B.Eng and M.Eng in Hydraulic Engineering from Hohai University (HHU) in 2018 and 2021, respectively. Now, I am a Ph.D. candidate in Geotechnical Engineering at the Hong Kong University of Science and Technology (HKUST), supervised by [Prof Zhao Jidong](http://jzhao.people.ust.hk/).
 
