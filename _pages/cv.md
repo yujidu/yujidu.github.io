@@ -6,19 +6,23 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
 
 Education
 -----
-* __Ph.D.__ in Civil Engineering  
-The Hong Kong University of Science and Technology, Hong Kong SAR, August 2016 - September 2020
-  * Thesis: Multiscale modeling large deformation in granular media
+* __Ph.D. Candidate__ in Geotechnical Engineering, GPA: 3.9/4.2
+The Hong Kong University of Science and Technology, Hong Kong SAR, Sept. 2021 - Present
+  * Thesis: Multiphysics and Multiscale Modeling of Granular Soils Involving Phase Transition and Large Deformation
   * Supervisor: [Prof. Jidong Zhao](http://jzhao.people.ust.hk/group.html)
 
-* __B.Eng__ (honor)  
-Sun Yet-Sen University, China, September 2012 - July 2016
-  * Major: Theoretical and Applied Mechanics
+* __M.Eng__ in Hydraulic Structure Engineering, GPA: 88.94/100  
+Hohai University, Nanjing, China, Sept. 2018 - Jul. 2021
+  * Dissertation: Multiscale Investigation of Crushing behavior of Coarse-Grained Materials
+  * Supervisor: [Prof. Sihong Liu](https://www.shliu.com/)
+
+* __B.Eng__ in Water Conservancy and Hydropower Engineering, GPA: 4.62/5.0 
+Hohai University, Nanjing, China, Sept. 2014~Jul. 2018
+  * Dissertation: Experimental Study on Compression Behavior of Crushable Coarse-Grained Materials 
 
 Experience
 -----
