@@ -21,7 +21,7 @@ Education
   * Supervisor: [Prof. Sihong Liu](https://www.shliu.com/)
 
 * __B.Eng__ in Water Conservancy and Hydropower Engineering, 
-  * Hohai University, Nanjing, China, Sept. 2014~Jul. 2018
+  * Hohai University, Nanjing, China, Sept. 2014 - Jul. 2018
   * Dissertation: Experimental Study on Compression Behavior of Crushable Coarse-Grained Materials 
 
 Experience
@@ -39,7 +39,7 @@ Experience
   
 Awards
 -----
-* Postgraduate Studentship, HKUST, 2021 ~ present
+* Postgraduate Studentship, HKUST, 2021 - 2025
 * RedBird Academic Excellence Award, HKUST, 2024
 * Research travel grant, HKUST, 2024
 * Excellent Master’s Thesis in Major of Hydraulic Engineering of Chinese Higher Education Institutions, 2022
