@@ -39,16 +39,18 @@ Experience
   
 Awards
 -----
-* Top cited paper, International Journal for Numerical and Analytical Methods in Geomechanics, 2022
-* Top downloaded paper, International Journal for Numerical and Analytical Methods in Geomechanics, 2020, 2023
-* Oversea research grant, HKUST, 2019
-* Best presenter award, KKHTCNN, 2018
-* Postgraduate studentship, HKUST, 2016 ~ 2020
-* Xu Zhilun outstanding students award, The Chinese Society of Theoretical and Applied Mechanics, 2016
-* Honors graduates, SYSU, 2016
-* Third prize, National Zhou Peiyuan Competition on Mechanics, 2015
-* Meritorious Winner in The Mathematical Contest in Modeling (MCM), 2014 
-* Miscellaneous scholarships and awards at SYSU, 2012 ~ 2016
+* Postgraduate Studentship, HKUST, 2021 ~ present
+* RedBird Academic Excellence Award, HKUST, 2024
+* Research travel grant, HKUST, 2024
+* Excellent Master’s Thesis in Major of Hydraulic Engineering of Chinese Higher Education Institutions, 2022
+* Excellent Master’s Thesis of Jiangsu Province, Jiangsu Provincial Degree Committee, 2022
+* RedBird PhD Scholarship Program, HKUST, 2021
+* Postgraduate "Science and Technology Star", HHU, 2021
+* National Scholarship for Postgraduates (x2), MOE, 2019 & 2020
+* First Class Postgraduate Scholarship (x3), HHU, 2018 & 2019 & 2020
+* First Class prize of the “MathorCup” - the 9th College Mathematical Modeling Challenge, 2019  
+* Second Class prize of “HUWEI Cup”- the 15th China Postgraduate Mathematical Contest in Modeling, 2018  
+* Miscellaneous scholarships and awards at HHU, 2014 ~ 2018
 
 Academic service
 -----
