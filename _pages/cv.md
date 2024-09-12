@@ -27,7 +27,7 @@ Education
 Experience
 -----
 * Visiting Scholar	
-  * University of California, Berkeley, Oct. 2019 - May 2020
+  * University of California, Berkeley, Oct. 2024 - May 2025
   * Host supervisor: [Prof. Kenichi Soga](http://geomechanics.berkeley.edu/people/soga/)
 
 * Visiting Student	
@@ -36,7 +36,15 @@ Experience
 
 * Internship	
   * Nanjing Hydaulic Research Institute, Sept. 2017 - Aug. 2018
-  
+
+Project
+-----
+* __Multiscale modeling of thermo-hydro-mechanical behavior in granular sediments for gas hydrate recovery__， Paticipant
+  * Funded by RGC-HK: GRF #16211221, PI: Prof. Jidong ZHAO, 2021 - present
+
+* __A combined physics-informed deep learning and multiscale modeling framework for simulation of thaw-induced landslide in permafrost__， Paticipant
+  * Funded by RGC-HK: GRF #16206322, PI: Dr. Shiwei ZHAO, Co-PI: Prof. Jidong ZHAO,2022 - present 
+
 Awards
 -----
 * Postgraduate Studentship, HKUST, 2021 - 2025
@@ -56,26 +64,6 @@ Awards
 * "Geokon" Scholarship, 2017 
 * "Zhejiang Reclaim Group" Scholarship, 2015
 * Miscellaneous scholarships and awards at HHU, 2014 ~ 2018
-
-Academic service
------
-* Guest Editor, Computers and Geotechnics
-* Member, International Society of Soil Mechanics and Geotechnical Engineering (ISSMGE)
-* Member, Hong Kong Geotechnical Society (HKGES)
-* Secretary, The 17th International Conference of the International Association for Computer Methods and Advances in Geomechanics ([IACMAG](http://iacmag2025.com/)), Dec 18 - 21, 2025, Hong Kong.
-* Secretary, International Symposium on Innovations in Geotechnical Engineering towards Sustainability ([IGES2023](https://iges2023.github.io/)), Nov 30 - Dec 4, 2023, Hong Kong.
-* Journal reviewer:  
-  * Computers and Geotechnics
-  * Journal of Rock Mechanics and Geotechnical Engineering
-  * Journal of Geotechnical and Geoenvironmental Engineering (ASCE)
-  * European Journal of Environmental and Civil Engineering
-  * Engineering Computations
-  * Soils and Foundations
-  * International Journal of Geomechanics (ASCE)
-  * Journal of Zhejiang University - SCIENCE A
-  * International Journal for Numerical and Analytical Methods in Geomechanics
-  * Transportation Geotechnics
-  * Journal of the Brazilian Society of Mechanical Sciences and Engineering
 
 
 <body>
