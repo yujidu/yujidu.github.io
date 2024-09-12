@@ -14,7 +14,7 @@ Jidu works on develop stablized and efficient MPM algrithms for modelling the th
 * Both the incompressible and weakly compressible fluid are considered.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 750px; margin: auto;"> 
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 700px; margin: auto;"> 
         {% include figure.html path="images/Thermal_slope.gif" title="" class="img-fluid rounded z-depth-1" %}
         <div class="caption center">
             <h3> Failure of a thermal-sensitive slope.</h3>
