@@ -37,14 +37,6 @@ Experience
 * Internship	
   * Nanjing Hydaulic Research Institute, Sept. 2017 - Aug. 2018
 
-Project
------
-* __Multiscale modeling of thermo-hydro-mechanical behavior in granular sediments for gas hydrate recovery__， Paticipant
-  * Funded by RGC-HK: GRF #16211221, PI: Prof. Jidong ZHAO, 2021 - present
-
-* __A combined physics-informed deep learning and multiscale modeling framework for simulation of thaw-induced landslide in permafrost__， Paticipant
-  * Funded by RGC-HK: GRF #16206322, PI: Dr. Shiwei ZHAO, Co-PI: Prof. Jidong ZHAO,2022 - present 
-
 Awards
 -----
 * Postgraduate Studentship, HKUST, 2021 - 2025
@@ -56,7 +48,7 @@ Awards
 * Excellent Master’s Thesis, HHU, 2021
 * Postgraduate "Science and Technology Star", HHU, 2021
 * Postgraduate Research & Practice Innovation Program of Jiangsu Province， 2020 
-* Outstanding Master Thesis Cultivation Program (1 quota each college), HHU, 2019
+* Excellent Master Thesis Cultivation Program (1 quota each college), HHU, 2019
 * National Scholarship for Postgraduates (x2), MOE, 2019 & 2020
 * First Class Postgraduate Scholarship (x3), HHU, 2018 & 2019 & 2020
 * First Class prize of the “MathorCup” - the 9th College Mathematical Modeling Challenge, 2019  
@@ -67,5 +59,5 @@ Awards
 
 
 <body>
-<p style="text-align:left;"><small>(Last update at: Aug 2024)</small></p>
+<p style="text-align:left;"><small>(Last update at: Sep 2024)</small></p>
 </body>
