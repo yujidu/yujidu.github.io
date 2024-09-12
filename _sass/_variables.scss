@@ -48,10 +48,10 @@ $type-size-8                : 0.625em;  // ~10px
    ========================================================================== */
 
 $gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
+$dark-gray                  : mix(#000, $gray, 80%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(rgb(180, 180, 180), $gray, 50%);
-$lighter-gray               : mix(rgb(210, 210, 210), $gray, 90%);
+$lighter-gray               : mix(rgb(210, 210, 210), $gray, 100%);
 
 $body-color                 : rgb(255, 255, 255);
 $background-color           : rgb(255, 255, 255);
@@ -65,6 +65,16 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #962570;
+
+/* links */
+$link-color                 : $info-color;
+$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-visited         : mix(#fff, $link-color, 25%);
+$masthead-link-color        : rgb(255, 255, 255);
+$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-background-color  : #1d1e52;
+
+
 
 /* brands */
 $behance-color              : #1769FF;
@@ -88,14 +98,6 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
-
-/* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : rgb(255, 255, 255);
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
-$masthead-background-color  : #1d1e52;
 
 
 /*
