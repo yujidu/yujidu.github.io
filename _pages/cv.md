@@ -38,12 +38,13 @@ Experience
 
 Awards
 -----
-* Postgraduate Studentship, HKUST, 2021 - 2025
+* Overseas Research Award, HKUST, 2024
 * RedBird Academic Excellence Award, HKUST, 2024
 * Research travel grant, HKUST, 2024
 * Excellent Master’s Thesis in Major of Hydraulic Engineering of Chinese Higher Education Institutions, 2022
 * Excellent Master’s Thesis of Jiangsu Province, Jiangsu Provincial Degree Committee, 2022
 * RedBird PhD Scholarship Program, HKUST, 2021
+* Postgraduate Studentship, HKUST, 2021 - 2025
 * Excellent Master’s Thesis, HHU, 2021
 * Postgraduate "Science and Technology Star", HHU, 2021
 * Postgraduate Research & Practice Innovation Program of Jiangsu Province， 2020 
