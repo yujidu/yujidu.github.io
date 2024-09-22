@@ -34,7 +34,7 @@ author_profile: true
 
 2.   **Yu J.D.**, Liu S.H.\*, Wang T., Wei H. (2019). Experimental research on compaction characteristics of gap-graded coarse-grained soils. *Chinese Journal of Geotechnical Engineering (岩土工程学报)*, 41(11): 2142-2148. (In Chinese) 
 
-1.   **Yu J.D.**, Liu S.H.\*, Shen C.M.*, Mao H.Y. (2022). Breakage and shape evolution of dyed gypsum particles under one-dimensional compression. *Journal of Hohai University (Natural Sciences)*, 50(1), 110-116. (In Chinese) 
+1.   **Yu J.D.**, Liu S.H.\*, Shen C.M.\*, Mao H.Y. (2022). Breakage and shape evolution of dyed gypsum particles under one-dimensional compression. *Journal of Hohai University (Natural Sciences)*, 50(1), 110-116. (In Chinese) 
 
 ## Conference Paper
 
