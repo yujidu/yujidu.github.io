@@ -34,3 +34,25 @@ Jidu develops thermo-hydro-mechanical MPM to simualte the thawing and freezing p
         </div>
     </div>
 </div>
+
+## 3. Multiscale modeling of coupled THM behavior of granular media subject to freeze-thaw cycles
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 750px; margin: auto;"> 
+        {% include figure.html path="images/FT_cycles.gif" title="" class="img-fluid rounded z-depth-1" %}
+        <div class="caption center">
+            <h3> THM responses of a saturaetd porous media during Freeze-thaw cycles.</h3>
+        </div>
+    </div>
+</div>
+
+## 4.THM Modeling of porous media with compressible fluid
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 750px; margin: auto;"> 
+        {% include figure.html path="images/Thermal_wave_E7.gif" title="" class="img-fluid rounded z-depth-1" %}
+        <div class="caption center">
+            <h3> Wave propagation caused by thermal expansion initiated from the left and bottom boundaries.</h3>
+        </div>
+    </div>
+</div>
