@@ -6,11 +6,18 @@ author_profile: true
 ---
 ## Journal Paper
 
-<small>(*CMAME* ***1***,
+<small>(*JMPS* ***1***,
+ *CMAME* ***2***,
  *NAG* ***1***,
+ *NME* ***1***,
  *JGGE* ***1***,
  *CG* ***1*** ,
  *CBM* ***1***)</small>
+ 
+
+8.  **Yu J.D.**, A fully coupled THMC-MPM framework for modeling phase transition and large deformation in methane hydrate-bearing sediment. Journal of the Mechanics and Physics of Solids. 206 Part A, 106368. [Link](https://doi.org/10.1016/j.jmps.2025.106368)
+
+7.  **Yu J.D.**, Liang W.J.\*, & Zhao J.D.* (2025). Enhancing dynamic modeling of porous media with compressible fluid: A THM material point method with improved fractional step formulation. *Computer Methods in Applied Mechanics and Engineering*. 444, 118100. [Link](https://doi.org/10.1016/j.cma.2025.118100)
 
 6.  **Yu J.D.**, Zhao J.D.\*, Liang W.J., Zhao S.W. (2024). Multiscale modeling of coupled thermo-hydro-mechanical behavior in ice-bonded granular media subject to freeze-thaw cycles. *Computers and Geotechnics*. 171: 106349. [Link](https://doi.org/10.1016/j.compgeo.2024.106349)
    
