@@ -1,8 +1,8 @@
 # main links links
 main:
 
-  - title: "News"
-    url: /news/  
+  # - title: "News"
+  #   url: /news/  
 
   - title: "CV"
     url: /cv/
@@ -13,11 +13,11 @@ main:
   - title: "Research"
     url: /research/   
 
-  - title: "Blogs"
-    url: /blogs/ 
+  # - title: "Blogs"
+  #   url: /blogs/ 
 
-  - title: "Notes"
-    url: /notes/
+  # - title: "Notes"
+  #   url: /notes/
 
   # - title: "Talks"
   #   url: /talks/    
