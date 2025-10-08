@@ -24,7 +24,7 @@ author_profile: true
 [https://doi.org/10.1016/j.cma.2025.118100](https://doi.org/10.1016/j.cma.2025.118100)
 
 6.  **Yu J.D.**, Zhao J.D.\*, Liang W.J., Zhao S.W. (2024). Multiscale modeling of coupled thermo-hydro-mechanical behavior in ice-bonded granular media subject to freeze-thaw cycles. *Computers and Geotechnics*. 171: 106349.
-[https://doi.org/10.1016/j.compgeo.2024.106349](https://doi.org/10.1016/j.compgeo.2024.106349)
+ [https://doi.org/10.1016/j.compgeo.2024.106349](https://doi.org/10.1016/j.compgeo.2024.106349)
    
 5.  **Yu J.D.**, Zhao J.D.\*,  Zhao S.W. & Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for modeling freezing and thawing of porous media.
 *International Journal for Numerical and Analytical Methods in Geomechanics*,
