@@ -10,17 +10,17 @@ redirect_from:
 
 Education
 -----
-* __Ph.D. Candidate__ in Geotechnical Engineering
-  * The Hong Kong University of Science and Technology, Hong Kong SAR, Sept. 2021 - Present
-  * Thesis: Multiphysics and Multiscale Modeling of Granular Soils Involving Phase Transition and Large Deformation
+* __Ph.D.__ in Civil Engineering
+  * The Hong Kong University of Science and Technology, Hong Kong SAR, Sept. 2021 - Aug. 2021
+  * Thesis: Multiscale Modeling of Coupled Thermo-Hydro-Mechanical Behavior in Granular Media
   * Supervisor: [Prof. Jidong Zhao](http://jzhao.people.ust.hk/group.html)
 
-* __M.Eng__ in Hydraulic Structure Engineering
+* __M.Eng.__ in Hydraulic Structure Engineering
   * Hohai University, Nanjing, China, Sept. 2018 - Jul. 2021
-  * Dissertation: Multiscale Investigation of Crushing behavior of Coarse-Grained Materials
+  * Dissertation: Multiscale Investigation of Crushing Behavior of Coarse-Grained Materials
   * Supervisor: [Prof. Sihong Liu](https://www.shliu.com/)
 
-* __B.Eng__ in Water Conservancy and Hydropower Engineering, 
+* __B.Eng.__ in Water Conservancy and Hydropower Engineering, 
   * Hohai University, Nanjing, China, Sept. 2014 - Jul. 2018
 
 Experience
@@ -34,14 +34,14 @@ Experience
   * Host supervisor: [Prof. Yi Pik Helen Cheng](https://profiles.ucl.ac.uk/6010)
 
 * Internship	
-  * Nanjing Hydaulic Research Institute, Sept. 2017 - Aug. 2018
+  * Nanjing Hydraulic Research Institute, Sept. 2017 - Aug. 2018
 
 Awards
 -----
 * Overseas Research Award, HKUST, 2024
 * RedBird Academic Excellence Award, HKUST, 2024
 * Research travel grant, HKUST, 2024
-* Excellent Master’s Thesis in Major of Hydraulic Engineering of Chinese Higher Education Institutions, 2022
+* Excellent Master’s Thesis in the Major of Hydraulic Engineering of Chinese Higher Education Institutions, 2022
 * Excellent Master’s Thesis of Jiangsu Province, Jiangsu Provincial Degree Committee, 2022
 * RedBird PhD Scholarship Program, HKUST, 2021
 * Postgraduate Studentship, HKUST, 2021 - 2025
