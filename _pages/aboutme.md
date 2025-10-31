@@ -17,15 +17,12 @@ redirect_from:
 
 I am Jidu Yu (Chinese: 于际都) and I was born and raised in [XuZhou](https://en.wikipedia.org/wiki/Xuzhou), a historical and cultural city in China. 
 
-I obtained my B.Eng and M.Eng in Hydraulic Engineering from Hohai University (HHU) in 2018 and 2021, respectively. Now, I am a Ph.D. candidate in Geotechnical Engineering at the Hong Kong University of Science and Technology (HKUST), supervised by [Prof Zhao Jidong](http://jzhao.people.ust.hk/).
+I obtained my PhD degree in Civil Engineering from the Hong Kong University of Science and Technology (HKUST) in 2025, and B.Eng and M.Eng degrees in Hydraulic Engineering from Hohai University (HHU) in 2018 and 2021, respectively. Now, I am a postdoctoral researcher at HKUST, supervised by [Prof Zhao Jidong](http://jzhao.people.ust.hk/).
 
 My current research interest focuses on:
-* Particle or mesh-free methods, and hybrid methods, i.e., MPM, DEM, MPM-DEM, MPM-FVM.
-* Multiphysics modelling of mutiphase granular soils, particularly for permafrost and hydrate-bearing soils. 
-* Climate-driven geohazards, i.e., rainfall-induced landslides, permafrost thaw-related problems.
-* Soil behaviours in extreme environments, i.e., submarine, deep underground,and outer space.
-* Deep learning-aided multiscale and multiphysics modelling of granular media in geomechanics.
-
+* Particle or mesh-free methods, and hybrid methods, e.g., MPM, DEM, MPM-DEM, MPM-FVM.
+* Multiphysics modelling of multiphase granular soils, particularly for frozen soils and hydrate soils. 
+* Climate-driven geohazards, e.g., rainfall-induced landslides, permafrost thaw-related problems.
 
 
 
