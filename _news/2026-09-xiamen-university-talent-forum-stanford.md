@@ -1,7 +1,7 @@
 ---
 title: Xiamen University talent exchange event at Stanford
 date: '2026-09-21'
-image: /images/news/xmu-bay-area-talent-2026.jpg
+image: /images/news/stanford-memorial-church-2026.jpg
 label: Xiamen University
 image_fit: cover
 summary: Jidu attended Xiamen University's Bay Area talent exchange event at Stanford University, where Prof. Zhaoxiong Xie, Assistant to the President, introduced the university's talent recruitment programs.
@@ -13,4 +13,4 @@ At the event, Prof. Zhaoxiong Xie, Assistant to the President of Xiamen Universi
 
 Yaobin, Yanglan and Ian also attended the event. Many thanks to Yaobin and Yanglan for driving us to Stanford and for showing us around the campus. It was Jidu's first visit to Stanford.
 
-![Stanford Memorial Church at night](/images/news/stanford-memorial-church-2026.jpg)
+![Prof. Zhaoxiong Xie presenting at the event](/images/news/xmu-bay-area-talent-2026.jpg)
