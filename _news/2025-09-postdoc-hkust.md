@@ -1,7 +1,7 @@
 ---
 title: Postdoctoral Researcher at HKUST
 date: '2025-09-01'
-image: /images/hkust-2.jpg
+image: /images/news/hkust-postdoc-2025.jpg
 label: HKUST
 image_fit: cover
 summary: Started as a Postdoctoral Researcher at HKUST, working with Prof. Jidong Zhao.
