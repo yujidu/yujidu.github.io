@@ -19,12 +19,12 @@ body:not(.has-hero) {
 /* Once scrolled, give the bar a solid background so text stays readable */
 .masthead.is-scrolled,
 .has-hero .masthead.is-scrolled {
-  /* frosted glass with a faint Berkeley-blue tint */
-  background: rgba(236, 241, 250, 0.78);
+  /* frosted glass with a warm paper tint, like the sunset photos */
+  background: rgba(250, 246, 240, 0.8);
   -webkit-backdrop-filter: blur(14px) saturate(1.4);
           backdrop-filter: blur(14px) saturate(1.4);
-  border-bottom: 1px solid rgba(0, 38, 118, 0.08);
-  box-shadow: 0 4px 18px rgba(0, 38, 118, 0.08);
+  border-bottom: 1px solid rgba(121, 74, 42, 0.1);
+  box-shadow: 0 4px 18px rgba(121, 74, 42, 0.08);
 
   .greedy-nav {
     background: transparent;
@@ -608,7 +608,7 @@ a:hover .news-thumb {
 
 .news-thumb__label {
   padding: 0.35em 0.6em;
-  background: $berkeley-blue;
+  background: $campanile;
   color: #fff;
   font-size: $type-size-7;
   font-weight: 600;
@@ -999,7 +999,7 @@ body {
 $cv-date-col: 10.5em;
 $cv-gap: 2.4em;
 $cv-line-x: $cv-date-col + $cv-gap / 2;
-$cv-ink: #4a5a6a;
+$cv-ink: #4b5d5f;  /* verdigris-tinted slate */
 
 .cv-timeline {
   position: relative;
@@ -1647,7 +1647,7 @@ $cv-ink: #4a5a6a;
   }
 
   &:nth-child(even)::before {
-    background: rgba($berkeley-blue, 0.035);
+    background: rgba($campanile, 0.045);
   }
 
   &:hover {
@@ -1655,7 +1655,7 @@ $cv-ink: #4a5a6a;
   }
 
   &:hover::before {
-    background: rgba($berkeley-blue, 0.075);
+    background: rgba($campanile, 0.09);
   }
 }
 
@@ -1676,8 +1676,8 @@ $cv-ink: #4a5a6a;
 @media (max-width: 768px) {
   .masthead.is-scrolled .greedy-nav .visible-links li:first-child {
     background: linear-gradient(to right,
-      rgba(236, 241, 250, 0.96) 85%,
-      rgba(236, 241, 250, 0));
+      rgba(250, 246, 240, 0.96) 85%,
+      rgba(250, 246, 240, 0));
   }
 }
 
@@ -1699,11 +1699,11 @@ $cv-ink: #4a5a6a;
   }
 
   &:nth-child(even)::after {
-    background: rgba($berkeley-blue, 0.035);
+    background: rgba($campanile, 0.045);
   }
 
   &:hover::after {
-    background: rgba($berkeley-blue, 0.075);
+    background: rgba($campanile, 0.09);
   }
 }
 
