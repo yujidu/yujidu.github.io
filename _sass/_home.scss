@@ -1710,3 +1710,14 @@ $cv-ink: #4a5a6a;
 .cv-honors li:hover .cv-timeline__body {
   background: none !important;
 }
+
+/* Item titles in Source Serif 4 (Playfair stays on page and section titles) */
+.cv-card .cv-card__title,
+.cv-proj .cv-proj__title,
+.cv-honor__name,
+.archive .research-row__title,
+.news-item__title,
+.news-detail__headline {
+  font-family: $serif-text;
+  letter-spacing: -0.01em;
+}
