@@ -1731,3 +1731,19 @@ $cv-ink: #4a5a6a;
       rgba(22, 30, 92, 0));
   }
 }
+
+/* Light-menu photos with busy tops (trees, clouds): a soft veil under the menu */
+body.has-hero:not(.banner-dark) .home-hero__media::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 90px;
+  z-index: 1;
+  background: linear-gradient(to bottom,
+    rgba(252, 251, 248, 0.6) 0%,
+    rgba(252, 251, 248, 0.35) 55%,
+    rgba(252, 251, 248, 0) 100%);
+  pointer-events: none;
+}
