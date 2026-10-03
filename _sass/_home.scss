@@ -1,0 +1,115 @@
+/* ==========================================================================
+   HOMEPAGE: full-width banner and condensed sections
+   ========================================================================== */
+
+/* Full-width banner under the top bar */
+.page__hero {
+  margin-bottom: 2em;
+}
+
+.page__hero-image {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 36vw, 480px);
+  object-fit: cover;
+  object-position: center 15%;  /* keep the Campanile spire in view */
+}
+
+/* Section with a title and a "See more" link */
+.home-section {
+  margin-top: 2.5em;
+}
+
+.home-section__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 1em;
+
+  h2 {
+    margin: 0;
+    padding-bottom: 0.3em;
+    border-bottom: none;
+  }
+}
+
+.archive a.home-section__more {
+  font-size: $type-size-6;
+  white-space: nowrap;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Research cards */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1em;
+}
+
+.archive a.research-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+  color: $text-color;
+  text-decoration: none;
+  font-size: $type-size-6;
+  line-height: 1.4;
+  transition: box-shadow 0.2s;
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    background: #f5f5f5;
+  }
+
+  span {
+    padding: 0.6em 0.75em 0.8em;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 10px rgba(#000, 0.15);
+    text-decoration: none;
+
+    img {
+      box-shadow: none;
+    }
+  }
+}
+
+/* Publication lists */
+.pub-list li {
+  margin-bottom: 0.8em;
+}
+
+/* Education & experience timeline */
+.home-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    gap: 1.25em;
+    padding: 0.45em 0;
+    border-bottom: 1px dashed $border-color;
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
+}
+
+.home-timeline__date {
+  flex: 0 0 7.5em;
+  color: $gray;
+  font-variant-numeric: tabular-nums;
+}
