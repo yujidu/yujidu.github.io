@@ -33,7 +33,13 @@
 /* Full-width banner: always shows the whole photo */
 .home-hero {
   position: relative;
-  margin-bottom: 1em;
+  margin-bottom: 0;
+}
+
+/* Pull the intro text up into the faded part of the photo */
+.has-hero #main {
+  position: relative;
+  margin-top: -2.5vw;
 }
 
 .home-hero__image {
@@ -119,7 +125,7 @@
   list-style: none;
   margin: 0.3em 0 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 0.85rem;
 
   li {
     margin: 0.1em 0;
@@ -161,6 +167,7 @@
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
+  padding-bottom: 4em;  /* breathing room above the footer */
 }
 
 /* Section with a title and a "See more" link */
