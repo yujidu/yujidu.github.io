@@ -23,19 +23,19 @@ hero_image: berkeley.jpg
 
 ## Chinese Journal Articles
 
-{% include pub-list.html group="chinese" %}
+{% include pub-list.html group="chinese" countdown=true %}
 
 ## Manuscripts Under Review
 
-{% include pub-list.html group="under_review" %}
+{% include pub-list.html group="under_review" countdown=true %}
 
 ## Conference Papers & Abstracts
 
-{% include pub-list.html group="conference" %}
+{% include pub-list.html group="conference" countdown=true %}
 
 ## Thesis
 
-{% include pub-list.html group="thesis" %}
+{% include pub-list.html group="thesis" countdown=true %}
 
 {% comment %}
 Invited talks are hidden for now; delete this comment tag pair to show them again.
