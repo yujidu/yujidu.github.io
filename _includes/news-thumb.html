@@ -1,0 +1,9 @@
+{%- comment -%} 16:9 picture with the blue label underneath. Usage: include news-thumb.html item=page {%- endcomment -%}
+{%- assign n = include.item -%}
+{%- if n.image contains "://" -%}{%- assign src = n.image -%}{%- else -%}{%- assign src = n.image | relative_url -%}{%- endif -%}
+<div class="news-thumb">
+  <div class="news-thumb__frame news-thumb__frame--{{ n.image_fit | default: 'cover' }}">
+    <img src="{{ src }}" alt="{{ n.label }}" loading="lazy" referrerpolicy="no-referrer">
+  </div>
+  <div class="news-thumb__label">{{ n.label }}</div>
+</div>

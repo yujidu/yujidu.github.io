@@ -1,0 +1,20 @@
+---
+layout: archive
+---
+<article class="news-detail">
+  <p class="news-detail__date">{{ page.date | date: "%B %Y" }}</p>
+  <div class="news-detail__top">
+    <div class="news-detail__media">{% include news-thumb.html item=page %}</div>
+    <div class="news-detail__text">
+      {% if page.headline %}<h2 class="news-detail__headline">{{ page.headline }}</h2>{% endif %}
+      {{ content }}
+    </div>
+  </div>
+  {% if page.citation or page.link %}
+  <p class="news-detail__cite">
+    {% if page.citation %}{{ page.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}
+    {% if page.link %}<a class="pub-btn" href="{{ page.link }}" target="_blank" rel="noopener">Link</a>{% endif %}
+  </p>
+  {% endif %}
+  <p><a href="{{ '/news/' | relative_url }}">← Back to News</a></p>
+</article>
