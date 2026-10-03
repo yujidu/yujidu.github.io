@@ -1596,10 +1596,10 @@ $cv-ink: #4a5a6a;
     height: 100%;
     background: linear-gradient(to bottom,
       rgba(252, 251, 248, 0) 0%,
-      rgba(252, 251, 248, 0.2) 20%,
-      rgba(252, 251, 248, 0.62) 35%,
-      rgba(252, 251, 248, 0.92) 47%,
-      $background-color 57%);
+      rgba(252, 251, 248, 0.2) 17%,
+      rgba(252, 251, 248, 0.62) 31%,
+      rgba(252, 251, 248, 0.92) 43%,
+      $background-color 53%);
   }
 
   /* title a little lower, clear of the tower; the content moves with it */
@@ -1608,7 +1608,7 @@ $cv-ink: #4a5a6a;
   }
 
   .home-hero--compact ~ #main {
-    margin-top: 5rem;
+    margin-top: 4.5rem;
   }
 
   /* home page: title, photo and text sit about two lines lower */
