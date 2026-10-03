@@ -1,9 +1,9 @@
 ---
 title: Stabilized semi-implicit MPM published in IJNAMG
 date: '2026-04-06'
-image: https://onlinelibrary.wiley.com/cms/asset/222fd53a-f550-4b45-83c8-ef7db8bc727e/nag.v50.15.cover.gif
+image: /images/news/2026-04-stabilized-semi-implicit-mpm.png
 label: Int. J. Numer. Anal. Methods Geomech.
-image_fit: contain
+image_fit: cover
 headline: Stabilized semi-implicit material point method for hydro-mechanical coupled large deformation soil-structure interaction analyses
 summary: A collaborative study on a stabilized semi-implicit MPM for coupled soil-structure interaction problems with large deformation.
 citation: Zhang C.X., Chen Y.N.\*, **Yu J.D.**, Yang Z.X., Jardine R.J., Guo N. (2026). *International Journal for Numerical and Analytical Methods in Geomechanics*, 50(9), 3935–3954.
