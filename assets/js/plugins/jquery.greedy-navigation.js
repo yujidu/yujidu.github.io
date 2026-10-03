@@ -14,6 +14,9 @@ var breaks = [];
 
 function updateNav() {
 
+  // Phones: show every link in one row that scrolls sideways instead of a menu
+  if(window.matchMedia("(max-width: 768px)").matches){$hlinks.children().appendTo($vlinks);breaks=[];$btn.addClass("hidden");$hlinks.addClass("hidden");return}
+
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav

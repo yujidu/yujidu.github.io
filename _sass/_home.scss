@@ -735,3 +735,61 @@ a:hover .news-thumb {
     font-size: 2rem;
   }
 }
+
+/* Phones: "About" stays put on the left, the other links scroll sideways */
+@media (max-width: 768px) {
+  .greedy-nav {
+    min-width: 0;
+
+    button {
+      display: none;
+    }
+
+    .hidden-links {
+      display: none;
+    }
+
+    .visible-links {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 100%;
+      margin-left: 0;
+      padding-right: 0 !important;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      li {
+        display: block;
+        flex: 0 0 auto;
+      }
+
+      a {
+        margin: 0 0.9rem;
+        white-space: nowrap;
+      }
+
+      /* About: pinned on the left while the rest scroll under it */
+      li:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        padding-right: 0.4rem;
+        background: linear-gradient(to right,
+          rgba(255, 255, 255, 0.85) 75%,
+          rgba(255, 255, 255, 0));
+      }
+    }
+  }
+
+  /* show where the row continues */
+  .masthead__menu {
+    -webkit-mask-image: linear-gradient(to right, #000 88%, transparent);
+            mask-image: linear-gradient(to right, #000 88%, transparent);
+  }
+}
