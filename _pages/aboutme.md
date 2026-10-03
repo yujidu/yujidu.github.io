@@ -19,6 +19,11 @@ My current research interest focuses on:
 * Multiphysics modelling of multiphase granular soils, particularly for frozen soils and hydrate soils. 
 * Climate-driven geohazards, e.g., rainfall-induced landslides, permafrost thaw-related problems.
 
+{% comment %}
+  Homepage sections are hidden for now. Delete this comment tag and the
+  matching endcomment at the bottom to show them again.
+{% endcomment %}
+{% comment %}
 <section class="home-section">
   <div class="home-section__head">
     <h2>Research</h2>
@@ -77,3 +82,4 @@ My current research interest focuses on:
     <li><span class="home-timeline__date">2014 – 2018</span><span><strong>B.Eng.</strong> in Water Conservancy and Hydropower Engineering, Hohai University</span></li>
   </ul>
 </section>
+{% endcomment %}
