@@ -113,17 +113,48 @@ Honors & Awards
 
 Teaching
 -----
-Teaching Assistant at HKUST:
-* CIVL 4750 – Numerical Solutions to Geotechnical Problems (Fall 2023-24)
-* CIVL 3740 – Geotechnical Analysis and Design (Spring 2022-23)
-* CIVL 4320 – Structural Steel Design (Spring 2021-22)
-* Undergraduate Final-Year Projects (2023-24, 2024-25)
+<ul class="cv-timeline">
+  <li class="cv-card"><span class="cv-timeline__date">2023 – 2025</span><div class="cv-timeline__body">
+    <div class="cv-card__eyebrow">The Hong Kong University of Science and Technology · Teaching Assistant</div>
+    <strong class="cv-card__title">Undergraduate Final-Year Projects</strong>
+    <dl class="cv-card__facts"><div><dt>Years</dt><dd>2023-24, 2024-25</dd></div></dl>
+  </div></li>
+  <li class="cv-card"><span class="cv-timeline__date">Fall 2023</span><div class="cv-timeline__body">
+    <div class="cv-card__eyebrow">The Hong Kong University of Science and Technology · Teaching Assistant</div>
+    <strong class="cv-card__title">CIVL 4750 – Numerical Solutions to Geotechnical Problems</strong>
+    
+  </div></li>
+  <li class="cv-card"><span class="cv-timeline__date">Spring 2023</span><div class="cv-timeline__body">
+    <div class="cv-card__eyebrow">The Hong Kong University of Science and Technology · Teaching Assistant</div>
+    <strong class="cv-card__title">CIVL 3740 – Geotechnical Analysis and Design</strong>
+    
+  </div></li>
+  <li class="cv-card"><span class="cv-timeline__date">Spring 2022</span><div class="cv-timeline__body">
+    <div class="cv-card__eyebrow">The Hong Kong University of Science and Technology · Teaching Assistant</div>
+    <strong class="cv-card__title">CIVL 4320 – Structural Steel Design</strong>
+    
+  </div></li>
+</ul>
 
 Academic Service
 -----
-__Journal reviewer__ for *Advances in Engineering Software*; *Ain Shams Engineering Journal*; *Chemical Engineering Science*; *Computational Particle Mechanics*; *Computer Methods in Applied Mechanics and Engineering*; *Computers and Geotechnics*; *Construction and Building Materials*; *Energy Technology*; *Engineering Geology*; *Finite Elements in Analysis and Design*; *Geoderma*; *International Journal for Numerical Methods in Fluids*; *International Journal of Geomechanics*; *International Journal of Heat and Mass Transfer*; *International Journal of Mining Science and Technology*; *Journal of Traffic and Transportation Engineering (English Edition)*; *Measurement*; *Mechanics of Materials*; *Physics and Chemistry of the Earth, Parts A/B/C*; *Powder Technology*; *Simulation Modelling Practice and Theory*; *Thin-Walled Structures*; *Tunnelling and Underground Space Technology*.
-
-__Memberships__: Chinese Society of Theoretical and Applied Mechanics (CSTAM); Hong Kong Geotechnical Society (HKGS).
+<ul class="cv-timeline">
+  <li class="cv-card"><span class="cv-timeline__date">2026</span><div class="cv-timeline__body">
+    <div class="cv-card__eyebrow">Peer review</div>
+    <strong class="cv-card__title">Journal Reviewer</strong>
+    <ul class="cv-journals"><li>Advances in Engineering Software</li><li>Computer Methods in Applied Mechanics and Engineering</li><li>Construction and Building Materials</li><li>Engineering Geology</li><li>Finite Elements in Analysis and Design</li><li>International Journal of Heat and Mass Transfer</li><li>International Journal of Mining Science and Technology</li><li>Journal of Traffic and Transportation Engineering (English Edition)</li><li>Measurement</li><li>Mechanics of Materials</li><li>Physics and Chemistry of the Earth, Parts A/B/C</li><li>Simulation Modelling Practice and Theory</li><li>Thin-Walled Structures</li><li>Tunnelling and Underground Space Technology</li></ul>
+  </div></li>
+  <li class="cv-card"><span class="cv-timeline__date">2025</span><div class="cv-timeline__body">
+    <div class="cv-card__eyebrow">Peer review</div>
+    <strong class="cv-card__title">Journal Reviewer</strong>
+    <ul class="cv-journals"><li>Ain Shams Engineering Journal</li><li>Chemical Engineering Science</li><li>Computational Particle Mechanics</li><li>Computers and Geotechnics</li><li>Energy Technology</li><li>Geoderma</li><li>International Journal for Numerical Methods in Fluids</li><li>International Journal of Geomechanics</li><li>Powder Technology</li></ul>
+  </div></li>
+  <li class="cv-card"><span class="cv-timeline__date">Ongoing</span><div class="cv-timeline__body">
+    <div class="cv-card__eyebrow">Professional memberships</div>
+    <strong class="cv-card__title">Memberships</strong>
+    <ul class="cv-journals"><li>Chinese Society of Theoretical and Applied Mechanics (CSTAM)</li><li>Hong Kong Geotechnical Society (HKGS)</li></ul>
+  </div></li>
+</ul>
 
 Publications
 -----
