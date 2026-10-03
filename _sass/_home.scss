@@ -1546,3 +1546,14 @@ $cv-ink: #4a5a6a;
     margin-top: -2.2rem;
   }
 }
+
+/* Inner pages: breathing room between the page title and the content */
+.home-hero--compact {
+  padding-bottom: calc(2.5vw + 1.4rem);
+}
+
+@media (max-width: 1000px) {
+  .home-hero--compact {
+    padding-bottom: calc(2.5vw + 1rem);
+  }
+}
