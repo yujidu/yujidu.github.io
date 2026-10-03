@@ -19,8 +19,12 @@ body:not(.has-hero) {
 /* Once scrolled, give the bar a solid background so text stays readable */
 .masthead.is-scrolled,
 .has-hero .masthead.is-scrolled {
-  background: rgba(252, 251, 248, 0.95);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+  /* frosted glass with a faint Berkeley-blue tint */
+  background: rgba(236, 241, 250, 0.78);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+          backdrop-filter: blur(14px) saturate(1.4);
+  border-bottom: 1px solid rgba(0, 38, 118, 0.08);
+  box-shadow: 0 4px 18px rgba(0, 38, 118, 0.08);
 
   .greedy-nav {
     background: transparent;
@@ -1663,9 +1667,22 @@ $cv-ink: #4a5a6a;
 .hl-rg i    { color: #00CCBB; }
 .hl-gh i    { color: #181717; }
 .hl-gs i    { color: #4285F4; }
-.hl-orcid i { color: #A6CE39; }
+.hl-scopus i { color: #E9711C; }
 
 /* Profile photo: small rounded corners like the other images */
 .home-hero__avatar {
   border-radius: 6px;
+}
+
+/* Scrolled bar: no glow behind the links; phone "About" patch matches the tint */
+.has-hero .masthead.is-scrolled .greedy-nav .visible-links a {
+  text-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .masthead.is-scrolled .greedy-nav .visible-links li:first-child {
+    background: linear-gradient(to right,
+      rgba(236, 241, 250, 0.96) 85%,
+      rgba(236, 241, 250, 0));
+  }
 }
