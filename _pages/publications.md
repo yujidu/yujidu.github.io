@@ -33,6 +33,10 @@ hero_image: berkeley.jpg
 
 {% include pub-list.html group="conference" %}
 
+## Thesis
+
+{% include pub-list.html group="thesis" %}
+
 ## Invited Talks
 
 {% include pub-list.html group="talks" %}

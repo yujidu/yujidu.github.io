@@ -29,7 +29,7 @@ journal:
     link: https://doi.org/10.1002/nme.70135
   - text: 'Liu Y.S., Shen C.M.\*, Liu S.H., **Yu J.D.**, Liu Y.C., Li B.W. (2026). Refined constitutive modelling of widely graded granular soils incorporating fractional particle breakage. *Computers and Geotechnics*, 194, 107973.'
     link: https://doi.org/10.1016/j.compgeo.2026.107973
-  - text: 'Shen C.M., Liu S.H.\*, Wang L.J., **Yu J.D.**, Wei H. (2022). Packing, compressibility, and crushability of rockfill materials with polydisperse particle size distributions and implications for dam engineering. *Water Science and Engineering*, 15(4), 358–366.'
+  - text: 'Shen C.M., Liu S.H.\*, Wang L.J., **Yu J.D.**, Wei H., Wu P. (2022). Packing, compressibility, and crushability of rockfill materials with polydisperse particle size distributions and implications for dam engineering. *Water Science and Engineering*, 15(4), 358–366.'
     link: https://doi.org/10.1016/j.wse.2022.07.003
   - text: 'Shen C.M., Liu S.H.\*, **Yu J.D.**, Wang L.J. (2021). A simple scale effect model for the volumetric behavior of rockfill materials. *International Journal of Geomechanics*, 21(3), 04020266.'
     link: https://doi.org/10.1061/(ASCE)GM.1943-5622.0001939
@@ -53,7 +53,7 @@ under_review:
   - text: 'Chen X.Y., Zhao J.D., **Yu J.D.** (2026). The infiltration paradox: Pore-gas pressure controls on early slope failure during rapid hydraulic loading. Submitted to *Engineering Geology*.'
 
 conference:
-  - text: '**Yu J.D.**, Zhao J.D.\* (2026). High-fidelity multiphysics and multiscale approach for modeling permafrost warming-related geohazards. *21st International Conference on Soil Mechanics and Geotechnical Engineering (ICSMGE)*, 14–19 July 2026, Vienna, Austria.'
+  - text: '**Yu J.D.**, Zhao J.D.\* (2026). High-fidelity multiscale framework for modelling permafrost thaw-related geohazards. *Proceedings of the 21st International Conference on Soil Mechanics and Geotechnical Engineering (ICSMGE)*, 1743–1746, 14–19 July 2026, Vienna, Austria.'
   - text: '**Yu J.D.**, Zhao J.D.\* (2025). A multiphysics-multiscale MPM-DEM framework for modeling climate-driven geohazards in phase-change granular media. *IX International Conference on Particle-based Methods (Particles 2025)*, 20–22 October 2025, Barcelona, Spain.'
   - text: '**Yu J.D.**, Zhao J.D.\* (2025). Hybrid explicit-implicit THMC-MPM for modeling phase transition and large deformation in hydrate-bearing sediment. *The 2nd Workshop on Material Point Method & Extreme Deformation Problems (MPM 2025)*, 12–14 September 2025, Xi''an, China.'
   - text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for simulating the freeze-thaw behavior of porous media. *16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics (WCCM-PANACM 2024)*, Vancouver, Canada.'
@@ -61,6 +61,9 @@ conference:
     link: https://doi.org/10.1088/1755-1315/1330/1/012035
   - text: '**Yu J.D.**, Liang W.J., Zhao S.W., Zhao J.D.\* (2023). A semi-implicit MPM for modeling the thermal effect in saturated porous media. *International Symposium on Innovations in Geotechnical Engineering towards Sustainability (IGES 2023)*, Hong Kong, China.'
   - text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2023). An explicit-implicit THM-coupled MPM for saturated porous media. *The 26th Annual Conference of HKSTAM 2023 in conjunction with the 18th Shanghai–Hong Kong Forum on Mechanics and Its Application*, Hong Kong, China, p. 30.'
+
+thesis:
+  - text: '**Yu J.D.** (2025). Multiscale modeling of coupled thermo-hydro-mechanical behavior in granular media. Ph.D. thesis, The Hong Kong University of Science and Technology, Hong Kong.'
 
 talks:
   - text: '**Yu J.D.** (2026). Multiphysics and multiscale modeling of geomaterials in large deformation – Taking frozen soil and hydrate soil as examples. College of Architecture and Civil Engineering, Beijing University of Technology, Beijing, China. (Invited talk)'
