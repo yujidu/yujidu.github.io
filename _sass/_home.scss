@@ -1710,3 +1710,24 @@ $cv-ink: #4a5a6a;
 .cv-honors li:hover .cv-timeline__body {
   background: none !important;
 }
+
+/* Dark banner photo: light menu text while the bar sits on the photo */
+.banner-dark.has-hero .masthead:not(.is-scrolled) {
+  .greedy-nav .visible-links a,
+  .greedy-nav a.masthead__home-mobile {
+    color: #fff;
+    text-shadow: 0 1px 6px rgba(10, 20, 60, 0.55);
+  }
+
+  .greedy-nav .visible-links a:before {
+    background: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-dark.has-hero .masthead:not(.is-scrolled) .greedy-nav .visible-links li:first-child {
+    background: linear-gradient(to right,
+      rgba(22, 30, 92, 0.92) 85%,
+      rgba(22, 30, 92, 0));
+  }
+}

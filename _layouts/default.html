@@ -11,7 +11,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body{% if page.hero_image %} class="has-hero"{% endif %}>
+  <body class="{% if page.hero_image %}has-hero{% endif %}{% if site.banner_dark %} banner-dark{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
@@ -24,7 +24,7 @@ layout: compress
         {% include footer.html %}
       </footer>
       <div class="footer-hero" aria-hidden="true">
-        <img class="footer-hero__image" src="{{ '/images/berkeley-footer.jpg' | relative_url }}" alt="" loading="lazy">
+        <img class="footer-hero__image" src="{{ site.footer_image | default: 'berkeley-footer.jpg' | prepend: '/images/' | relative_url }}" alt="" loading="lazy">
         <div class="footer-hero__fade"></div>
       </div>
     </div>
