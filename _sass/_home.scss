@@ -258,7 +258,77 @@
 
 /* Publication lists */
 .pub-list li {
-  margin-bottom: 0.8em;
+  margin-bottom: 1em;
+}
+
+.pub-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 0.35em;
+  font-size: $type-size-7;
+}
+
+.archive a.pub-btn,
+.pub-btn {
+  display: inline-block;
+  padding: 0.1em 0.7em;
+  border: 1px solid $link-color;
+  border-radius: 3px;
+  background: transparent;
+  color: $link-color;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.6;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover,
+  &.is-open {
+    background: $link-color;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.pub-cited {
+  color: $gray;
+  margin-left: 0.25em;
+}
+
+.pub-bib {
+  position: relative;
+  margin-top: 0.5em;
+
+  pre {
+    margin: 0;
+    padding: 0.8em 1em;
+    font-size: $type-size-7;
+    line-height: 1.5;
+    background: #f6f8fa;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+.pub-copy {
+  position: absolute;
+  top: 0.4em;
+  right: 0.4em;
+  padding: 0.1em 0.6em;
+  font-size: $type-size-8;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pub-stats {
+  font-size: $type-size-6;
+  color: $dark-gray;
 }
 
 /* Education & experience timeline */

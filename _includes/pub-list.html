@@ -2,6 +2,7 @@
   Renders a group from _data/publications.yml as a numbered list (1, 2, 3 … from the top).
   Usage: {% include pub-list.html group="journal" count=5 %}
   Leave out "count" to show every item.
+  Each item shows [Link] (DOI/URL), [Cite] (opens its BibTeX) and its Google Scholar citations.
 {% endcomment %}
 {%- assign pubs = site.data.publications[include.group] -%}
 {%- assign total = pubs | size -%}
@@ -9,7 +10,43 @@
 <ol class="pub-list">
 {%- for p in pubs limit: shown -%}
   <li>{{ p.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}
-    {%- if p.link %}<br><a href="{{ p.link }}">{{ p.link }}</a>{% endif -%}
+    {%- if p.link or p.bib or p.cites %}
+    <div class="pub-actions">
+      {%- if p.link %}<a class="pub-btn" href="{{ p.link }}" target="_blank" rel="noopener">Link</a>{% endif -%}
+      {%- if p.bib %}<button type="button" class="pub-btn pub-cite" aria-expanded="false">Cite</button>{% endif -%}
+      {%- if p.cites %}<span class="pub-cited">Cited by {{ p.cites }}</span>{% endif -%}
+    </div>
+    {%- if p.bib %}
+    <div class="pub-bib" hidden>
+      <button type="button" class="pub-copy">Copy</button>
+      <pre>{{ p.bib | escape }}</pre>
+    </div>
+    {%- endif -%}
+    {%- endif %}
   </li>
 {%- endfor -%}
 </ol>
+<script>
+if (!window.__pubCiteReady) {
+  window.__pubCiteReady = true;
+  document.addEventListener('click', function (e) {
+    var cite = e.target.closest('.pub-cite');
+    if (cite) {
+      var box = cite.closest('li').querySelector('.pub-bib');
+      var open = box.hidden;
+      box.hidden = !open;
+      cite.setAttribute('aria-expanded', open);
+      cite.classList.toggle('is-open', open);
+      return;
+    }
+    var copy = e.target.closest('.pub-copy');
+    if (copy) {
+      var text = copy.parentNode.querySelector('pre').textContent;
+      navigator.clipboard.writeText(text).then(function () {
+        copy.textContent = 'Copied';
+        setTimeout(function () { copy.textContent = 'Copy'; }, 1500);
+      });
+    }
+  });
+}
+</script>

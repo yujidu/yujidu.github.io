@@ -1,70 +1,341 @@
-# Publications, in the order of the CV (first/corresponding-author papers first).
-# The homepage shows the first 5 items of the "journal" group;
-# the Publications page shows everything.
-# Each entry's "text" is Markdown; "link" is optional.
-# (* = corresponding author)
-
+# Publications, newest first within each group.
+# text  : citation shown on the page (Markdown; * = corresponding author)
+# link  : [Link] target (DOI or URL)
+# cites : Google Scholar "Cited by" count (update by hand now and then)
+# bib   : BibTeX shown by the [Cite] button
+scholar:
+  citations: 337
+  h_index: 10
+  i10_index: 11
+  updated: Oct 2026
+  url: https://scholar.google.com/citations?user=AgtKCIIAAAAJ
 journal:
-  - text: '**Yu J.D.**\*, Zhao J.D.\*, Liang W.J. (2026). Multiscale modeling of coupled thermo-hydro-mechanical-chemical behavior in hydrate-bearing sediment. *Journal of the Mechanics and Physics of Solids*, 210, 106512.'
-    link: https://doi.org/10.1016/j.jmps.2026.106512
-  - text: '**Yu J.D.**, Zhao J.D.\*, Soga K., Zhao S.W., Liang W.J. (2026). A fully coupled THMC-MPM for modeling phase transition and large deformation in methane hydrate-bearing sediment. *Journal of the Mechanics and Physics of Solids*, 206, 106368.'
-    link: https://doi.org/10.1016/j.jmps.2025.106368
-  - text: '**Yu J.D.**, Zhao J.D. (2026). A virtual heat flux method for simple and accurate Neumann thermal boundary imposition in the material point method. *International Journal for Numerical Methods in Engineering*, 127(12), e70371.'
-    link: https://doi.org/10.1002/nme.70371
-  - text: '**Yu J.D.**, Liang W.J., Zhao J.D.\* (2025). Enhancing dynamic modeling of porous media with compressible fluid: A THM material point method with improved fractional step formulation. *Computer Methods in Applied Mechanics and Engineering*, 444, 118100.'
-    link: https://doi.org/10.1016/j.cma.2025.118100
-  - text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for modeling freezing and thawing of porous media. *International Journal for Numerical and Analytical Methods in Geomechanics*, 48(13), 3308–3349.'
-    link: https://doi.org/10.1002/nag.3794
-  - text: '**Yu J.D.**, Zhao J.D.\*, Liang W.J., Zhao S.W. (2024). Multiscale modeling of coupled thermo-hydro-mechanical behavior in ice-bonded granular media subject to freeze-thaw cycles. *Computers and Geotechnics*, 171, 106349.'
-    link: https://doi.org/10.1016/j.compgeo.2024.106349
-  - text: '**Yu J.D.**, Zhao J.D.\*, Liang W.J., Zhao S.W. (2024). A semi-implicit material point method for coupled thermo-hydro-mechanical simulation of saturated porous media in large deformation. *Computer Methods in Applied Mechanics and Engineering*, 418, 116462.'
-    link: https://doi.org/10.1016/j.cma.2023.116462
-  - text: 'Shen C.M., **Yu J.D.**\*, Liu S.H.\*, Mao H.Y. (2021). A unified fractional breakage model for granular materials inspired by the crushing tests of dyed gypsum particles. *Construction and Building Materials*, 270, 121366.'
-    link: https://doi.org/10.1016/j.conbuildmat.2020.121366
-  - text: '**Yu J.D.**, Shen C.M.\*, Liu S.H., Cheng Y.P. (2020). Exploration of the survival probability and shape evolution of crushable particles during one-dimensional compression using dyed gypsum particles. *Journal of Geotechnical and Geoenvironmental Engineering*, 146(11), 04020121.'
-    link: https://doi.org/10.1061/(ASCE)GT.1943-5606.0002371
-  - text: 'Zhang C.X., Chen Y.N.\*, **Yu J.D.**, Yang Z.X., Jardine R.J., Guo N. (2026). Stabilized semi-implicit material point method for hydro-mechanical coupled large deformation soil-structure interaction analyses. *International Journal for Numerical and Analytical Methods in Geomechanics*, 50(9), 3935–3954.'
-    link: https://doi.org/10.1002/nag.70314
-  - text: 'Liang W.J., Chandra B., **Yu J.D.**, Yin Z.Y.\*, Zhao J.D. (2025). A total-Lagrangian material point method for fast and stable hydromechanical modeling of porous media. *International Journal for Numerical Methods in Engineering*, 126(19), e70135.'
-    link: https://doi.org/10.1002/nme.70135
-  - text: 'Liu Y.S., Shen C.M.\*, Liu S.H., **Yu J.D.**, Liu Y.C., Li B.W. (2026). Refined constitutive modelling of widely graded granular soils incorporating fractional particle breakage. *Computers and Geotechnics*, 194, 107973.'
-    link: https://doi.org/10.1016/j.compgeo.2026.107973
-  - text: 'Shen C.M., Liu S.H.\*, Wang L.J., **Yu J.D.**, Wei H., Wu P. (2022). Packing, compressibility, and crushability of rockfill materials with polydisperse particle size distributions and implications for dam engineering. *Water Science and Engineering*, 15(4), 358–366.'
-    link: https://doi.org/10.1016/j.wse.2022.07.003
-  - text: 'Shen C.M., Liu S.H.\*, **Yu J.D.**, Wang L.J. (2021). A simple scale effect model for the volumetric behavior of rockfill materials. *International Journal of Geomechanics*, 21(3), 04020266.'
-    link: https://doi.org/10.1061/(ASCE)GM.1943-5622.0001939
-  - text: 'Wang T., Liu S.H.\*, Feng Y., **Yu J.D.** (2018). Compaction characteristics and minimum void ratio prediction model for gap-graded soil-rock mixture. *Applied Sciences*, 8(12), 2584.'
-    link: https://doi.org/10.3390/app8122584
-
+- text: '**Yu J.D.**, Zhao J.D. (2026). A virtual heat flux method for simple and accurate Neumann thermal boundary imposition in the material point method. *International Journal for Numerical Methods in Engineering*, 127(12), e70371.'
+  link: https://doi.org/10.1002/nme.70371
+  bib: |-
+    @article{yu2026virtual,
+      author = {Yu, Jidu and Zhao, Jidong},
+      title = {A virtual heat flux method for simple and accurate {Neumann} thermal boundary imposition in the material point method},
+      journal = {International Journal for Numerical Methods in Engineering},
+      volume = {127},
+      number = {12},
+      pages = {e70371},
+      year = {2026},
+      doi = {10.1002/nme.70371}
+    }
+- text: Liu Y.S., Shen C.M.\*, Liu S.H., **Yu J.D.**, Liu Y.C., Li B.W. (2026). Refined constitutive modelling of widely graded granular soils incorporating fractional particle breakage. *Computers and Geotechnics*, 194, 107973.
+  link: https://doi.org/10.1016/j.compgeo.2026.107973
+  bib: |-
+    @article{liu2026refined,
+      author = {Liu, Yuansheng and Shen, Chaomin and Liu, Sihong and Yu, Jidu and Liu, Yuxuan and Li, Bowen},
+      title = {Refined constitutive modelling of widely graded granular soils incorporating fractional particle breakage},
+      journal = {Computers and Geotechnics},
+      volume = {194},
+      pages = {107973},
+      year = {2026},
+      doi = {10.1016/j.compgeo.2026.107973}
+    }
+- text: Zhang C.X., Chen Y.N.\*, **Yu J.D.**, Yang Z.X., Jardine R.J., Guo N. (2026). Stabilized semi-implicit material point method for hydro-mechanical coupled large deformation soil-structure interaction analyses. *International Journal for Numerical and Analytical Methods in Geomechanics*, 50(9), 3935–3954.
+  link: https://doi.org/10.1002/nag.70314
+  cites: 1
+  bib: |-
+    @article{zhang2026stabilized,
+      author = {Zhang, Chunxin and Chen, Yanni and Yu, Jidu and Yang, Zhongxuan and Jardine, Richard J. and Guo, Ning},
+      title = {Stabilized semi-implicit material point method for hydro-mechanical coupled large deformation soil-structure interaction analyses},
+      journal = {International Journal for Numerical and Analytical Methods in Geomechanics},
+      volume = {50},
+      number = {9},
+      pages = {3935--3954},
+      year = {2026},
+      doi = {10.1002/nag.70314}
+    }
+- text: '**Yu J.D.**\*, Zhao J.D.\*, Liang W.J. (2026). Multiscale modeling of coupled thermo-hydro-mechanical-chemical behavior in hydrate-bearing sediment. *Journal of the Mechanics and Physics of Solids*, 210, 106512.'
+  link: https://doi.org/10.1016/j.jmps.2026.106512
+  cites: 10
+  bib: |-
+    @article{yu2026multiscale,
+      author = {Yu, Jidu and Zhao, Jidong and Liang, Weijian},
+      title = {Multiscale modeling of coupled thermo-hydro-mechanical-chemical behavior in hydrate-bearing sediment},
+      journal = {Journal of the Mechanics and Physics of Solids},
+      volume = {210},
+      pages = {106512},
+      year = {2026},
+      doi = {10.1016/j.jmps.2026.106512}
+    }
+- text: '**Yu J.D.**, Zhao J.D.\*, Soga K., Zhao S.W., Liang W.J. (2026). A fully coupled THMC-MPM framework for modeling phase transition and large deformation in methane hydrate-bearing sediment. *Journal of the Mechanics and Physics of Solids*, 206, 106368.'
+  link: https://doi.org/10.1016/j.jmps.2025.106368
+  cites: 19
+  bib: |-
+    @article{yu2026fully,
+      author = {Yu, Jidu and Zhao, Jidong and Soga, Kenichi and Zhao, Shiwei and Liang, Weijian},
+      title = {A fully coupled {THMC-MPM} framework for modeling phase transition and large deformation in methane hydrate-bearing sediment},
+      journal = {Journal of the Mechanics and Physics of Solids},
+      volume = {206},
+      pages = {106368},
+      year = {2026},
+      doi = {10.1016/j.jmps.2025.106368}
+    }
+- text: Liang W.J., Chandra B., **Yu J.D.**, Yin Z.Y.\*, Zhao J.D. (2025). A total-Lagrangian material point method for fast and stable hydromechanical modeling of porous media. *International Journal for Numerical Methods in Engineering*, 126(19), e70135.
+  link: https://doi.org/10.1002/nme.70135
+  cites: 8
+  bib: |-
+    @article{liang2025total,
+      author = {Liang, Weijian and Chandra, Bodhinanda and Yu, Jidu and Yin, Zhen-Yu and Zhao, Jidong},
+      title = {A total-{Lagrangian} material point method for fast and stable hydromechanical modeling of porous media},
+      journal = {International Journal for Numerical Methods in Engineering},
+      volume = {126},
+      number = {19},
+      pages = {e70135},
+      year = {2025},
+      doi = {10.1002/nme.70135}
+    }
+- text: '**Yu J.D.**, Liang W.J., Zhao J.D.\* (2025). Enhancing dynamic modeling of porous media with compressible fluid: A THM material point method with improved fractional step formulation. *Computer Methods in Applied Mechanics and Engineering*, 444, 118100.'
+  link: https://doi.org/10.1016/j.cma.2025.118100
+  cites: 22
+  bib: |-
+    @article{yu2025enhancing,
+      author = {Yu, Jidu and Liang, Weijian and Zhao, Jidong},
+      title = {Enhancing dynamic modeling of porous media with compressible fluid: A {THM} material point method with improved fractional step formulation},
+      journal = {Computer Methods in Applied Mechanics and Engineering},
+      volume = {444},
+      pages = {118100},
+      year = {2025},
+      doi = {10.1016/j.cma.2025.118100}
+    }
+- text: '**Yu J.D.**, Zhao J.D.\*, Liang W.J., Zhao S.W. (2024). Multiscale modeling of coupled thermo-hydro-mechanical behavior in ice-bonded granular media subject to freeze-thaw cycles. *Computers and Geotechnics*, 171, 106349.'
+  link: https://doi.org/10.1016/j.compgeo.2024.106349
+  cites: 52
+  bib: |-
+    @article{yu2024multiscale,
+      author = {Yu, Jidu and Zhao, Jidong and Liang, Weijian and Zhao, Shiwei},
+      title = {Multiscale modeling of coupled thermo-hydro-mechanical behavior in ice-bonded granular media subject to freeze-thaw cycles},
+      journal = {Computers and Geotechnics},
+      volume = {171},
+      pages = {106349},
+      year = {2024},
+      doi = {10.1016/j.compgeo.2024.106349}
+    }
+- text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for modeling freezing and thawing of porous media. *International Journal for Numerical and Analytical Methods in Geomechanics*, 48(13), 3308–3349.'
+  link: https://doi.org/10.1002/nag.3794
+  cites: 47
+  bib: |-
+    @article{yu2024thermo,
+      author = {Yu, Jidu and Zhao, Jidong and Zhao, Shiwei and Liang, Weijian},
+      title = {Thermo-hydro-mechanical coupled material point method for modeling freezing and thawing of porous media},
+      journal = {International Journal for Numerical and Analytical Methods in Geomechanics},
+      volume = {48},
+      number = {13},
+      pages = {3308--3349},
+      year = {2024},
+      doi = {10.1002/nag.3794}
+    }
+- text: '**Yu J.D.**, Zhao J.D.\*, Liang W.J., Zhao S.W. (2024). A semi-implicit material point method for coupled thermo-hydro-mechanical simulation of saturated porous media in large deformation. *Computer Methods in Applied Mechanics and Engineering*, 418, 116462.'
+  link: https://doi.org/10.1016/j.cma.2023.116462
+  cites: 70
+  bib: |-
+    @article{yu2024semi,
+      author = {Yu, Jidu and Zhao, Jidong and Liang, Weijian and Zhao, Shiwei},
+      title = {A semi-implicit material point method for coupled thermo-hydro-mechanical simulation of saturated porous media in large deformation},
+      journal = {Computer Methods in Applied Mechanics and Engineering},
+      volume = {418},
+      pages = {116462},
+      year = {2024},
+      doi = {10.1016/j.cma.2023.116462}
+    }
+- text: Shen C.M., Liu S.H.\*, Wang L.J., **Yu J.D.**, Wei H., Wu P. (2022). Packing, compressibility, and crushability of rockfill materials with polydisperse particle size distributions and implications for dam engineering. *Water Science and Engineering*, 15(4), 358–366.
+  link: https://doi.org/10.1016/j.wse.2022.07.003
+  cites: 8
+  bib: |-
+    @article{shen2022packing,
+      author = {Shen, Chaomin and Liu, Sihong and Wang, Liujiang and Yu, Jidu and Wei, Hao and Wu, Ping},
+      title = {Packing, compressibility, and crushability of rockfill materials with polydisperse particle size distributions and implications for dam engineering},
+      journal = {Water Science and Engineering},
+      volume = {15},
+      number = {4},
+      pages = {358--366},
+      year = {2022},
+      doi = {10.1016/j.wse.2022.07.003}
+    }
+- text: Shen C.M., **Yu J.D.**\*, Liu S.H.\*, Mao H.Y. (2021). A unified fractional breakage model for granular materials inspired by the crushing tests of dyed gypsum particles. *Construction and Building Materials*, 270, 121366.
+  link: https://doi.org/10.1016/j.conbuildmat.2020.121366
+  cites: 22
+  bib: |-
+    @article{shen2021unified,
+      author = {Shen, Chaomin and Yu, Jidu and Liu, Sihong and Mao, Hangyu},
+      title = {A unified fractional breakage model for granular materials inspired by the crushing tests of dyed gypsum particles},
+      journal = {Construction and Building Materials},
+      volume = {270},
+      pages = {121366},
+      year = {2021},
+      doi = {10.1016/j.conbuildmat.2020.121366}
+    }
+- text: Shen C.M., Liu S.H.\*, **Yu J.D.**, Wang L.J. (2021). A simple scale effect model for the volumetric behavior of rockfill materials. *International Journal of Geomechanics*, 21(3), 04020266.
+  link: https://doi.org/10.1061/(ASCE)GM.1943-5622.0001939
+  cites: 11
+  bib: |-
+    @article{shen2021simple,
+      author = {Shen, Chaomin and Liu, Sihong and Yu, Jidu and Wang, Liujiang},
+      title = {Simple scale effect model for the volumetric behavior of rockfill materials},
+      journal = {International Journal of Geomechanics},
+      volume = {21},
+      number = {3},
+      pages = {04020266},
+      year = {2021},
+      doi = {10.1061/(ASCE)GM.1943-5622.0001939}
+    }
+- text: '**Yu J.D.**, Shen C.M.\*, Liu S.H., Cheng Y.P. (2020). Exploration of the survival probability and shape evolution of crushable particles during one-dimensional compression using dyed gypsum particles. *Journal of Geotechnical and Geoenvironmental Engineering*, 146(11), 04020121.'
+  link: https://doi.org/10.1061/(ASCE)GT.1943-5606.0002371
+  cites: 23
+  bib: |-
+    @article{yu2020exploration,
+      author = {Yu, Jidu and Shen, Chaomin and Liu, Sihong and Cheng, Yi Pik},
+      title = {Exploration of the survival probability and shape evolution of crushable particles during one-dimensional compression using dyed gypsum particles},
+      journal = {Journal of Geotechnical and Geoenvironmental Engineering},
+      volume = {146},
+      number = {11},
+      pages = {04020121},
+      year = {2020},
+      doi = {10.1061/(ASCE)GT.1943-5606.0002371}
+    }
+- text: Wang T., Liu S.H.\*, Feng Y., **Yu J.D.** (2018). Compaction characteristics and minimum void ratio prediction model for gap-graded soil-rock mixture. *Applied Sciences*, 8(12), 2584.
+  link: https://doi.org/10.3390/app8122584
+  cites: 14
+  bib: |-
+    @article{wang2018compaction,
+      author = {Wang, Tao and Liu, Sihong and Feng, Yan and Yu, Jidu},
+      title = {Compaction characteristics and minimum void ratio prediction model for gap-graded soil-rock mixture},
+      journal = {Applied Sciences},
+      volume = {8},
+      number = {12},
+      pages = {2584},
+      year = {2018},
+      doi = {10.3390/app8122584}
+    }
 chinese:
-  - text: '**Yu J.D.**, Shen C.M.\*, Liu S.H. (2020). Breakage and migration of dyed gypsum particles under one-dimensional compression. *Chinese Journal of Rock Mechanics and Engineering (岩石力学与工程学报)*, 39(5), 1071–1079. (In Chinese)'
-    link: https://doi.org/10.13722/j.cnki.jrme.2019.0739
-  - text: '**Yu J.D.**, Liu S.H.\*, Wang T., Wei H. (2019). Experimental research on compaction characteristics of gap-graded coarse-grained soils. *Chinese Journal of Geotechnical Engineering (岩土工程学报)*, 41(11), 2142–2148. (In Chinese)'
-    link: https://doi.org/10.11779/CJGE201911021
-  - text: '**Yu J.D.**, Liu S.H.\*, Shen C.M.\*, Mao H.Y. (2022). Breakage and shape evolution of dyed gypsum particles under one-dimensional compression. *Journal of Hohai University (Natural Sciences) (河海大学学报（自然科学版）)*, 50(1), 110–116. (In Chinese)'
-    link: https://doi.org/10.3876/j.issn.1000-1980.2022.01.016
-  - text: 'Wei H., Shen C.M., Liu S.H., **Yu J.D.** (2020). Experimental study on compression and crushing characteristics of coarse granular materials considering influence of gradations. *Journal of Hohai University (Natural Sciences) (河海大学学报（自然科学版）)*, 48(2), 182–188. (In Chinese)'
-    link: https://doi.org/10.3876/j.issn.1000-1980.2020.02.014
-
+- text: '**Yu J.D.**, Liu S.H.\*, Shen C.M.\*, Mao H.Y. (2022). Breakage and shape evolution of dyed gypsum particles under one-dimensional compression. *Journal of Hohai University (Natural Sciences) (河海大学学报（自然科学版）)*, 50(1), 110–116. (In Chinese)'
+  link: https://doi.org/10.3876/j.issn.1000-1980.2022.01.016
+  bib: |-
+    @article{yu2022breakage,
+      author = {Yu, Jidu and Liu, Sihong and Shen, Chaomin and Mao, Hangyu},
+      title = {Breakage and shape evolution of dyed gypsum particles under one-dimensional compression},
+      journal = {Journal of Hohai University (Natural Sciences)},
+      volume = {50},
+      number = {1},
+      pages = {110--116},
+      year = {2022},
+      note = {In Chinese},
+      doi = {10.3876/j.issn.1000-1980.2022.01.016}
+    }
+- text: Wei H., Shen C.M., Liu S.H., **Yu J.D.** (2020). Experimental study on compression and crushing characteristics of coarse granular materials considering influence of gradations. *Journal of Hohai University (Natural Sciences) (河海大学学报（自然科学版）)*, 48(2), 182–188. (In Chinese)
+  link: https://doi.org/10.3876/j.issn.1000-1980.2020.02.014
+  cites: 7
+  bib: |-
+    @article{wei2020experimental,
+      author = {Wei, Hao and Shen, Chaomin and Liu, Sihong and Yu, Jidu},
+      title = {Experimental study on compression and crushing characteristics of coarse granular materials considering influence of gradations},
+      journal = {Journal of Hohai University (Natural Sciences)},
+      volume = {48},
+      number = {2},
+      pages = {182--188},
+      year = {2020},
+      note = {In Chinese},
+      doi = {10.3876/j.issn.1000-1980.2020.02.014}
+    }
+- text: '**Yu J.D.**, Shen C.M.\*, Liu S.H. (2020). Breakage and migration of dyed gypsum particles under one-dimensional compression. *Chinese Journal of Rock Mechanics and Engineering (岩石力学与工程学报)*, 39(5), 1071–1079. (In Chinese)'
+  link: https://doi.org/10.13722/j.cnki.jrme.2019.0739
+  cites: 7
+  bib: |-
+    @article{yu2020breakage,
+      author = {Yu, Jidu and Shen, Chaomin and Liu, Sihong},
+      title = {Breakage and migration of dyed gypsum particles under one-dimensional compression},
+      journal = {Chinese Journal of Rock Mechanics and Engineering},
+      volume = {39},
+      number = {5},
+      pages = {1071--1079},
+      year = {2020},
+      note = {In Chinese},
+      doi = {10.13722/j.cnki.jrme.2019.0739}
+    }
+- text: '**Yu J.D.**, Liu S.H.\*, Wang T., Wei H. (2019). Experimental research on compaction characteristics of gap-graded coarse-grained soils. *Chinese Journal of Geotechnical Engineering (岩土工程学报)*, 41(11), 2142–2148. (In Chinese)'
+  link: https://doi.org/10.11779/CJGE201911021
+  cites: 12
+  bib: |-
+    @article{yu2019experimental,
+      author = {Yu, Jidu and Liu, Sihong and Wang, Tao and Wei, Hao},
+      title = {Experimental research on compaction characteristics of gap-graded coarse-grained soils},
+      journal = {Chinese Journal of Geotechnical Engineering},
+      volume = {41},
+      number = {11},
+      pages = {2142--2148},
+      year = {2019},
+      note = {In Chinese},
+      doi = {10.11779/CJGE201911021}
+    }
 under_review:
-  - text: '**Yu J.D.**, Chandra B.\*, Wilkes C., Zhao J.D., Soga K. (2026). An elasto-viscoplastic thixotropic model for fresh concrete capturing flow-rest transition. Submitted to *Cement and Concrete Composites*. arXiv:2512.23364.'
-    link: https://doi.org/10.48550/arXiv.2512.23364
-  - text: 'Liu X.Y., Gao G., **Yu J.D.**, Meguid M.A., Zhang F.S. (2026). Micromechanical characterization of fracture evolution in confined jointed rocks using a 3D grain-based model. Submitted to *Rock Mechanics and Rock Engineering*.'
-  - text: 'Chen X.Y., Zhao J.D., **Yu J.D.** (2026). The infiltration paradox: Pore-gas pressure controls on early slope failure during rapid hydraulic loading. Submitted to *Engineering Geology*.'
-
+- text: 'Chen X.Y., Zhao J.D., **Yu J.D.** (2026). The infiltration paradox: Pore-gas pressure controls on early slope failure during rapid hydraulic loading. Submitted to *Engineering Geology*.'
+- text: Liu X.Y., Gao G., **Yu J.D.**, Meguid M.A., Zhang F.S. (2026). Micromechanical characterization of fracture evolution in confined jointed rocks using a 3D grain-based model. Submitted to *Rock Mechanics and Rock Engineering*.
+- text: '**Yu J.D.**, Chandra B.\*, Wilkes C., Zhao J.D., Soga K. (2025). An elasto-viscoplastic thixotropic model for fresh concrete capturing flow-rest transition. Submitted to *Cement and Concrete Composites*. arXiv:2512.23364.'
+  link: https://arxiv.org/abs/2512.23364
+  bib: |-
+    @misc{yu2025elasto,
+      author = {Yu, Jidu and Chandra, Bodhinanda and Wilkes, C. and Zhao, Jidong and Soga, Kenichi},
+      title = {An elasto-viscoplastic thixotropic model for fresh concrete capturing flow-rest transition},
+      year = {2025},
+      eprint = {2512.23364},
+      archivePrefix = {arXiv},
+      doi = {10.48550/arXiv.2512.23364}
+    }
 conference:
-  - text: '**Yu J.D.**, Zhao J.D.\* (2026). High-fidelity multiscale framework for modelling permafrost thaw-related geohazards. *Proceedings of the 21st International Conference on Soil Mechanics and Geotechnical Engineering (ICSMGE)*, 1743–1746, 14–19 July 2026, Vienna, Austria.'
-  - text: '**Yu J.D.**, Zhao J.D.\* (2025). A multiphysics-multiscale MPM-DEM framework for modeling climate-driven geohazards in phase-change granular media. *IX International Conference on Particle-based Methods (Particles 2025)*, 20–22 October 2025, Barcelona, Spain.'
-  - text: '**Yu J.D.**, Zhao J.D.\* (2025). Hybrid explicit-implicit THMC-MPM for modeling phase transition and large deformation in hydrate-bearing sediment. *The 2nd Workshop on Material Point Method & Extreme Deformation Problems (MPM 2025)*, 12–14 September 2025, Xi''an, China.'
-  - text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for simulating the freeze-thaw behavior of porous media. *16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics (WCCM-PANACM 2024)*, Vancouver, Canada.'
-  - text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Multiphysics simulation of freezing and thawing granular media using material point method. *GeoShanghai International Conference 2024*, Shanghai, China. IOP Conference Series: Earth and Environmental Science, 1330, 012035.'
-    link: https://doi.org/10.1088/1755-1315/1330/1/012035
-  - text: '**Yu J.D.**, Liang W.J., Zhao S.W., Zhao J.D.\* (2023). A semi-implicit MPM for modeling the thermal effect in saturated porous media. *International Symposium on Innovations in Geotechnical Engineering towards Sustainability (IGES 2023)*, Hong Kong, China.'
-  - text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2023). An explicit-implicit THM-coupled MPM for saturated porous media. *The 26th Annual Conference of HKSTAM 2023 in conjunction with the 18th Shanghai–Hong Kong Forum on Mechanics and Its Application*, Hong Kong, China, p. 30.'
-
+- text: '**Yu J.D.**, Zhao J.D.\* (2026). High-fidelity multiscale framework for modelling permafrost thaw-related geohazards. *Proceedings of the 21st International Conference on Soil Mechanics and Geotechnical Engineering (ICSMGE)*, 1743–1746, Vienna, Austria.'
+  bib: |-
+    @inproceedings{yu2026high,
+      author = {Yu, Jidu and Zhao, Jidong},
+      title = {High-fidelity multiscale framework for modelling permafrost thaw-related geohazards},
+      booktitle = {Proceedings of the 21st International Conference on Soil Mechanics and Geotechnical Engineering},
+      pages = {1743--1746},
+      year = {2026},
+      address = {Vienna, Austria}
+    }
+- text: '**Yu J.D.**, Zhao J.D.\* (2025). A multiphysics-multiscale MPM-DEM framework for modeling climate-driven geohazards in phase-change granular media. *IX International Conference on Particle-based Methods (Particles 2025)*, 20–22 October 2025, Barcelona, Spain.'
+- text: '**Yu J.D.**, Zhao J.D.\* (2025). Hybrid explicit-implicit THMC-MPM for modeling phase transition and large deformation in hydrate-bearing sediment. *The 2nd Workshop on Material Point Method & Extreme Deformation Problems (MPM 2025)*, 12–14 September 2025, Xi''an, China.'
+- text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for simulating the freeze-thaw behavior of porous media. *16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics (WCCM-PANACM 2024)*, July 2024, Vancouver, Canada.'
+- text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Multiphysics simulation of freezing and thawing granular media using material point method. *GeoShanghai International Conference 2024*, May 2024, Shanghai, China. IOP Conference Series: Earth and Environmental Science, 1330, 012035.'
+  link: https://doi.org/10.1088/1755-1315/1330/1/012035
+  cites: 3
+  bib: |-
+    @inproceedings{yu2024multiphysics,
+      author = {Yu, Jidu and Zhao, Jidong and Zhao, Shiwei and Liang, Weijian},
+      title = {Multiphysics simulation of freezing and thawing granular media using material point method},
+      booktitle = {IOP Conference Series: Earth and Environmental Science},
+      volume = {1330},
+      number = {1},
+      pages = {012035},
+      year = {2024},
+      publisher = {IOP Publishing},
+      doi = {10.1088/1755-1315/1330/1/012035}
+    }
+- text: '**Yu J.D.**, Liang W.J., Zhao S.W., Zhao J.D.\* (2023). A semi-implicit MPM for modeling the thermal effect in saturated porous media. *International Symposium on Innovations in Geotechnical Engineering towards Sustainability (IGES 2023)*, Hong Kong, China.'
+- text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2023). An explicit-implicit THM-coupled MPM for saturated porous media. *The 26th Annual Conference of HKSTAM 2023 in conjunction with the 18th Shanghai–Hong Kong Forum on Mechanics and Its Application*, Hong Kong, China, p. 30.'
+  cites: 1
+  bib: |-
+    @inproceedings{yu2023explicit,
+      author = {Yu, Jidu and Zhao, Jidong and Zhao, Shiwei and Liang, Weijian},
+      title = {An explicit-implicit {THM}-coupled {MPM} for saturated porous media},
+      booktitle = {The 26th Annual Conference of HKSTAM 2023 in conjunction with the 18th Shanghai--Hong Kong Forum on Mechanics and Its Application},
+      pages = {30},
+      year = {2023},
+      address = {Hong Kong, China}
+    }
 thesis:
-  - text: '**Yu J.D.** (2025). Multiscale modeling of coupled thermo-hydro-mechanical behavior in granular media. Ph.D. thesis, The Hong Kong University of Science and Technology, Hong Kong.'
-
+- text: '**Yu J.D.** (2025). Multiscale modeling of coupled thermo-hydro-mechanical behavior in granular media. Ph.D. thesis, The Hong Kong University of Science and Technology, Hong Kong.'
+  bib: |-
+    @phdthesis{yu2025phd,
+      author = {Yu, Jidu},
+      title = {Multiscale modeling of coupled thermo-hydro-mechanical behavior in granular media},
+      school = {The Hong Kong University of Science and Technology},
+      year = {2025},
+      address = {Hong Kong}
+    }
 talks:
-  - text: '**Yu J.D.** (2026). Multiphysics and multiscale modeling of geomaterials in large deformation – Taking frozen soil and hydrate soil as examples. College of Architecture and Civil Engineering, Beijing University of Technology, Beijing, China. (Invited talk)'
-  - text: '**Yu J.D.** (2024). Multiscale modeling the thermo-hydro-mechanical behavior of frozen soils. College of Water Conservancy and Hydropower Engineering, Hohai University, Nanjing, China. (Invited talk)'
+- text: '**Yu J.D.** (2026). Multiphysics and multiscale modeling of geomaterials in large deformation – Taking frozen soil and hydrate soil as examples. College of Architecture and Civil Engineering, Beijing University of Technology, Beijing, China. (Invited talk)'
+- text: '**Yu J.D.** (2024). Multiscale modeling the thermo-hydro-mechanical behavior of frozen soils. College of Water Conservancy and Hydropower Engineering, Hohai University, Nanjing, China. (Invited talk)'
