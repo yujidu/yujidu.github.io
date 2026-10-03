@@ -13,6 +13,6 @@ During the visit, Jidu presented his latest work on material point method (MPM) 
 
 Prof. Schleicher then shared his research on 3D printed curved structures and curved timber structures and their applications in architecture, and showed the team the large-scale 3D concrete printer recently installed in his lab. Both groups discussed how numerical modeling, fiber optic sensing and 3D printing could be brought together, and look forward to future collaboration.
 
-Afterwards, Prof. Soga gave Prof. Schleicher a tour of the Center for Smart Infrastructure (CSI) laboratory at RFS, introducing applications of distributed fiber optic sensing and [distributed acoustic sensing](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=b1DrYnAAAAAJ&sortby=pubdate&citation_for_view=b1DrYnAAAAAJ:C6rTQemI8T8C) in geotechnical engineering.
+Afterwards, Prof. Soga gave Prof. Schleicher a tour of the Center for Smart Infrastructure (CSI) laboratory at RFS, introducing applications of distributed fiber optic sensing and distributed acoustic sensing in geotechnical engineering.
 
 We sincerely thank Prof. Schleicher and Prof. Soga for making this exchange possible, and look forward to working together in the future.
