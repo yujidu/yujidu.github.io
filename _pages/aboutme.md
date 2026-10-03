@@ -22,6 +22,7 @@ I received my Ph.D. in Civil Engineering from **HKUST** in 2025 under the superv
 * Climate-driven geohazards: permafrost thaw, rainfall-induced landslides, hydrate dissociation-induced instability
 * Geomechanics in extreme environments: submarine, deep underground and extraterrestrial
 * Machine learning-aided multiscale and multiphysics modeling
+* 3D printing of extrusion-based materials: rheology and numerical modeling
 
 I am open to collaborations and academic opportunities.
 
