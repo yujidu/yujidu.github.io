@@ -1221,3 +1221,127 @@ $cv-ink: #4a5a6a;
     top: 1.1em;
   }
 }
+
+/* CV education & experience: same card language as the projects */
+.cv-card {
+  padding: 0.85em 0 !important;
+
+  &::before {
+    top: 1.45em !important;
+  }
+
+  .cv-timeline__date {
+    padding-top: 0.75em;
+  }
+
+  .cv-timeline__body {
+    padding: 0.8em 1em 0.85em 1.1em;
+    background: #fbfaf8;
+    border: 1px solid rgba($cv-ink, 0.12);
+    border-left: 3px solid rgba($cv-ink, 0.55);
+    border-radius: 0 6px 6px 0;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+
+  &:hover .cv-timeline__body {
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.06);
+    border-left-color: $cv-ink;
+  }
+}
+
+.cv-card__eyebrow {
+  font-size: 0.74em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba($cv-ink, 0.85);
+  margin-bottom: 0.3em;
+}
+
+.cv-card .cv-card__title {
+  display: block;
+  font-family: $serif;
+  font-size: 1.12em;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #1d2733;
+}
+
+.cv-card__facts {
+  margin: 0.5em 0 0;
+  font-size: 0.88em;
+
+  div {
+    display: grid;
+    grid-template-columns: 7.2em 1fr;
+    gap: 0.6em;
+    margin: 0.15em 0;
+  }
+
+  dt {
+    margin: 0;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba($cv-ink, 0.7);
+    padding-top: 0.2em;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+/* CV honors: compact rows, award name with the awarding body beneath */
+.cv-honors li {
+  padding: 0.45em 0;
+
+  &::before {
+    top: 0.85em;
+  }
+
+  .cv-timeline__body {
+    padding: 0.1em 0.6em;
+    margin-left: -0.6em;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+
+  &:hover .cv-timeline__body {
+    background: rgba($cv-ink, 0.05);
+  }
+}
+
+.cv-honors .cv-timeline__date {
+  padding-top: 0.25em;
+}
+
+.cv-honor__name {
+  display: block;
+  font-weight: 600;
+  color: #1d2733;
+  line-height: 1.45;
+}
+
+.cv-honor__by {
+  display: block;
+  font-size: 0.8em;
+  letter-spacing: 0.02em;
+  color: rgba($cv-ink, 0.75);
+}
+
+@media (max-width: 600px) {
+  .cv-card .cv-timeline__date {
+    padding-top: 0;
+  }
+
+  .cv-card::before {
+    top: 1.1em !important;
+  }
+
+  .cv-card__facts div {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
