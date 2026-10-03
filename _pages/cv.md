@@ -50,11 +50,37 @@ Honors & Awards
 
 Research Projects
 -----
-<ul class="cv-timeline">
-  <li><span class="cv-timeline__date">2025 – </span><div class="cv-timeline__body"><strong>A general-purpose multiscale, multiphysics computational platform for granular media</strong><br>NSFC, China. PI: Prof. Jidong Zhao<br>Developing a multiphysics, multiscale computational framework based on MPM-DEM</div></li>
-  <li><span class="cv-timeline__date">2025 – </span><div class="cv-timeline__body"><strong>A digital twin for enhancing coastal resilience against extreme storm surges in Hong Kong</strong><br>RGC-HK Theme-based Research Scheme, #T22-607/24N. PC: Prof. Jidong Zhao<br>Multiphysics modeling of coastal geotechnical structures under extreme loads</div></li>
-  <li><span class="cv-timeline__date">2022 – 2024</span><div class="cv-timeline__body"><strong>A combined physics-informed deep learning and multiscale modeling framework for simulating thaw-induced landslides in permafrost</strong><br>RGC-HK GRF, #16206322. PI: Dr. Shiwei Zhao; Co-PI: Prof. Jidong Zhao<br>Developed a multiphysics MPM framework for freezing and thawing porous media, and multiscale modeling of ice-bonded granular media under freeze-thaw cycles</div></li>
-  <li><span class="cv-timeline__date">2021 – 2023</span><div class="cv-timeline__body"><strong>Multiscale modeling of thermo-hydro-mechanical behavior in granular sediments for gas hydrate recovery</strong><br>RGC-HK GRF, #16211221. PI: Prof. Jidong Zhao<br>Developed a THM-coupled MPM for hydrate dissociation and gas production in porous media, and multiscale modeling of related hazards such as submarine landslides</div></li>
+<ul class="cv-timeline cv-timeline--projects">
+  <li class="cv-proj"><span class="cv-timeline__date">2026 – </span><div class="cv-timeline__body">
+    <div class="cv-proj__funder">Research Grants Council of Hong Kong · General Research Fund<span class="cv-proj__grant">#16210526</span></div>
+    <strong class="cv-proj__title">A multiscale digital twin for sinkhole prediction: integrating MPM, CFD-DEM, and machine learning for urban geohazard assessment</strong>
+    <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Prof. Jidong Zhao</dd></div><div><dt>Role</dt><dd>Participant</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">HK$1,014,504</dd></div></dl>
+  </div></li>
+  <li class="cv-proj"><span class="cv-timeline__date">2025 – </span><div class="cv-timeline__body">
+    <div class="cv-proj__funder">National Natural Science Foundation of China</div>
+    <strong class="cv-proj__title">A general-purpose multiscale, multiphysics computational platform for granular media</strong>
+    <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Prof. Jidong Zhao</dd></div><div><dt>Role</dt><dd>Participant</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">CN¥2.3 million</dd></div></dl>
+  </div></li>
+  <li class="cv-proj"><span class="cv-timeline__date">2025 – </span><div class="cv-timeline__body">
+    <div class="cv-proj__funder">Research Grants Council of Hong Kong · Theme-based Research Scheme<span class="cv-proj__grant">#T22-607/24N</span></div>
+    <strong class="cv-proj__title">A digital twin for enhancing coastal resilience against extreme storm surges in Hong Kong</strong>
+    <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Prof. Jidong Zhao (Project Coordinator)</dd></div><div><dt>Role</dt><dd>Participant</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">HK$62.89 million</dd></div></dl>
+  </div></li>
+  <li class="cv-proj"><span class="cv-timeline__date">2023 – </span><div class="cv-timeline__body">
+    <div class="cv-proj__funder">California Energy Commission<span class="cv-proj__grant">GFO-22-503</span></div>
+    <strong class="cv-proj__title">Performance-based monitoring and risk assessment tool for gas pipelines under natural forces</strong>
+    <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Prof. Kenichi Soga</dd></div><div><dt>Role</dt><dd>Participant</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">US$4.41 million</dd></div></dl>
+  </div></li>
+  <li class="cv-proj"><span class="cv-timeline__date">2022 – 2024</span><div class="cv-timeline__body">
+    <div class="cv-proj__funder">Research Grants Council of Hong Kong · General Research Fund<span class="cv-proj__grant">#16206322</span></div>
+    <strong class="cv-proj__title">A combined physics-informed deep learning and multiscale modeling framework for simulating thaw-induced landslides in permafrost</strong>
+    <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Dr. Shiwei Zhao (Co-PI: Prof. Jidong Zhao)</dd></div><div><dt>Role</dt><dd>Participant</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">HK$1.1 million</dd></div></dl>
+  </div></li>
+  <li class="cv-proj"><span class="cv-timeline__date">2021 – 2023</span><div class="cv-timeline__body">
+    <div class="cv-proj__funder">Research Grants Council of Hong Kong · General Research Fund<span class="cv-proj__grant">#16211221</span></div>
+    <strong class="cv-proj__title">Multiscale modeling of thermo-hydro-mechanical behavior in granular sediments for gas hydrate recovery</strong>
+    <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Prof. Jidong Zhao</dd></div><div><dt>Role</dt><dd>Participant</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">HK$1.0 million</dd></div></dl>
+  </div></li>
 </ul>
 
 Teaching

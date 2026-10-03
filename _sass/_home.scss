@@ -1119,3 +1119,105 @@ $cv-ink: #4a5a6a;
     margin: 0;
   }
 }
+
+/* CV research projects: a small card per project */
+.cv-timeline--projects li {
+  padding: 0.85em 0;
+
+  &::before {
+    top: 1.45em;
+  }
+}
+
+.cv-timeline--projects .cv-timeline__date {
+  padding-top: 0.75em;
+}
+
+.cv-proj .cv-timeline__body {
+  position: relative;
+  padding: 0.8em 1em 0.85em 1.1em;
+  background: #fbfaf8;
+  border: 1px solid rgba($cv-ink, 0.12);
+  border-left: 3px solid rgba($cv-ink, 0.55);
+  border-radius: 0 6px 6px 0;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.cv-proj:hover .cv-timeline__body {
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.06);
+  border-left-color: $cv-ink;
+}
+
+.cv-proj__funder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6em;
+  font-size: 0.74em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba($cv-ink, 0.85);
+  margin-bottom: 0.3em;
+}
+
+.cv-proj__grant {
+  padding: 0.05em 0.5em;
+  border: 1px solid rgba($cv-ink, 0.3);
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  font-variant-numeric: tabular-nums;
+}
+
+.cv-proj .cv-proj__title {
+  display: block;
+  font-family: $serif;
+  font-size: 1.08em;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #1d2733;
+}
+
+.cv-proj__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em 1.6em;
+  margin: 0.55em 0 0;
+  font-size: 0.86em;
+
+  div {
+    display: flex;
+    gap: 0.45em;
+    align-items: baseline;
+  }
+
+  dt {
+    margin: 0;
+    font-size: 0.82em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba($cv-ink, 0.7);
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+.cv-proj__amount {
+  font-weight: 700;
+  color: #1d2733;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 600px) {
+  .cv-timeline--projects .cv-timeline__date {
+    padding-top: 0;
+  }
+
+  .cv-timeline--projects li::before {
+    top: 1.1em;
+  }
+}
