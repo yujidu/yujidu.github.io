@@ -1093,3 +1093,29 @@ $cv-ink: #4a5a6a;
     margin-bottom: 0.15em;
   }
 }
+
+/* All screens: name + links fill the full height of the photo */
+.home-hero__profile {
+  align-items: stretch;
+}
+
+.home-hero__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-hero__name {
+  margin-bottom: 0.6em !important;
+}
+
+.home-hero__links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+
+  li {
+    margin: 0;
+  }
+}
