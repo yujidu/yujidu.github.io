@@ -12,9 +12,9 @@
   <li>{{ p.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}
     {%- if p.link or p.bib or p.cites %} <span class="pub-actions">
       {%- if p.link %}[<a class="pub-link" href="{{ p.link }}" target="_blank" rel="noopener">link</a>]{% endif -%}
-      {%- if p.link and p.bib %} {% endif -%}
+      {%- if p.link and p.bib %}&nbsp;{% endif -%}
       {%- if p.bib %}[<button type="button" class="pub-cite" aria-expanded="false">Cite</button>]{% endif -%}
-      {%- if p.cites %} <span class="pub-cited">(Cited by {{ p.cites }})</span>{% endif -%}
+      {%- if p.cites %}&nbsp;<span class="pub-cited">(Cited by {{ p.cites }})</span>{% endif -%}
     </span>
     {%- if p.bib %}
     <div class="pub-bib" hidden>
