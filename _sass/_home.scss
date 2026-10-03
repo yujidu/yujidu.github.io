@@ -1319,9 +1319,16 @@ $cv-ink: #4a5a6a;
 
 .cv-honor__name {
   display: block;
+  font-family: $serif;
+  font-size: 1.08em;
   font-weight: 600;
   color: #1d2733;
-  line-height: 1.45;
+  line-height: 1.4;
+  transition: color 0.2s;
+}
+
+.cv-honors li:hover .cv-honor__name {
+  color: $link-color;
 }
 
 .cv-honor__by {

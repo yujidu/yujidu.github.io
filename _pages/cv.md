@@ -139,20 +139,15 @@ Teaching
 Academic Service
 -----
 <ul class="cv-timeline">
-  <li class="cv-card"><span class="cv-timeline__date">2026</span><div class="cv-timeline__body">
+  <li class="cv-card"><span class="cv-timeline__date">2026 –</span><div class="cv-timeline__body">
     <div class="cv-card__eyebrow">Peer review</div>
     <strong class="cv-card__title">Journal Reviewer</strong>
     <ul class="cv-journals"><li>Advances in Engineering Software</li><li>Computer Methods in Applied Mechanics and Engineering</li><li>Construction and Building Materials</li><li>Engineering Geology</li><li>Finite Elements in Analysis and Design</li><li>International Journal of Heat and Mass Transfer</li><li>International Journal of Mining Science and Technology</li><li>Journal of Traffic and Transportation Engineering (English Edition)</li><li>Measurement</li><li>Mechanics of Materials</li><li>Physics and Chemistry of the Earth, Parts A/B/C</li><li>Simulation Modelling Practice and Theory</li><li>Thin-Walled Structures</li><li>Tunnelling and Underground Space Technology</li></ul>
   </div></li>
-  <li class="cv-card"><span class="cv-timeline__date">2025</span><div class="cv-timeline__body">
+  <li class="cv-card"><span class="cv-timeline__date">2025 –</span><div class="cv-timeline__body">
     <div class="cv-card__eyebrow">Peer review</div>
     <strong class="cv-card__title">Journal Reviewer</strong>
     <ul class="cv-journals"><li>Ain Shams Engineering Journal</li><li>Chemical Engineering Science</li><li>Computational Particle Mechanics</li><li>Computers and Geotechnics</li><li>Energy Technology</li><li>Geoderma</li><li>International Journal for Numerical Methods in Fluids</li><li>International Journal of Geomechanics</li><li>Powder Technology</li></ul>
-  </div></li>
-  <li class="cv-card"><span class="cv-timeline__date">Ongoing</span><div class="cv-timeline__body">
-    <div class="cv-card__eyebrow">Professional memberships</div>
-    <strong class="cv-card__title">Memberships</strong>
-    <ul class="cv-journals"><li>Chinese Society of Theoretical and Applied Mechanics (CSTAM)</li><li>Hong Kong Geotechnical Society (HKGS)</li></ul>
   </div></li>
 </ul>
 
