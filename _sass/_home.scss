@@ -1577,6 +1577,10 @@ $cv-ink: #4a5a6a;
    layout keeps the short-strip height so the text stays where it is.
    The photo runs behind the content and fades out higher up. */
 @media (min-width: 1001px) {
+  .home-hero--compact {
+    display: flow-root;  /* keep the negative margin inside, so the title stays put */
+  }
+
   .home-hero--compact .home-hero__media {
     margin-bottom: calc(clamp(170px, 16vw, 250px) - 28.6vw);
   }
