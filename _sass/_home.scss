@@ -1425,3 +1425,11 @@ $cv-ink: #4a5a6a;
 .cv-timeline .cv-journals li::before {
   content: none;
 }
+
+/* nested journal list items must not pick up the timeline row styles */
+.cv-timeline .cv-journals li {
+  display: inline;
+  position: static;
+  padding: 0;
+  grid-template-columns: none;
+}
