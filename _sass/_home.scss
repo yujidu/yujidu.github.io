@@ -692,3 +692,46 @@ a:hover .news-thumb {
 .news-detail--wide .news-detail__text img {
   max-width: 100%;
 }
+
+/* The fade belongs to the photo itself, so it stays on the photo even when
+   the title and profile drop below it on small screens */
+.home-hero__media {
+  position: relative;
+}
+
+/* Menu button on small screens: no grey box, dark lines that sit on the photo */
+.greedy-nav button {
+  background-color: transparent;
+
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: $text-color;
+  }
+}
+
+.greedy-nav button.close .navicon {
+  background: transparent;
+}
+
+@media (max-width: 1000px) {
+  /* a longer, softer fade so the photo melts into the page */
+  .home-hero__fade {
+    height: 85%;
+    background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.35) 35%,
+      rgba(255, 255, 255, 0.8) 70%,
+      #fff 100%);
+  }
+
+  /* pull the title up into the faded part of the photo */
+  .home-hero__content {
+    margin-top: -12vw;
+    z-index: 1;
+  }
+
+  .home-hero__title {
+    font-size: 2rem;
+  }
+}
