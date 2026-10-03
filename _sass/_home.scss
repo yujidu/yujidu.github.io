@@ -60,7 +60,7 @@ body:not(.has-hero) {
 /* Pull the intro text up into the faded part of the photo */
 .has-hero #main {
   position: relative;
-  margin-top: -2.5vw;
+  margin-top: calc(-2.5 * var(--vw, 1vw));
 }
 
 .home-hero__image {
@@ -101,7 +101,7 @@ body:not(.has-hero) {
 
 .home-hero__title {
   margin: 0 0 0.4em;
-  font-size: clamp(2rem, 3.6vw, 3.4rem);
+  font-size: clamp(2rem, calc(3.6 * var(--vw, 1vw)), 3.4rem);
   line-height: 1.15;
   color: #111;
   text-shadow: 0 1px 14px rgba(252, 251, 248, 0.9);
@@ -116,8 +116,8 @@ body:not(.has-hero) {
 }
 
 .home-hero__avatar {
-  width: clamp(160px, 14vw, 230px);
-  height: clamp(160px, 14vw, 230px);
+  width: clamp(160px, calc(14 * var(--vw, 1vw)), 230px);
+  height: clamp(160px, calc(14 * var(--vw, 1vw)), 230px);
   border-radius: 0;
   object-fit: cover;
   border: none;
@@ -416,7 +416,7 @@ body {
 .footer-hero {
   position: relative;
   z-index: 0;
-  margin-top: -4vw;  /* tuck the white faded top slightly under the end of the page text */
+  margin-top: calc(-4 * var(--vw, 1vw));  /* tuck the white faded top slightly under the end of the page text */
 }
 
 /* keep page text above the footer photo's faded top */
@@ -727,7 +727,7 @@ a:hover .news-thumb {
 
   /* pull the title up into the faded part of the photo */
   .home-hero__content {
-    margin-top: -7vw;
+    margin-top: calc(-7 * var(--vw, 1vw));
     z-index: 1;
   }
 
@@ -1524,7 +1524,7 @@ $cv-ink: #4a5a6a;
 
 /* Inner pages: a short banner strip so the content starts near the top */
 .home-hero--compact .home-hero__image {
-  height: clamp(170px, 16vw, 250px);
+  height: clamp(170px, calc(16 * var(--vw, 1vw)), 250px);
   object-fit: cover;
   object-position: center 38%;
 }
@@ -1569,7 +1569,7 @@ $cv-ink: #4a5a6a;
 
 /* News articles: long titles, so a smaller heading */
 .home-hero--news .home-hero__title {
-  font-size: clamp(1.5rem, 2.3vw, 2.15rem);
+  font-size: clamp(1.5rem, calc(2.3 * var(--vw, 1vw)), 2.15rem);
   line-height: 1.25;
 }
 
@@ -1582,7 +1582,7 @@ $cv-ink: #4a5a6a;
   }
 
   .home-hero--compact .home-hero__media {
-    margin-bottom: calc(clamp(170px, 16vw, 250px) - 28.6vw);
+    margin-bottom: calc(clamp(170px, calc(16 * var(--vw, 1vw)), 250px) - calc(28.6 * var(--vw, 1vw)));
   }
 
   .home-hero--compact .home-hero__image {
@@ -1617,7 +1617,7 @@ $cv-ink: #4a5a6a;
   }
 
   .home-hero:not(.home-hero--compact) ~ #main {
-    margin-top: calc(2.8rem - 2.5vw);
+    margin-top: calc(2.8rem - calc(2.5 * var(--vw, 1vw)));
   }
 }
 
