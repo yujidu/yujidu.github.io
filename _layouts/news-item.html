@@ -2,7 +2,7 @@
 layout: archive
 ---
 <article class="news-detail">
-  <p class="news-detail__date">{{ page.date | date: "%B %Y" }}</p>
+  <p class="news-detail__date">{{ page.date | date: "%B %-d, %Y" }}</p>
   <div class="news-detail__top">
     <div class="news-detail__media">{% include news-thumb.html item=page %}</div>
     <div class="news-detail__text">

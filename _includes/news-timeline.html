@@ -7,7 +7,7 @@
 <div class="news-timeline">
 {% for n in items limit: shown %}
   <article class="news-item">
-    <div class="news-item__date">{{ n.date | date: "%b %Y" }}</div>
+    <div class="news-item__date">{{ n.date | date: "%b %-d, %Y" }}</div>
     <div class="news-item__media"><a href="{{ n.url | relative_url }}">{% include news-thumb.html item=n %}</a></div>
     <div class="news-item__body">
       <h3 class="news-item__title"><a href="{{ n.url | relative_url }}">{{ n.title }}</a></h3>
