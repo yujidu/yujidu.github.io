@@ -1,5 +1,5 @@
 ---
-title: Joined UC Berkeley
+title: Joined UC Berkeley as a Postdoctoral Researcher
 date: '2026-02-01'
 image: /images/berkeley.jpg
 label: UC Berkeley
