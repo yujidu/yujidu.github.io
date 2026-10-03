@@ -684,6 +684,6 @@ a:hover .news-thumb {
   width: 100%;
   max-width: 420px;  /* keep photos inside a story modest in size */
   height: auto;
-  margin: 1em 0;
+  margin: 1.5em auto 0;  /* centred, with a blank line above each photo */
   border-radius: 4px;
 }

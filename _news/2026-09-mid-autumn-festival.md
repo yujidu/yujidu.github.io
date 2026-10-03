@@ -13,6 +13,6 @@ Two days later, on 27 September, Jidu and Guanlong hosted a Mid-Autumn dinner at
 
 Far from home, it was a great joy to share the festival, traditionally a time for family reunion, with such wonderful friends.
 
-![Mid-Autumn dinner with Prof. Soga's group](/images/news/mid-autumn-2026-restaurant.jpg)
+![Sesame flatbread at Wojia Hunan Cuisine](/images/news/mid-autumn-2026-sesame-bread-full.jpg)
 
-![Sesame flatbread at Wojia Hunan Cuisine](/images/news/mid-autumn-2026-sesame-bread.jpg)
+![Mid-Autumn dinner with Prof. Soga's group at Wojia Hunan Cuisine](/images/news/mid-autumn-2026-restaurant-full.jpg)
