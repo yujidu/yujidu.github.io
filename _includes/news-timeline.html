@@ -1,0 +1,19 @@
+{% comment %}
+  News timeline built from the _news folder, newest first.
+  Usage: {% include news-timeline.html %} for all items, or count=5 for the latest five.
+{% endcomment %}
+{%- assign items = site.news | sort: "date" | reverse -%}
+{%- if include.count -%}{%- assign shown = include.count -%}{%- else -%}{%- assign shown = items.size -%}{%- endif -%}
+<div class="news-timeline">
+{% for n in items limit: shown %}
+  <article class="news-item">
+    <div class="news-item__date">{{ n.date | date: "%b %Y" }}</div>
+    <div class="news-item__media"><a href="{{ n.url | relative_url }}">{% include news-thumb.html item=n %}</a></div>
+    <div class="news-item__body">
+      <h3 class="news-item__title"><a href="{{ n.url | relative_url }}">{{ n.title }}</a></h3>
+      <p>{{ n.summary }}</p>
+      <a class="news-item__more" href="{{ n.url | relative_url }}">Read more →</a>
+    </div>
+  </article>
+{% endfor %}
+</div>

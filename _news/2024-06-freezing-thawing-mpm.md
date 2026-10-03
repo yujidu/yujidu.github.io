@@ -3,8 +3,7 @@ title: THM-coupled MPM for freezing and thawing published in IJNAMG
 date: '2024-06-21'
 image: https://onlinelibrary.wiley.com/cms/asset/222fd53a-f550-4b45-83c8-ef7db8bc727e/nag.v50.15.cover.gif
 label: Int. J. Numer. Anal. Methods Geomech.
-image_fit: cover
-image_position: 0%
+image_fit: contain
 headline: Thermo-hydro-mechanical coupled material point method for modeling freezing and thawing of porous media
 summary: A three-phase THM material point method for freezing and thawing soils and permafrost hazards, published in the International Journal for Numerical and Analytical Methods in Geomechanics.
 citation: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). *International Journal for Numerical and Analytical Methods in Geomechanics*, 48(13), 3308–3349.'

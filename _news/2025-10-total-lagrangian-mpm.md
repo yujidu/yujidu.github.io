@@ -3,8 +3,7 @@ title: Total-Lagrangian MPM for porous media published in IJNME
 date: '2025-10-04'
 image: https://onlinelibrary.wiley.com/cms/asset/c6dd4c2e-e8f4-498a-971e-759871fdba99/nme.v127.18.cover.gif
 label: Int. J. Numer. Methods Eng.
-image_fit: cover
-image_position: 0%
+image_fit: contain
 headline: A total-Lagrangian material point method for fast and stable hydromechanical modeling of porous media
 summary: A collaborative study on a semi-implicit total-Lagrangian MPM that speeds up hydromechanical simulations of saturated porous media.
 citation: Liang W.J., Chandra B., **Yu J.D.**, Yin Z.Y.\*, Zhao J.D. (2025). *International Journal for Numerical Methods in Engineering*, 126(19), e70135.

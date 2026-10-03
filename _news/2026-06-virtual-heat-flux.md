@@ -3,8 +3,7 @@ title: Virtual heat flux method published in IJNME
 date: '2026-06-21'
 image: https://onlinelibrary.wiley.com/cms/asset/c6dd4c2e-e8f4-498a-971e-759871fdba99/nme.v127.18.cover.gif
 label: Int. J. Numer. Methods Eng.
-image_fit: cover
-image_position: 0%
+image_fit: contain
 headline: A virtual heat flux method for simple and accurate Neumann thermal boundary imposition in the material point method
 summary: A new way to impose heat-flux boundary conditions in the material point method without tracking the boundary, now published in the International Journal for Numerical Methods in Engineering.
 citation: '**Yu J.D.**, Zhao J.D. (2026). *International Journal for Numerical Methods in Engineering*, 127(12), e70371.'

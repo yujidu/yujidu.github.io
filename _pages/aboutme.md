@@ -26,6 +26,14 @@ I received my Ph.D. in Civil Engineering from **HKUST** in 2025 under the superv
 
 I am open to collaborations and academic opportunities.
 
+<section class="home-section">
+  <div class="home-section__head">
+    <h2>News</h2>
+    <a class="home-section__more" href="{{ '/news/' | relative_url }}">See more →</a>
+  </div>
+  {% include news-timeline.html count=5 %}
+</section>
+
 {% comment %}
   Homepage sections are hidden for now. Delete this comment tag and the
   matching endcomment at the bottom to show them again.
