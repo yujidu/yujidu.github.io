@@ -74,17 +74,14 @@
   display: flex;
   align-items: center;
   gap: 1em;
-  padding: 0.9em 1.1em;
-  background: rgba(255, 255, 255, 0.6);
-  -webkit-backdrop-filter: blur(6px);
-          backdrop-filter: blur(6px);
-  border-radius: 12px;
+  gap: 1.25em;
   flex-shrink: 0;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 3px rgba(255, 255, 255, 0.9);
 }
 
 .home-hero__avatar {
-  width: 130px;
-  height: 130px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #fff;
@@ -92,7 +89,7 @@
 }
 
 .home-hero__info {
-  font-size: $type-size-6;
+  font-size: 1rem;  /* same size as the body text */
   line-height: 1.5;
 
   p {
@@ -102,7 +99,7 @@
 
 .home-hero__name {
   font-weight: 700;
-  font-size: $type-size-5;
+  font-size: 1.2rem;
 }
 
 .home-hero__bio {
@@ -114,10 +111,14 @@
   list-style: none;
   margin: 0.3em 0 0;
   padding: 0;
-  font-size: $type-size-7;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;  /* two columns keeps the block compact */
+  column-gap: 1.5em;
 
   li {
     margin: 0.1em 0;
+    white-space: nowrap;
   }
 
   a {
@@ -140,11 +141,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 1em;
-  }
-
-  .home-hero__profile {
-    background: transparent;
-    padding: 0;
   }
 
   .home-hero__avatar {
