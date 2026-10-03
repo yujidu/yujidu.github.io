@@ -1559,3 +1559,16 @@ $cv-ink: #4a5a6a;
     margin-top: 0;
   }
 }
+
+/* Home page: trim the top of the banner (tower tip) so the profile sits higher */
+.home-hero:not(.home-hero--compact) .home-hero__image {
+  aspect-ratio: 1200 / 370;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+/* News articles: long titles, so a smaller heading */
+.home-hero--news .home-hero__title {
+  font-size: clamp(1.5rem, 2.3vw, 2.15rem);
+  line-height: 1.25;
+}

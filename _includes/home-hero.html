@@ -1,6 +1,6 @@
 {% include base_path %}
 {% assign author = site.author %}
-<header class="home-hero{% if page.url != "/" %} home-hero--compact{% endif %}">
+<header class="home-hero{% if page.url != "/" %} home-hero--compact{% endif %}{% if page.layout == "news-item" %} home-hero--news{% endif %}">
   <div class="home-hero__media">
     <img class="home-hero__image" src="{{ page.hero_image | prepend: '/images/' | relative_url }}" alt="UC Berkeley campus with the Campanile and the Golden Gate Bridge">
     <div class="home-hero__fade" aria-hidden="true"></div>
