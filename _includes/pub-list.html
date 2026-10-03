@@ -1,13 +1,14 @@
 {% comment %}
   Renders a group from _data/publications.yml as a numbered list (1, 2, 3 … from the top).
   Usage: {% include pub-list.html group="journal" count=5 %}
-  Leave out "count" to show every item. Add countdown=true to number from n down to 1.
+  Leave out "count" to show every item. Add countdown=true to number from n down to 1; offset=k starts the count k higher (n+k down to k+1).
   Each item shows [Link] (DOI/URL), [Cite] (opens its BibTeX) and its Google Scholar citations.
 {% endcomment %}
 {%- assign pubs = site.data.publications[include.group] -%}
 {%- assign total = pubs | size -%}
 {%- if include.count -%}{%- assign shown = include.count -%}{%- else -%}{%- assign shown = total -%}{%- endif -%}
-<ol class="pub-list"{% if include.countdown %} reversed{% endif %}>
+{%- assign offset = include.offset | default: 0 -%}{%- assign top = total | plus: offset -%}
+<ol class="pub-list"{% if include.countdown %} reversed start="{{ top }}"{% endif %}>
 {%- for p in pubs limit: shown -%}
   <li>{{ p.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}
     {%- if p.link or p.bib or p.cites %}

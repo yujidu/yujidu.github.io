@@ -19,7 +19,8 @@ hero_image: berkeley.jpg
  *CBM* ***1***,
  *JGGE* ***1***</small>
 
-{% include pub-list.html group="journal" %}
+{% assign n_chinese = site.data.publications.chinese | size %}
+{% include pub-list.html group="journal" countdown=true offset=n_chinese %}
 
 ## Chinese Journal Articles
 
