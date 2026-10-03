@@ -677,3 +677,12 @@ a:hover .news-thumb {
     max-width: 420px;
   }
 }
+
+/* pictures inside a news story */
+.news-detail__text img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+  border-radius: 4px;
+}
