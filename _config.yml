@@ -14,8 +14,8 @@ title_separator          : "-"
 
 # Top banner and footer photos. To switch back to the Berkeley photos use
 #   banner_image: berkeley.jpg / footer_image: berkeley-footer.jpg / banner_dark: false
-banner_image             : forest-banner.jpg   # seaside-banner.jpg, berkeley.jpg
-footer_image             : forest-footer.jpg   # seaside-footer.jpg, berkeley-footer.jpg
+banner_image             : lake-banner.jpg   # forest-banner.jpg, seaside-banner.jpg, berkeley.jpg
+footer_image             : lake-footer.jpg   # forest-footer.jpg, seaside-footer.jpg, berkeley-footer.jpg
 banner_dark              : false  # true for a dark photo (seaside): light menu text over it
 name                     : &name "Jidu Yu"
 description              : &description "Research Assistant Professor"
