@@ -1521,3 +1521,28 @@ $cv-ink: #4a5a6a;
     left: 4px !important;
   }
 }
+
+/* Inner pages: a short banner strip so the content starts near the top */
+.home-hero--compact .home-hero__image {
+  height: clamp(170px, 16vw, 250px);
+  object-fit: cover;
+  object-position: center 38%;
+}
+
+.home-hero--compact .home-hero__content {
+  bottom: 6%;
+}
+
+.home-hero--compact .home-hero__title {
+  margin-bottom: 0.1em;
+}
+
+@media (max-width: 1000px) {
+  .home-hero--compact .home-hero__image {
+    height: 150px;
+  }
+
+  .home-hero--compact .home-hero__content {
+    margin-top: -2.2rem;
+  }
+}
