@@ -26,5 +26,5 @@ Vancouver's stunning scenery and pleasant summer weather made it a truly memorab
 ![Jidu with Prof. Deborah Sulsky](/images/news/wccm-2024-sulsky.jpg)
 *Jidu with Prof. Deborah Sulsky.*
 
-![Jidu at the Vancouver waterfront](/images/news/wccm-2024-vancouver.jpg)
+![Jidu at the Vancouver waterfront](/images/news/wccm-2024-waterfront.jpg)
 *On the Vancouver waterfront.*
