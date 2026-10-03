@@ -188,7 +188,7 @@ body:not(.has-hero) {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
-  padding-bottom: 0;
+  padding-bottom: 2em;  /* a little space before the footer photo */
 }
 
 /* Section with a title and a "See more" link */
@@ -416,7 +416,7 @@ body {
 .footer-hero {
   position: relative;
   z-index: 0;
-  margin-top: -9vw;  /* tuck the white faded top under the end of the page text */
+  margin-top: -4vw;  /* tuck the white faded top slightly under the end of the page text */
 }
 
 /* keep page text above the footer photo's faded top */
