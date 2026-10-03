@@ -888,3 +888,26 @@ body {
     margin: 0.2em 0;
   }
 }
+
+@media (max-width: 1000px) {
+  .home-hero__avatar {
+    flex-basis: 56%;
+    width: 56%;
+  }
+
+  .home-hero__name {
+    font-size: 1.25rem;
+  }
+
+  .home-hero__bio {
+    margin-bottom: 0.35em !important;
+  }
+
+  .home-hero__links li {
+    margin: 0.12em 0;
+  }
+
+  .home-hero__content {
+    margin-bottom: 1.25em;
+  }
+}
