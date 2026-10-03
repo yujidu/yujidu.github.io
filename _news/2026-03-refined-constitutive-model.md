@@ -1,7 +1,7 @@
 ---
 title: Constitutive model for widely graded soils published in Computers and Geotechnics
 date: '2026-03-03'
-image: /images/news/2026-03-refined-constitutive-model.png
+image: /images/news/2026-03-refined-constitutive-model-fig.png
 label: Comput. Geotech.
 image_fit: cover
 headline: Refined constitutive modelling of widely graded granular soils incorporating fractional particle breakage
