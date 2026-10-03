@@ -2,7 +2,8 @@
 layout: archive
 title: "Research"
 permalink: /research/
-author_profile: true
+author_profile: false
+hero_image: berkeley.jpg
 ---
 
 ## 1. Thermo-hydro-mechanical coupled MPM for saturated porous media

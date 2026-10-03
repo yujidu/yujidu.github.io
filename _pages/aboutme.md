@@ -10,14 +10,20 @@ redirect_from:
   - /about.html
 ---
 
-I am Jidu Yu (Chinese: 于际都) and I was born and raised in [XuZhou](https://en.wikipedia.org/wiki/Xuzhou), a historical and cultural city in China. 
+I am a Postdoctoral Researcher in the Department of Civil and Environmental Engineering at the **University of California, Berkeley**, working with [Prof. Kenichi Soga](https://geomechanics.berkeley.edu/people/soga/). My research develops high-fidelity computational methods for geomaterials in extreme environments, where coupled thermal, hydraulic, mechanical and chemical (THMC) processes drive large deformation and failure.
 
-I obtained my PhD degree in Civil Engineering from the Hong Kong University of Science and Technology (HKUST) in 2025, and B.Eng and M.Eng degrees in Hydraulic Engineering from Hohai University (HHU) in 2018 and 2021, respectively. Now, I am a postdoctoral researcher at HKUST, supervised by [Prof Zhao Jidong](http://jzhao.people.ust.hk/).
+My work centers on the **material point method (MPM)** and its coupling with the discrete element method (DEM) and fluid solvers. I have developed fully coupled THM/THMC-MPM formulations and multiscale MPM-DEM frameworks to simulate freezing and thawing in permafrost, phase transition in methane hydrate-bearing sediments, and the geohazards they trigger, from thaw-induced landslides to submarine slope instability. This work has appeared in leading journals in computational and solid mechanics, including *JMPS*, *CMAME*, *IJNME*, *IJNAMG* and *Computers and Geotechnics*.
 
-My current research interest focuses on:
-* Particle or mesh-free methods, and hybrid methods, e.g., MPM, DEM, MPM-DEM, MPM-FVM.
-* Multiphysics modelling of multiphase granular soils, particularly for frozen soils and hydrate soils. 
-* Climate-driven geohazards, e.g., rainfall-induced landslides, permafrost thaw-related problems.
+I received my Ph.D. in Civil Engineering from **HKUST** in 2025 under the supervision of [Prof. Jidong Zhao](https://jzhao.people.ust.hk/), and my B.Eng. and M.Eng. in hydraulic engineering from **Hohai University**. Before joining Berkeley, I was a postdoctoral researcher at HKUST, and I have been a visiting researcher at UC Berkeley and University College London.
+
+**Research interests**
+* Particle and hybrid numerical methods: MPM, DEM, MPM-DEM, MPM-FVM
+* Multiphysics (THM/C) modeling of multiphase granular media, e.g., frozen soils and hydrate-bearing sediments
+* Climate-driven geohazards: permafrost thaw, rainfall-induced landslides, hydrate dissociation-induced instability
+* Geomechanics in extreme environments: submarine, deep underground and extraterrestrial
+* Machine learning-aided multiscale and multiphysics modeling
+
+I am open to collaborations and academic opportunities.
 
 {% comment %}
   Homepage sections are hidden for now. Delete this comment tag and the

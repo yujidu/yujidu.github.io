@@ -2,7 +2,8 @@
 layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+author_profile: false
+hero_image: berkeley.jpg
 redirect_from:
   - /resume
 ---
