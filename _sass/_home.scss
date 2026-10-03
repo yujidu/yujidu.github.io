@@ -394,7 +394,14 @@ body {
 
 .footer-hero {
   position: relative;
-  margin-top: 0;
+  z-index: 0;
+  margin-top: -9vw;  /* tuck the white faded top under the end of the page text */
+}
+
+/* keep page text above the footer photo's faded top */
+#main {
+  position: relative;
+  z-index: 1;
 }
 
 .footer-hero__image {
