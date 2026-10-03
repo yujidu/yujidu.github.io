@@ -4,10 +4,10 @@
 
 <script>
 /* Wide screens: scale the whole page (text and images) so it always fills the
-   window like a 1280px-wide layout; browser zoom only enlarges it once the
+   window like a 1600px-wide layout; browser zoom only enlarges it once the
    window is narrower than that. --vw keeps viewport units correct under zoom. */
 (function () {
-  var BASE = 1280, d = document.documentElement;
+  var BASE = 1600, d = document.documentElement;
   if (!('zoom' in d.style)) return;
   function fit() {
     d.style.zoom = '';
