@@ -4,22 +4,34 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-## Journal Paper
 
-<small>(*JMPS* ***1***,
+<small>\* Corresponding author. Full list also on [Google Scholar](https://scholar.google.com/citations?user=AgtKCIIAAAAJ).</small>
+
+## Journal Articles
+
+<small>First/corresponding-author papers in
+ *JMPS* ***2***,
  *CMAME* ***2***,
- *NAG* ***1***,
- *NME* ***1***,
- *JGGE* ***1***,
- *CG* ***1*** ,
- *CBM* ***1***)</small>
+ *IJNME* ***1***,
+ *IJNAMG* ***1***,
+ *CG* ***1***,
+ *CBM* ***1***,
+ *JGGE* ***1***</small>
 
 {% include pub-list.html group="journal" %}
 
-## Chinese Journal Paper
+## Chinese Journal Articles
 
 {% include pub-list.html group="chinese" %}
 
-## Conference Paper
+## Manuscripts Under Review
+
+{% include pub-list.html group="under_review" %}
+
+## Conference Papers & Abstracts
 
 {% include pub-list.html group="conference" %}
+
+## Invited Talks
+
+{% include pub-list.html group="talks" %}
