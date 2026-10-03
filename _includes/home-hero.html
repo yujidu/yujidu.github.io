@@ -16,12 +16,12 @@
         <p class="home-hero__name" itemprop="name">{{ author.name }}</p>
         {% if author.bio %}<p class="home-hero__bio">{{ author.bio }}</p>{% endif %}
         <ul class="home-hero__links">
-          {% if author.location %}<li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ author.location }}</li>{% endif %}
-          {% if author.email %}<li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>{% endif %}
-          {% if author.researchgate %}<li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>{% endif %}
-          {% if author.github %}<li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>{% endif %}
-          {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>{% endif %}
-          {% if author.orcid %}<li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>{% endif %}
+          {% if author.location %}<li class="hl-map"><a href="https://www.google.com/maps/search/?api=1&amp;query={{ author.location | url_encode }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ author.location }}</a></li>{% endif %}
+          {% if author.email %}<li class="hl-email"><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>{% endif %}
+          {% if author.researchgate %}<li class="hl-rg"><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>{% endif %}
+          {% if author.github %}<li class="hl-gh"><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>{% endif %}
+          {% if author.googlescholar %}<li class="hl-gs"><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>{% endif %}
+          {% if author.orcid %}<li class="hl-orcid"><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>{% endif %}
         </ul>
       </div>
     </div>

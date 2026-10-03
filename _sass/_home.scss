@@ -1654,3 +1654,18 @@ $cv-ink: #4a5a6a;
     background: rgba($berkeley-blue, 0.075);
   }
 }
+
+/* Profile links: each icon in its brand colour; location opens Google Maps */
+.home-hero__links i { transition: transform 0.2s; }
+.home-hero__links a:hover i { transform: scale(1.12); }
+.hl-map i   { color: #EA4335; }
+.hl-email i { color: #D44638; }
+.hl-rg i    { color: #00CCBB; }
+.hl-gh i    { color: #181717; }
+.hl-gs i    { color: #4285F4; }
+.hl-orcid i { color: #A6CE39; }
+
+/* Profile photo: small rounded corners like the other images */
+.home-hero__avatar {
+  border-radius: 6px;
+}
