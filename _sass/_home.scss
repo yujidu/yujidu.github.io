@@ -1509,3 +1509,15 @@ $cv-ink: #4a5a6a;
     gap: 1em;
   }
 }
+
+/* Phones: keep CV text clear of the timeline line */
+@media (max-width: 600px) {
+  .cv-timeline > li {
+    padding-left: 1.5em !important;
+  }
+
+  .cv-timeline::before,
+  .cv-timeline > li::before {
+    left: 4px !important;
+  }
+}
