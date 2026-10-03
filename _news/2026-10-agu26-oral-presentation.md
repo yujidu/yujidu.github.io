@@ -1,7 +1,7 @@
 ---
 title: Oral presentation accepted at AGU26
 date: '2026-10-01'
-image: /images/news/agu26-san-francisco.jpg
+image: /images/news/agu26-golden-gate.jpg
 label: AGU26
 image_fit: cover
 summary: Jidu's abstract on shear-triggered hydrate dissociation and submarine slope failure has been accepted for an oral presentation at the AGU26 Annual Meeting in San Francisco.
