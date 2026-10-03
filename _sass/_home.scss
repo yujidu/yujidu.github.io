@@ -911,3 +911,156 @@ body {
     margin-bottom: 1.25em;
   }
 }
+
+/* Profile: larger name, evenly spaced links (no subtitle line) */
+.home-hero__name {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 0.35em !important;
+}
+
+.home-hero__links li {
+  margin: 0.3em 0;
+}
+
+@media (max-width: 1000px) {
+  .home-hero__name {
+    font-size: 1.5rem;
+  }
+
+  /* links spread evenly down the full height of the photo */
+  .home-hero__info {
+    align-self: stretch;
+    justify-content: space-between;
+  }
+
+  .home-hero__links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0.2em;
+
+    li {
+      margin: 0;
+    }
+  }
+}
+
+/* Phones: "About" sits outside the sideways-scrolling row, no white box */
+.masthead__home-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .masthead__inner-wrap {
+    padding-left: 1rem;
+  }
+
+  a.masthead__home-mobile {
+    display: block;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0.5rem 0;
+    font-weight: 700;
+    color: $masthead-link-color;
+    text-decoration: none;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  }
+
+  .greedy-nav .visible-links {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 1.2rem, #000 88%, transparent);
+            mask-image: linear-gradient(to right, transparent 0, #000 1.2rem, #000 88%, transparent);
+
+    li:first-child {
+      display: none;
+    }
+  }
+
+  .masthead__menu {
+    -webkit-mask-image: none;
+            mask-image: none;
+  }
+}
+
+/* CV: timeline with dates on the left */
+.cv-timeline {
+  position: relative;
+  list-style: none;
+  margin: 0.5em 0 1.75em;
+  padding: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.4em;
+    bottom: 0.4em;
+    left: 8.75em;
+    width: 2px;
+    background: $lighter-gray;
+  }
+
+  li {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7.5em 1fr;
+    column-gap: 2.5em;
+    padding: 0.55em 0;
+    margin: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.95em;
+      left: 8.75em;
+      width: 10px;
+      height: 10px;
+      margin-left: -4px;
+      border-radius: 50%;
+      background: $link-color;
+      box-shadow: 0 0 0 3px #fff;
+    }
+  }
+}
+
+.cv-timeline__date {
+  text-align: right;
+  font-weight: 600;
+  color: $dark-gray;
+  font-size: $type-size-6;
+  padding-top: 0.1em;
+}
+
+.cv-timeline__body {
+  line-height: 1.55;
+}
+
+@media (max-width: 600px) {
+  .cv-timeline {
+    &::before {
+      left: 5px;
+    }
+
+    li {
+      grid-template-columns: 1fr;
+      padding-left: 1.6em;
+
+      &::before {
+        left: 5px;
+        top: 0.85em;
+      }
+    }
+  }
+
+  .cv-timeline__date {
+    text-align: left;
+  }
+}

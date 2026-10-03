@@ -11,75 +11,51 @@ redirect_from:
 
 Education
 -----
-* __Ph.D.__ in Civil Engineering (Geotechnical), Aug. 2021 – Aug. 2025
-  * The Hong Kong University of Science and Technology (HKUST), Hong Kong, China
-  * Thesis: Multiscale Modeling of Coupled Thermo-Hydro-Mechanical Behavior in Granular Media
-  * Supervisor: [Prof. Jidong Zhao](https://jzhao.people.ust.hk/)
-
-* __M.Eng.__ in Hydraulic Structure Engineering, Sep. 2018 – Jul. 2021
-  * Hohai University, Nanjing, China
-  * Dissertation: Experimental and Theoretical Investigation of the Crushing Behavior of Granular Media
-  * Supervisor: [Prof. Sihong Liu](https://sdxy.hhu.edu.cn/2021/0926/c15302a228739/page.htm)
-
-* __B.Eng.__ in Water Conservancy and Hydropower Engineering, Sep. 2014 – Jul. 2018
-  * Hohai University, Nanjing, China
-  * Dissertation: Experimental Study on the Compression Behavior of Crushable Granular Materials
+<ul class="cv-timeline">
+  <li><span class="cv-timeline__date">Aug. 2021 – Aug. 2025</span><div class="cv-timeline__body"><strong>Ph.D.</strong> in Civil Engineering (Geotechnical)<br>The Hong Kong University of Science and Technology (HKUST), Hong Kong, China<br><em>Thesis:</em> Multiscale Modeling of Coupled Thermo-Hydro-Mechanical Behavior in Granular Media<br><em>Supervisor:</em> <a href="https://jzhao.people.ust.hk/">Prof. Jidong Zhao</a></div></li>
+  <li><span class="cv-timeline__date">Sep. 2018 – Jul. 2021</span><div class="cv-timeline__body"><strong>M.Eng.</strong> in Hydraulic Structure Engineering<br>Hohai University, Nanjing, China<br><em>Dissertation:</em> Experimental and Theoretical Investigation of the Crushing Behavior of Granular Media<br><em>Supervisor:</em> <a href="https://sdxy.hhu.edu.cn/2021/0926/c15302a228739/page.htm">Prof. Sihong Liu</a></div></li>
+  <li><span class="cv-timeline__date">Sep. 2014 – Jul. 2018</span><div class="cv-timeline__body"><strong>B.Eng.</strong> in Water Conservancy and Hydropower Engineering<br>Hohai University, Nanjing, China<br><em>Dissertation:</em> Experimental Study on the Compression Behavior of Crushable Granular Materials</div></li>
+</ul>
 
 Work & Visiting Experience
 -----
-* __Postdoctoral Researcher__, Feb. 2026 – Present
-  * Department of Civil and Environmental Engineering, University of California, Berkeley, USA
-  * Advisor: [Prof. Kenichi Soga](https://geomechanics.berkeley.edu/people/soga/)
-
-* __Postdoctoral Researcher__, Sep. 2025 – Jan. 2026
-  * Department of Civil and Environmental Engineering, HKUST, Hong Kong, China
-  * Advisor: [Prof. Jidong Zhao](https://jzhao.people.ust.hk/)
-
-* __Visiting PhD Researcher__, Nov. 2024 – Apr. 2025
-  * Department of Civil and Environmental Engineering, University of California, Berkeley, USA
-  * Host supervisor: [Prof. Kenichi Soga](https://geomechanics.berkeley.edu/people/soga/)
-
-* __Visiting Student__, Jul. 2019 – Oct. 2019
-  * Department of Civil, Environmental and Geomatic Engineering, University College London, UK
-  * Host supervisor: [Prof. Yi Pik Helen Cheng](https://profiles.ucl.ac.uk/6010)
-
-Research Projects
------
-* __A general-purpose multiscale, multiphysics computational platform for granular media__ (2025 – )
-  * NSFC, China. PI: Prof. Jidong Zhao
-  * Developing a multiphysics, multiscale computational framework based on MPM-DEM
-
-* __A digital twin for enhancing coastal resilience against extreme storm surges in Hong Kong__ (2025 – )
-  * RGC-HK Theme-based Research Scheme, #T22-607/24N. PC: Prof. Jidong Zhao
-  * Multiphysics modeling of coastal geotechnical structures under extreme loads
-
-* __Multiscale modeling of thermo-hydro-mechanical behavior in granular sediments for gas hydrate recovery__ (2021 – 2023)
-  * RGC-HK GRF, #16211221. PI: Prof. Jidong Zhao
-  * Developed a THM-coupled MPM for hydrate dissociation and gas production in porous media, and multiscale modeling of related hazards such as submarine landslides
-
-* __A combined physics-informed deep learning and multiscale modeling framework for simulating thaw-induced landslides in permafrost__ (2022 – 2024)
-  * RGC-HK GRF, #16206322. PI: Dr. Shiwei Zhao; Co-PI: Prof. Jidong Zhao
-  * Developed a multiphysics MPM framework for freezing and thawing porous media, and multiscale modeling of ice-bonded granular media under freeze-thaw cycles
+<ul class="cv-timeline">
+  <li><span class="cv-timeline__date">Feb. 2026 – Present</span><div class="cv-timeline__body"><strong>Postdoctoral Researcher</strong><br>Department of Civil and Environmental Engineering, University of California, Berkeley, USA<br><em>Advisor:</em> <a href="https://geomechanics.berkeley.edu/people/soga/">Prof. Kenichi Soga</a></div></li>
+  <li><span class="cv-timeline__date">Sep. 2025 – Jan. 2026</span><div class="cv-timeline__body"><strong>Postdoctoral Researcher</strong><br>Department of Civil and Environmental Engineering, HKUST, Hong Kong, China<br><em>Advisor:</em> <a href="https://jzhao.people.ust.hk/">Prof. Jidong Zhao</a></div></li>
+  <li><span class="cv-timeline__date">Nov. 2024 – Apr. 2025</span><div class="cv-timeline__body"><strong>Visiting Ph.D. Researcher</strong><br>Department of Civil and Environmental Engineering, University of California, Berkeley, USA<br><em>Host supervisor:</em> <a href="https://geomechanics.berkeley.edu/people/soga/">Prof. Kenichi Soga</a></div></li>
+  <li><span class="cv-timeline__date">Jul. 2019 – Oct. 2019</span><div class="cv-timeline__body"><strong>Visiting Student</strong><br>Department of Civil, Environmental and Geomatic Engineering, University College London, UK<br><em>Host supervisor:</em> <a href="https://profiles.ucl.ac.uk/6010">Prof. Yi Pik Helen Cheng</a></div></li>
+</ul>
 
 Honors & Awards
 -----
-* IJNAMG Top 10 Most-Cited Article and Top Viewed Article, 2026
-* RedBird Academic Excellence Award, HKUST, 2024 & 2025
-* Overseas Research Award, HKUST, 2024
-* Research Travel Grant, HKUST, 2024 & 2025
-* Excellent Master's Dissertation in Hydraulic Engineering, China Association of Hydraulic Engineering Education, 2022
-* Excellent Master's Dissertation of Jiangsu Province, Jiangsu Provincial Degree Committee, 2022
-* Excellent Master's Dissertation, Hohai University, 2022
-* RedBird PhD Scholarship Program, HKUST, 2021
-* Postgraduate Studentship, HKUST, 2021 – 2025
-* Outstanding Postgraduate, Hohai University, 2021
-* Postgraduate "Science & Technology Star", Hohai University, 2021
-* Postgraduate Research & Practice Innovation Program of Jiangsu Province, 2020
-* National Scholarship for Postgraduates, Ministry of Education of China, 2019 & 2020
-* First Class Postgraduate Scholarship, Hohai University, 2018, 2019 & 2020
-* Outstanding Master Thesis Cultivation Program, Hohai University, 2019
-* First Class Prize, the 9th "MathorCup" College Mathematical Modeling Challenge, 2019
-* Second Class Prize, the 15th "Huawei Cup" China Postgraduate Mathematical Contest in Modeling, 2018
+<ul class="cv-timeline">
+  <li><span class="cv-timeline__date">2026</span><div class="cv-timeline__body">IJNAMG Top 10 Most-Cited Article and Top Viewed Article</div></li>
+  <li><span class="cv-timeline__date">2024, 2025</span><div class="cv-timeline__body">RedBird Academic Excellence Award, HKUST</div></li>
+  <li><span class="cv-timeline__date">2024, 2025</span><div class="cv-timeline__body">Research Travel Grant, HKUST</div></li>
+  <li><span class="cv-timeline__date">2021 – 2025</span><div class="cv-timeline__body">Postgraduate Studentship, HKUST</div></li>
+  <li><span class="cv-timeline__date">2024</span><div class="cv-timeline__body">Overseas Research Award, HKUST</div></li>
+  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body">Excellent Master's Dissertation in Hydraulic Engineering, China Association of Hydraulic Engineering Education</div></li>
+  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body">Excellent Master's Dissertation of Jiangsu Province, Jiangsu Provincial Degree Committee</div></li>
+  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body">Excellent Master's Dissertation, Hohai University</div></li>
+  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body">RedBird PhD Scholarship Program, HKUST</div></li>
+  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body">Outstanding Postgraduate, Hohai University</div></li>
+  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body">Postgraduate "Science &amp; Technology Star", Hohai University</div></li>
+  <li><span class="cv-timeline__date">2018 – 2020</span><div class="cv-timeline__body">First Class Postgraduate Scholarship, Hohai University (2018, 2019 &amp; 2020)</div></li>
+  <li><span class="cv-timeline__date">2019, 2020</span><div class="cv-timeline__body">National Scholarship for Postgraduates, Ministry of Education of China</div></li>
+  <li><span class="cv-timeline__date">2020</span><div class="cv-timeline__body">Postgraduate Research &amp; Practice Innovation Program of Jiangsu Province</div></li>
+  <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body">Outstanding Master Thesis Cultivation Program, Hohai University</div></li>
+  <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body">First Class Prize, the 9th "MathorCup" College Mathematical Modeling Challenge</div></li>
+  <li><span class="cv-timeline__date">2018</span><div class="cv-timeline__body">Second Class Prize, the 15th "Huawei Cup" China Postgraduate Mathematical Contest in Modeling</div></li>
+</ul>
+
+Research Projects
+-----
+<ul class="cv-timeline">
+  <li><span class="cv-timeline__date">2025 – </span><div class="cv-timeline__body"><strong>A general-purpose multiscale, multiphysics computational platform for granular media</strong><br>NSFC, China. PI: Prof. Jidong Zhao<br>Developing a multiphysics, multiscale computational framework based on MPM-DEM</div></li>
+  <li><span class="cv-timeline__date">2025 – </span><div class="cv-timeline__body"><strong>A digital twin for enhancing coastal resilience against extreme storm surges in Hong Kong</strong><br>RGC-HK Theme-based Research Scheme, #T22-607/24N. PC: Prof. Jidong Zhao<br>Multiphysics modeling of coastal geotechnical structures under extreme loads</div></li>
+  <li><span class="cv-timeline__date">2022 – 2024</span><div class="cv-timeline__body"><strong>A combined physics-informed deep learning and multiscale modeling framework for simulating thaw-induced landslides in permafrost</strong><br>RGC-HK GRF, #16206322. PI: Dr. Shiwei Zhao; Co-PI: Prof. Jidong Zhao<br>Developed a multiphysics MPM framework for freezing and thawing porous media, and multiscale modeling of ice-bonded granular media under freeze-thaw cycles</div></li>
+  <li><span class="cv-timeline__date">2021 – 2023</span><div class="cv-timeline__body"><strong>Multiscale modeling of thermo-hydro-mechanical behavior in granular sediments for gas hydrate recovery</strong><br>RGC-HK GRF, #16211221. PI: Prof. Jidong Zhao<br>Developed a THM-coupled MPM for hydrate dissociation and gas production in porous media, and multiscale modeling of related hazards such as submarine landslides</div></li>
+</ul>
 
 Teaching
 -----
