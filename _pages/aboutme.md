@@ -3,9 +3,8 @@ permalink: /
 layout: archive
 title: "Welcome to my homepage!"
 excerpt: "Home"
-author_profile: true
-header:
-  image: berkeley.jpg
+author_profile: false
+hero_image: berkeley.jpg
 redirect_from: 
   - /about/
   - /about.html
@@ -25,22 +24,34 @@ My current research interest focuses on:
     <h2>Research</h2>
     <a class="home-section__more" href="{{ '/research/' | relative_url }}">See more →</a>
   </div>
-  <div class="research-grid">
-    <a class="research-card" href="{{ '/research/' | relative_url }}">
-      <img src="{{ '/images/Thermal_slope.gif' | relative_url }}" alt="Failure of a thermal-sensitive slope" loading="lazy">
-      <span>Thermo-hydro-mechanical coupled MPM for saturated porous media</span>
+  <div class="research-list">
+    <a class="research-item" href="{{ '/research/' | relative_url }}">
+      <div class="research-item__media"><img src="{{ '/images/Thermal_slope.gif' | relative_url }}" alt="Failure of a thermal-sensitive slope" loading="lazy"></div>
+      <div class="research-item__text">
+        <h3>Thermo-hydro-mechanical coupled MPM for saturated porous media</h3>
+        <p>A stabilized, efficient semi-implicit MPM with a four-variable <em>u-v-p-T</em> formulation for non-isothermal saturated porous media, handling both incompressible and weakly compressible fluids.</p>
+      </div>
     </a>
-    <a class="research-card" href="{{ '/research/' | relative_url }}">
-      <img src="{{ '/images/ThawingFooting.gif' | relative_url }}" alt="Strip footing on thawing ground" loading="lazy">
-      <span>Coupled MPM for modelling freezing and thawing of porous media</span>
+    <a class="research-item" href="{{ '/research/' | relative_url }}">
+      <div class="research-item__media"><img src="{{ '/images/ThawingFooting.gif' | relative_url }}" alt="Strip footing on unthawed and thawing ground" loading="lazy"></div>
+      <div class="research-item__text">
+        <h3>Coupled MPM for modelling freezing and thawing of porous media</h3>
+        <p>Thermo-hydro-mechanical MPM for simulating freezing and thawing in granular soils, e.g. rapid penetration of a strip footing on unthawed vs. thawing ground.</p>
+      </div>
     </a>
-    <a class="research-card" href="{{ '/research/' | relative_url }}">
-      <img src="{{ '/images/FT_cycles.gif' | relative_url }}" alt="Freeze-thaw cycles" loading="lazy">
-      <span>Multiscale modeling of granular media subject to freeze-thaw cycles</span>
+    <a class="research-item" href="{{ '/research/' | relative_url }}">
+      <div class="research-item__media"><img src="{{ '/images/FT_cycles.gif' | relative_url }}" alt="THM responses during freeze-thaw cycles" loading="lazy"></div>
+      <div class="research-item__text">
+        <h3>Multiscale modeling of granular media subject to freeze-thaw cycles</h3>
+        <p>Multiscale modeling of the coupled THM behavior of saturated porous media during repeated freeze-thaw cycles.</p>
+      </div>
     </a>
-    <a class="research-card" href="{{ '/research/' | relative_url }}">
-      <img src="{{ '/images/Thermal_wave_E7.gif' | relative_url }}" alt="Thermal wave propagation" loading="lazy">
-      <span>THM modeling of porous media with compressible fluid</span>
+    <a class="research-item" href="{{ '/research/' | relative_url }}">
+      <div class="research-item__media"><img src="{{ '/images/Thermal_wave_E7.gif' | relative_url }}" alt="Wave propagation caused by thermal expansion" loading="lazy"></div>
+      <div class="research-item__text">
+        <h3>THM modeling of porous media with compressible fluid</h3>
+        <p>Wave propagation caused by thermal expansion initiated from the boundaries, captured with an improved fractional step formulation.</p>
+      </div>
     </a>
   </div>
 </section>

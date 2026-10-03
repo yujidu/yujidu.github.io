@@ -1,0 +1,26 @@
+{% include base_path %}
+{% assign author = site.author %}
+<header class="home-hero">
+  <img class="home-hero__image" src="{{ page.hero_image | prepend: '/images/' | relative_url }}" alt="UC Berkeley campus with the Campanile and the Golden Gate Bridge">
+  <div class="home-hero__fade" aria-hidden="true"></div>
+
+  <div class="home-hero__content">
+    <h1 class="home-hero__title">{{ page.title }}</h1>
+
+    <div class="home-hero__profile" itemscope itemtype="http://schema.org/Person">
+      <img class="home-hero__avatar" src="{{ author.avatar | prepend: '/images/' | relative_url }}" alt="{{ author.name }}" itemprop="image">
+      <div class="home-hero__info">
+        <p class="home-hero__name" itemprop="name">{{ author.name }}</p>
+        {% if author.bio %}<p class="home-hero__bio">{{ author.bio }}</p>{% endif %}
+        <ul class="home-hero__links">
+          {% if author.location %}<li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ author.location }}</li>{% endif %}
+          {% if author.email %}<li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>{% endif %}
+          {% if author.researchgate %}<li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>{% endif %}
+          {% if author.github %}<li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>{% endif %}
+          {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>{% endif %}
+          {% if author.orcid %}<li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>{% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

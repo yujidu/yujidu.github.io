@@ -2,17 +2,163 @@
    HOMEPAGE: full-width banner and condensed sections
    ========================================================================== */
 
-/* Full-width banner under the top bar */
-.page__hero {
-  margin-bottom: 2em;
+/* Top bar sits on top of the banner on the homepage */
+.has-hero .masthead {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  border-bottom: none;
+
+  .greedy-nav {
+    background: transparent;
+  }
+
+  .greedy-nav .visible-links a {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  }
 }
 
-.page__hero-image {
+/* Full-width banner: always shows the whole photo */
+.home-hero {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.home-hero__image {
   display: block;
   width: 100%;
-  height: clamp(220px, 36vw, 480px);
+  height: auto;
+}
+
+/* Fade the bottom of the photo into the white page */
+.home-hero__fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45%;
+  background: linear-gradient(to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.75) 60%,
+    #fff 100%);
+  pointer-events: none;
+}
+
+/* Title (left) and profile (right) placed on the photo */
+.home-hero__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3%;
+  max-width: $x-large;
+  margin: 0 auto;
+  padding: 0 1em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.home-hero__title {
+  margin: 0 0 0.4em;
+  font-size: clamp(2rem, 3.6vw, 3.4rem);
+  line-height: 1.15;
+  color: #111;
+  text-shadow: 0 1px 14px rgba(255, 255, 255, 0.9);
+}
+
+.home-hero__profile {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.9em 1.1em;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.home-hero__avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
   object-fit: cover;
-  object-position: center 15%;  /* keep the Campanile spire in view */
+  border: 3px solid #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-hero__info {
+  font-size: $type-size-6;
+  line-height: 1.5;
+
+  p {
+    margin: 0;
+  }
+}
+
+.home-hero__name {
+  font-weight: 700;
+  font-size: $type-size-5;
+}
+
+.home-hero__bio {
+  color: $dark-gray;
+  margin-bottom: 0.35em !important;
+}
+
+.home-hero__links {
+  list-style: none;
+  margin: 0.3em 0 0;
+  padding: 0;
+  font-size: $type-size-7;
+
+  li {
+    margin: 0.1em 0;
+  }
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Small screens: put the title and profile under the photo */
+@media (max-width: 900px) {
+  .home-hero__content {
+    position: relative;
+    bottom: auto;
+    margin-top: -2.5em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+  }
+
+  .home-hero__profile {
+    background: transparent;
+    padding: 0;
+  }
+
+  .home-hero__avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Homepage content uses the full width (no sidebar) */
+.home-main .archive {
+  float: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
 }
 
 /* Section with a title and a "See more" link */
@@ -45,43 +191,59 @@
   }
 }
 
-/* Research cards */
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  gap: 1em;
-}
-
-.archive a.research-card {
+/* Research: one row per topic, picture left, text right */
+.research-list {
   display: flex;
   flex-direction: column;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  overflow: hidden;
+}
+
+.archive a.research-item {
+  display: grid;
+  grid-template-columns: minmax(180px, 34%) 1fr;
+  gap: 1.5em;
+  align-items: center;
+  padding: 1.1em 0;
+  border-bottom: 1px dashed $border-color;
   color: $text-color;
   text-decoration: none;
-  font-size: $type-size-6;
-  line-height: 1.4;
-  transition: box-shadow 0.2s;
 
-  img {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    background: #f5f5f5;
+  &:last-child {
+    border-bottom: none;
   }
 
-  span {
-    padding: 0.6em 0.75em 0.8em;
+  h3 {
+    margin: 0 0 0.4em;
+    font-size: $type-size-5;
+    color: $link-color;
   }
 
-  &:hover {
-    box-shadow: 0 2px 10px rgba(#000, 0.15);
-    text-decoration: none;
+  p {
+    margin: 0;
+    font-size: $type-size-6;
+  }
 
-    img {
-      box-shadow: none;
-    }
+  &:hover h3 {
+    text-decoration: underline;
+  }
+
+  &:hover img {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Whole picture is visible: scaled to fit the column, never cropped */
+.research-item__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+}
+
+@media (max-width: 600px) {
+  .archive a.research-item {
+    grid-template-columns: 1fr;
+    gap: 0.75em;
   }
 }
 

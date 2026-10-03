@@ -1,12 +1,12 @@
 {% comment %}
-  Renders a group from _data/publications.yml as a reverse-numbered list.
+  Renders a group from _data/publications.yml as a numbered list (1, 2, 3 … from the top).
   Usage: {% include pub-list.html group="journal" count=5 %}
   Leave out "count" to show every item.
 {% endcomment %}
 {%- assign pubs = site.data.publications[include.group] -%}
 {%- assign total = pubs | size -%}
 {%- if include.count -%}{%- assign shown = include.count -%}{%- else -%}{%- assign shown = total -%}{%- endif -%}
-<ol class="pub-list" reversed start="{{ total }}">
+<ol class="pub-list">
 {%- for p in pubs limit: shown -%}
   <li>{{ p.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}
     {%- if p.link %}<br><a href="{{ p.link }}">{{ p.link }}</a>{% endif -%}
