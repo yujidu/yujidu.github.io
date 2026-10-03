@@ -71,12 +71,13 @@ $danger-color               : #ee5f5b;
 $info-color                 : #962570;
 
 /* links */
-/* Palette drawn from the banner photos: the Campanile's verdigris copper roof
-   as the main colour, the sunset copper as a warm accent for hovers. */
-$campanile                  : #1d5c63;  /* deep verdigris teal */
-$sunset-copper              : #b5652a;  /* warm copper from the sunset */
-$link-color                 : $campanile;
-$link-color-hover           : $sunset-copper;
+/* Palette drawn from the sunset in the banner photos: burnt sienna as the
+   main colour, a deeper umber for hovers. */
+$campanile                  : #a0522d;  /* main colour (burnt sienna); legacy name */
+$sunset-copper              : #a0522d;
+$sunset-umber               : #6b3418;
+$link-color                 : $sunset-copper;
+$link-color-hover           : $sunset-umber;
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : #000;
 $masthead-link-color-hover  : $primary-color;
