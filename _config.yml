@@ -16,6 +16,7 @@ title_separator          : "-"
 #   banner_image: berkeley.jpg / footer_image: berkeley-footer.jpg / banner_dark: false
 banner_image             : lake-banner.jpg   # forest-banner.jpg, seaside-banner.jpg, berkeley.jpg
 footer_image             : lake-footer.jpg   # forest-footer.jpg, seaside-footer.jpg, berkeley-footer.jpg
+banner_position          : "center 30%"  # which part of the banner shows when it is cropped (remove for the Berkeley photo)
 banner_dark              : false  # true for a dark photo (seaside): light menu text over it
 name                     : &name "Jidu Yu"
 description              : &description "Research Assistant Professor"

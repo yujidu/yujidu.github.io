@@ -2,7 +2,7 @@
 {% assign author = site.author %}
 <header class="home-hero{% if page.url != "/" %} home-hero--compact{% endif %}{% if page.layout == "news-item" %} home-hero--news{% endif %}">
   <div class="home-hero__media">
-    {% assign banner = site.banner_image | default: page.hero_image %}<img class="home-hero__image" src="{{ banner | prepend: '/images/' | relative_url }}" alt="">
+    {% assign banner = site.banner_image | default: page.hero_image %}<img class="home-hero__image" src="{{ banner | prepend: '/images/' | relative_url }}" alt=""{% if site.banner_position %} style="object-position: {{ site.banner_position }}"{% endif %}>
     <div class="home-hero__fade" aria-hidden="true"></div>
   </div>
 
