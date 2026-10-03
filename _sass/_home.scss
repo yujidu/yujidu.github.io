@@ -2,12 +2,33 @@
    HOMEPAGE: full-width banner and condensed sections
    ========================================================================== */
 
-/* Top bar sits on top of the banner on the homepage */
-.has-hero .masthead {
-  position: absolute;
+/* Top bar stays fixed at the top while the page scrolls (all pages) */
+.masthead {
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 30;
+  transition: background-color 0.25s, box-shadow 0.25s;
+}
+
+body:not(.has-hero) {
+  padding-top: 4em;  /* room for the fixed bar on pages without a banner */
+}
+
+/* Once scrolled, give the bar a solid background so text stays readable */
+.masthead.is-scrolled,
+.has-hero .masthead.is-scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+
+  .greedy-nav {
+    background: transparent;
+  }
+}
+
+/* On banner pages the bar starts transparent, on top of the photo */
+.has-hero .masthead {
   background: transparent;
   border-bottom: none;
 
