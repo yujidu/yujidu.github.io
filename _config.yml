@@ -14,9 +14,9 @@ title_separator          : "-"
 
 # Top banner and footer photos. To switch back to the Berkeley photos use
 #   banner_image: berkeley.jpg / footer_image: berkeley-footer.jpg / banner_dark: false
-banner_image             : seaside-banner.jpg
-footer_image             : seaside-footer.jpg
-banner_dark              : true   # dark photo: light menu text over it
+banner_image             : forest-banner.jpg   # seaside-banner.jpg, berkeley.jpg
+footer_image             : forest-footer.jpg   # seaside-footer.jpg, berkeley-footer.jpg
+banner_dark              : false  # true for a dark photo (seaside): light menu text over it
 name                     : &name "Jidu Yu"
 description              : &description "Research Assistant Professor"
 url                      : https://yujidu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
