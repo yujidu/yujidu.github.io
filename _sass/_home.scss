@@ -167,7 +167,7 @@
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
-  padding-bottom: 4em;  /* breathing room above the footer */
+  padding-bottom: 0;
 }
 
 /* Section with a title and a "See more" link */
@@ -262,34 +262,39 @@
 }
 
 .pub-actions {
-  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 0.35em;
+  font-size: $type-size-7;
 }
 
-.archive a.pub-link,
-.pub-cite {
+.archive a.pub-btn,
+.pub-btn {
+  display: inline-block;
+  padding: 0.1em 0.7em;
+  border: 1px solid $link-color;
+  border-radius: 3px;
+  background: transparent;
   color: $link-color;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.6;
   text-decoration: none;
-}
-
-.pub-cite {
-  padding: 0;
-  border: none;
-  background: none;
-  font: inherit;
   cursor: pointer;
 
+  &:hover,
   &.is-open {
-    font-weight: 700;
+    background: $link-color;
+    color: #fff;
+    text-decoration: none;
   }
-}
-
-.archive a.pub-link:hover,
-.pub-cite:hover {
-  text-decoration: underline;
 }
 
 .pub-cited {
   color: $gray;
+  margin-left: 0.25em;
 }
 
 .pub-bib {
@@ -358,13 +363,38 @@ body {
 .page__footer {
   position: relative;
   bottom: auto;
+  margin-top: 0;
   border-top: none;
   background-color: #fff;
+  color: #fff;
+
+  .fas, .fab, .far, .fal {
+    color: #fff;
+  }
+
+  /* footer text sits on the bottom-right corner of the photo */
+  footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    max-width: none;
+    margin: 0;
+    padding: 0 1.5em 1.2em;
+    text-align: right;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+  }
+
+  .page__footer-follow ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
 }
 
 .footer-hero {
   position: relative;
-  margin-top: 1em;
+  margin-top: 0;
 }
 
 .footer-hero__image {

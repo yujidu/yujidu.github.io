@@ -2,7 +2,7 @@
   Renders a group from _data/publications.yml as a numbered list (1, 2, 3 … from the top).
   Usage: {% include pub-list.html group="journal" count=5 %}
   Leave out "count" to show every item.
-  Each item shows [link] (DOI/URL), [Cite] (opens its BibTeX) and its Google Scholar citations.
+  Each item shows [Link] (DOI/URL), [Cite] (opens its BibTeX) and its Google Scholar citations.
 {% endcomment %}
 {%- assign pubs = site.data.publications[include.group] -%}
 {%- assign total = pubs | size -%}
@@ -10,12 +10,12 @@
 <ol class="pub-list">
 {%- for p in pubs limit: shown -%}
   <li>{{ p.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}
-    {%- if p.link or p.bib or p.cites %} <span class="pub-actions">
-      {%- if p.link %}[<a class="pub-link" href="{{ p.link }}" target="_blank" rel="noopener">link</a>]{% endif -%}
-      {%- if p.link and p.bib %}&nbsp;{% endif -%}
-      {%- if p.bib %}[<button type="button" class="pub-cite" aria-expanded="false">Cite</button>]{% endif -%}
-      {%- if p.cites %}&nbsp;<span class="pub-cited">(Cited by {{ p.cites }})</span>{% endif -%}
-    </span>
+    {%- if p.link or p.bib or p.cites %}
+    <div class="pub-actions">
+      {%- if p.link %}<a class="pub-btn" href="{{ p.link }}" target="_blank" rel="noopener">Link</a>{% endif -%}
+      {%- if p.bib %}<button type="button" class="pub-btn pub-cite" aria-expanded="false">Cite</button>{% endif -%}
+      {%- if p.cites %}<span class="pub-cited">Cited by {{ p.cites }}</span>{% endif -%}
+    </div>
     {%- if p.bib %}
     <div class="pub-bib" hidden>
       <button type="button" class="pub-copy">Copy</button>
