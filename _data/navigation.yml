@@ -1,8 +1,8 @@
 # main links links
 main:
 
-  # - title: "News"
-  #   url: /news/  
+  - title: "News"
+    url: /news/
 
   - title: "CV"
     url: /cv/
@@ -10,8 +10,8 @@ main:
   - title: "Publications"
     url: /publications/    
 
-  - title: "Research"
-    url: /research/   
+  # - title: "Research"   (hidden for now)
+  #   url: /research/
 
   # - title: "Blogs"
   #   url: /blogs/ 
