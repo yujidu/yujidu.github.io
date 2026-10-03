@@ -1,9 +1,9 @@
 ---
 title: Celebrating the Mid-Autumn Festival with friends
 date: '2026-09-27'
-image: /images/news/mid-autumn-2026-home-dinner.jpg
+image: /images/news/mid-autumn-2026-cover.jpg
 label: Mid-Autumn Festival
-image_fit: contain
+image_fit: cover
 summary: Jidu celebrated the Mid-Autumn Festival with colleagues and friends from UC Berkeley and Berkeley Lab, over a home-cooked dinner and a Hunan feast with Prof. Soga's group.
 ---
 
