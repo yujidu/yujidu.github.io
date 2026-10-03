@@ -948,7 +948,7 @@ body {
 }
 
 /* Phones: "About" sits outside the sideways-scrolling row, no white box */
-.masthead__home-mobile {
+.greedy-nav a.masthead__home-mobile {
   display: none;
 }
 
@@ -962,7 +962,7 @@ body {
     padding-left: 1rem;
   }
 
-  a.masthead__home-mobile {
+  .greedy-nav a.masthead__home-mobile {
     display: block;
     flex: 0 0 auto;
     margin: 0;
@@ -992,75 +992,104 @@ body {
 }
 
 /* CV: timeline with dates on the left */
+$cv-date-col: 10.5em;
+$cv-gap: 2.4em;
+$cv-line-x: $cv-date-col + $cv-gap / 2;
+$cv-ink: #4a5a6a;
+
 .cv-timeline {
   position: relative;
   list-style: none;
-  margin: 0.5em 0 1.75em;
+  margin: 0.75em 0 2.25em;
   padding: 0;
 
+  /* hairline that fades in and out at the ends */
   &::before {
     content: "";
     position: absolute;
-    top: 0.4em;
-    bottom: 0.4em;
-    left: 8.75em;
-    width: 2px;
-    background: $lighter-gray;
+    top: 0;
+    bottom: 0;
+    left: $cv-line-x;
+    width: 1px;
+    background: linear-gradient(to bottom,
+      rgba($cv-ink, 0) 0,
+      rgba($cv-ink, 0.35) 1.2em,
+      rgba($cv-ink, 0.35) calc(100% - 1.2em),
+      rgba($cv-ink, 0) 100%);
   }
 
   li {
     position: relative;
     display: grid;
-    grid-template-columns: 7.5em 1fr;
-    column-gap: 2.5em;
-    padding: 0.55em 0;
+    grid-template-columns: $cv-date-col 1fr;
+    column-gap: $cv-gap;
+    padding: 0.7em 0;
     margin: 0;
 
+    /* small hollow marker */
     &::before {
       content: "";
       position: absolute;
-      top: 0.95em;
-      left: 8.75em;
-      width: 10px;
-      height: 10px;
-      margin-left: -4px;
+      top: 1.05em;
+      left: $cv-line-x;
+      width: 7px;
+      height: 7px;
+      margin-left: -3.5px;
       border-radius: 50%;
-      background: $link-color;
-      box-shadow: 0 0 0 3px #fff;
+      background: #fff;
+      border: 1.5px solid $cv-ink;
+      box-sizing: border-box;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    &:hover::before {
+      background: $cv-ink;
+      transform: scale(1.25);
     }
   }
 }
 
 .cv-timeline__date {
   text-align: right;
+  white-space: nowrap;
+  font-size: 0.78em;
   font-weight: 600;
-  color: $dark-gray;
-  font-size: $type-size-6;
-  padding-top: 0.1em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba($cv-ink, 0.85);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.32em;
 }
 
 .cv-timeline__body {
-  line-height: 1.55;
+  line-height: 1.6;
+
+  strong:first-child {
+    font-family: $serif;
+    font-size: 1.05em;
+  }
 }
 
 @media (max-width: 600px) {
   .cv-timeline {
     &::before {
-      left: 5px;
+      left: 3.5px;
     }
 
     li {
       grid-template-columns: 1fr;
-      padding-left: 1.6em;
+      padding-left: 1.4em;
 
       &::before {
-        left: 5px;
-        top: 0.85em;
+        left: 3.5px;
+        top: 0.95em;
       }
     }
   }
 
   .cv-timeline__date {
     text-align: left;
+    padding-top: 0;
+    margin-bottom: 0.15em;
   }
 }
