@@ -31,7 +31,7 @@ I am open to collaborations and academic opportunities.
     <h2>News</h2>
     <a class="home-section__more" href="{{ '/news/' | relative_url }}">See more →</a>
   </div>
-  {% include news-timeline.html count=5 %}
+  {% include news-timeline.html count=10 %}
 </section>
 
 {% comment %}
