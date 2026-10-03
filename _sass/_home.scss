@@ -1345,3 +1345,54 @@ $cv-ink: #4a5a6a;
     gap: 0;
   }
 }
+
+/* CV entries: clean, no boxes — hierarchy comes from type alone */
+.cv-card .cv-timeline__body,
+.cv-proj .cv-timeline__body {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none !important;
+}
+
+.cv-card,
+.cv-timeline--projects li {
+  padding: 0.95em 0 !important;
+
+  &::before {
+    top: 1.35em !important;
+  }
+
+  .cv-timeline__date {
+    padding-top: 0.3em;
+  }
+}
+
+.cv-card:hover .cv-card__title,
+.cv-proj:hover .cv-proj__title {
+  color: $link-color;
+}
+
+.cv-card__title,
+.cv-proj__title {
+  transition: color 0.2s;
+}
+
+.cv-honors li .cv-timeline__body {
+  padding: 0;
+  margin-left: 0;
+  background: none !important;
+}
+
+@media (max-width: 600px) {
+  .cv-card::before,
+  .cv-timeline--projects li::before {
+    top: 1.15em !important;
+  }
+
+  .cv-card .cv-timeline__date,
+  .cv-timeline--projects .cv-timeline__date {
+    padding-top: 0;
+  }
+}

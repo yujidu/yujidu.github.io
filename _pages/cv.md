@@ -54,28 +54,6 @@ Work & Visiting Experience
   </div></li>
 </ul>
 
-Honors & Awards
------
-<ul class="cv-timeline cv-honors">
-  <li><span class="cv-timeline__date">2026</span><div class="cv-timeline__body"><span class="cv-honor__name">IJNAMG Top 10 Most-Cited Article &amp; Top Viewed Article</span><span class="cv-honor__by">Wiley</span></div></li>
-  <li><span class="cv-timeline__date">2024, 2025</span><div class="cv-timeline__body"><span class="cv-honor__name">RedBird Academic Excellence Award</span><span class="cv-honor__by">HKUST</span></div></li>
-  <li><span class="cv-timeline__date">2024, 2025</span><div class="cv-timeline__body"><span class="cv-honor__name">Research Travel Grant</span><span class="cv-honor__by">HKUST</span></div></li>
-  <li><span class="cv-timeline__date">2021 – 2025</span><div class="cv-timeline__body"><span class="cv-honor__name">Postgraduate Studentship</span><span class="cv-honor__by">HKUST</span></div></li>
-  <li><span class="cv-timeline__date">2024</span><div class="cv-timeline__body"><span class="cv-honor__name">Overseas Research Award</span><span class="cv-honor__by">HKUST</span></div></li>
-  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body"><span class="cv-honor__name">Excellent Master's Dissertation in Hydraulic Engineering</span><span class="cv-honor__by">China Association of Hydraulic Engineering Education</span></div></li>
-  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body"><span class="cv-honor__name">Excellent Master's Dissertation of Jiangsu Province</span><span class="cv-honor__by">Jiangsu Provincial Degree Committee</span></div></li>
-  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body"><span class="cv-honor__name">Excellent Master's Dissertation</span><span class="cv-honor__by">Hohai University</span></div></li>
-  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body"><span class="cv-honor__name">RedBird PhD Scholarship Program</span><span class="cv-honor__by">HKUST</span></div></li>
-  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body"><span class="cv-honor__name">Outstanding Postgraduate</span><span class="cv-honor__by">Hohai University</span></div></li>
-  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body"><span class="cv-honor__name">Postgraduate "Science &amp; Technology Star"</span><span class="cv-honor__by">Hohai University</span></div></li>
-  <li><span class="cv-timeline__date">2018 – 2020</span><div class="cv-timeline__body"><span class="cv-honor__name">First Class Postgraduate Scholarship (2018, 2019 &amp; 2020)</span><span class="cv-honor__by">Hohai University</span></div></li>
-  <li><span class="cv-timeline__date">2019, 2020</span><div class="cv-timeline__body"><span class="cv-honor__name">National Scholarship for Postgraduates</span><span class="cv-honor__by">Ministry of Education of China</span></div></li>
-  <li><span class="cv-timeline__date">2020</span><div class="cv-timeline__body"><span class="cv-honor__name">Postgraduate Research &amp; Practice Innovation Program of Jiangsu Province</span><span class="cv-honor__by">Jiangsu Province</span></div></li>
-  <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body"><span class="cv-honor__name">Outstanding Master Thesis Cultivation Program</span><span class="cv-honor__by">Hohai University</span></div></li>
-  <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body"><span class="cv-honor__name">First Class Prize, the 9th "MathorCup" College Mathematical Modeling Challenge</span><span class="cv-honor__by">MathorCup</span></div></li>
-  <li><span class="cv-timeline__date">2018</span><div class="cv-timeline__body"><span class="cv-honor__name">Second Class Prize, the 15th "Huawei Cup" China Postgraduate Mathematical Contest in Modeling</span><span class="cv-honor__by">Huawei Cup</span></div></li>
-</ul>
-
 Research Projects
 -----
 <ul class="cv-timeline cv-timeline--projects">
@@ -109,6 +87,28 @@ Research Projects
     <strong class="cv-proj__title">Multiscale modeling of thermo-hydro-mechanical (THM) behavior in granular sediments for gas hydrate recovery</strong>
     <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Prof. Jidong Zhao</dd></div><div><dt>Role</dt><dd>Participant</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">HK$911,317</dd></div></dl>
   </div></li>
+</ul>
+
+Honors & Awards
+-----
+<ul class="cv-timeline cv-honors">
+  <li><span class="cv-timeline__date">2026</span><div class="cv-timeline__body"><span class="cv-honor__name">IJNAMG Top 10 Most-Cited Article &amp; Top Viewed Article</span><span class="cv-honor__by">Wiley</span></div></li>
+  <li><span class="cv-timeline__date">2024, 2025</span><div class="cv-timeline__body"><span class="cv-honor__name">RedBird Academic Excellence Award</span><span class="cv-honor__by">HKUST</span></div></li>
+  <li><span class="cv-timeline__date">2024, 2025</span><div class="cv-timeline__body"><span class="cv-honor__name">Research Travel Grant</span><span class="cv-honor__by">HKUST</span></div></li>
+  <li><span class="cv-timeline__date">2021 – 2025</span><div class="cv-timeline__body"><span class="cv-honor__name">Postgraduate Studentship</span><span class="cv-honor__by">HKUST</span></div></li>
+  <li><span class="cv-timeline__date">2024</span><div class="cv-timeline__body"><span class="cv-honor__name">Overseas Research Award</span><span class="cv-honor__by">HKUST</span></div></li>
+  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body"><span class="cv-honor__name">Excellent Master's Dissertation in Hydraulic Engineering</span><span class="cv-honor__by">China Association of Hydraulic Engineering Education</span></div></li>
+  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body"><span class="cv-honor__name">Excellent Master's Dissertation of Jiangsu Province</span><span class="cv-honor__by">Jiangsu Provincial Degree Committee</span></div></li>
+  <li><span class="cv-timeline__date">2022</span><div class="cv-timeline__body"><span class="cv-honor__name">Excellent Master's Dissertation</span><span class="cv-honor__by">Hohai University</span></div></li>
+  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body"><span class="cv-honor__name">RedBird PhD Scholarship Program</span><span class="cv-honor__by">HKUST</span></div></li>
+  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body"><span class="cv-honor__name">Outstanding Postgraduate</span><span class="cv-honor__by">Hohai University</span></div></li>
+  <li><span class="cv-timeline__date">2021</span><div class="cv-timeline__body"><span class="cv-honor__name">Postgraduate "Science &amp; Technology Star"</span><span class="cv-honor__by">Hohai University</span></div></li>
+  <li><span class="cv-timeline__date">2018 – 2020</span><div class="cv-timeline__body"><span class="cv-honor__name">First Class Postgraduate Scholarship (2018, 2019 &amp; 2020)</span><span class="cv-honor__by">Hohai University</span></div></li>
+  <li><span class="cv-timeline__date">2019, 2020</span><div class="cv-timeline__body"><span class="cv-honor__name">National Scholarship for Postgraduates</span><span class="cv-honor__by">Ministry of Education of China</span></div></li>
+  <li><span class="cv-timeline__date">2020</span><div class="cv-timeline__body"><span class="cv-honor__name">Postgraduate Research &amp; Practice Innovation Program of Jiangsu Province</span><span class="cv-honor__by">Jiangsu Province</span></div></li>
+  <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body"><span class="cv-honor__name">Outstanding Master Thesis Cultivation Program</span><span class="cv-honor__by">Hohai University</span></div></li>
+  <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body"><span class="cv-honor__name">First Class Prize, the 9th "MathorCup" College Mathematical Modeling Challenge</span><span class="cv-honor__by">MathorCup</span></div></li>
+  <li><span class="cv-timeline__date">2018</span><div class="cv-timeline__body"><span class="cv-honor__name">Second Class Prize, the 15th "Huawei Cup" China Postgraduate Mathematical Contest in Modeling</span><span class="cv-honor__by">Huawei Cup</span></div></li>
 </ul>
 
 Teaching
