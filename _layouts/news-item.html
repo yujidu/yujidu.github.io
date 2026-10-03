@@ -1,7 +1,7 @@
 ---
 layout: archive
 ---
-<article class="news-detail">
+<article class="news-detail{% if page.wide_images %} news-detail--wide{% endif %}">
   <p class="news-detail__date">{{ page.date | date: "%B %-d, %Y" }}</p>
   <div class="news-detail__top">
     <div class="news-detail__media">{% include news-thumb.html item=page %}</div>

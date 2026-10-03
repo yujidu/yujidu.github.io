@@ -4,6 +4,7 @@ date: '2025-10-18'
 image: /images/news/phd-congregation-2025-cover.jpg
 label: HKUST Congregation
 image_fit: cover
+wide_images: true
 summary: Jidu officially received his Ph.D. in Civil Engineering from HKUST and was hooded by his supervisor, Prof. Jidong Zhao, at the HKUST Congregation on 18 October 2025.
 link: https://doi.org/10.14711/thesis-hdl152441
 ---

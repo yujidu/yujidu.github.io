@@ -687,3 +687,8 @@ a:hover .news-thumb {
   margin: 1.5em auto 0;  /* centred, with a blank line above each photo */
   border-radius: 4px;
 }
+
+/* stories that set wide_images: true show their photos across the full text column */
+.news-detail--wide .news-detail__text img {
+  max-width: 100%;
+}
