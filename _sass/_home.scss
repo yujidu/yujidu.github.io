@@ -19,7 +19,7 @@ body:not(.has-hero) {
 /* Once scrolled, give the bar a solid background so text stays readable */
 .masthead.is-scrolled,
 .has-hero .masthead.is-scrolled {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(252, 251, 248, 0.95);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
 
   .greedy-nav {
@@ -37,7 +37,7 @@ body:not(.has-hero) {
   }
 
   .greedy-nav .visible-links a {
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 8px rgba(252, 251, 248, 0.8);
   }
 }
 
@@ -77,10 +77,10 @@ body:not(.has-hero) {
   bottom: 0;
   height: 70%;
   background: linear-gradient(to bottom,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.55) 45%,
-    rgba(255, 255, 255, 0.9) 75%,
-    #fff 92%);
+    rgba(252, 251, 248, 0) 0%,
+    rgba(252, 251, 248, 0.55) 45%,
+    rgba(252, 251, 248, 0.9) 75%,
+    $background-color 92%);
   pointer-events: none;
 }
 
@@ -104,7 +104,7 @@ body:not(.has-hero) {
   font-size: clamp(2rem, 3.6vw, 3.4rem);
   line-height: 1.15;
   color: #111;
-  text-shadow: 0 1px 14px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 14px rgba(252, 251, 248, 0.9);
 }
 
 .home-hero__profile {
@@ -112,7 +112,7 @@ body:not(.has-hero) {
   align-items: center;
   gap: 1.5em;
   flex-shrink: 0;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9), 0 0 3px rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 10px rgba(252, 251, 248, 0.9), 0 0 3px rgba(252, 251, 248, 0.9);
 }
 
 .home-hero__avatar {
@@ -343,7 +343,7 @@ body:not(.has-hero) {
   font-size: $type-size-8;
   border: 1px solid $border-color;
   border-radius: 3px;
-  background: #fff;
+  background: $background-color;
   cursor: pointer;
 }
 
@@ -386,7 +386,7 @@ body {
   bottom: auto;
   margin-top: 0;
   border-top: none;
-  background-color: #fff;
+  background-color: $background-color;
   color: #fff;
 
   .fas, .fab, .far, .fal {
@@ -439,10 +439,10 @@ body {
   top: 0;
   height: 70%;
   background: linear-gradient(to top,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.55) 45%,
-    rgba(255, 255, 255, 0.9) 75%,
-    #fff 92%);
+    rgba(252, 251, 248, 0) 0%,
+    rgba(252, 251, 248, 0.55) 45%,
+    rgba(252, 251, 248, 0.9) 75%,
+    $background-color 92%);
   pointer-events: none;
 }
 
@@ -520,7 +520,7 @@ $news-line-x: $news-date-col + $news-gap / 2;
     margin-left: -6px;
     border-radius: 50%;
     background: $link-color;
-    box-shadow: 0 0 0 3px #fff;
+    box-shadow: 0 0 0 3px $background-color;
   }
 }
 
@@ -719,10 +719,10 @@ a:hover .news-thumb {
   .home-hero__fade {
     height: 60%;
     background: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0.5) 50%,
-      rgba(255, 255, 255, 0.9) 80%,
-      #fff 100%);
+      rgba(252, 251, 248, 0) 0%,
+      rgba(252, 251, 248, 0.5) 50%,
+      rgba(252, 251, 248, 0.9) 80%,
+      $background-color 100%);
   }
 
   /* pull the title up into the faded part of the photo */
@@ -781,8 +781,8 @@ a:hover .news-thumb {
         z-index: 1;
         padding-right: 0.4rem;
         background: linear-gradient(to right,
-          rgba(255, 255, 255, 0.85) 75%,
-          rgba(255, 255, 255, 0));
+          rgba(252, 251, 248, 0.85) 75%,
+          rgba(252, 251, 248, 0));
       }
     }
   }
@@ -829,8 +829,8 @@ a:hover .news-thumb {
   .greedy-nav .visible-links li:first-child {
     padding-left: 1rem;
     background: linear-gradient(to right,
-      rgba(255, 255, 255, 0.9) 85%,
-      rgba(255, 255, 255, 0));
+      rgba(252, 251, 248, 0.9) 85%,
+      rgba(252, 251, 248, 0));
 
     a {
       margin-left: 0;
@@ -970,7 +970,7 @@ body {
     font-weight: 700;
     color: $masthead-link-color;
     text-decoration: none;
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 8px rgba(252, 251, 248, 0.8);
   }
 
   .greedy-nav .visible-links {
@@ -1036,7 +1036,7 @@ $cv-ink: #4a5a6a;
       height: 7px;
       margin-left: -3.5px;
       border-radius: 50%;
-      background: #fff;
+      background: $background-color;
       border: 1.5px solid $cv-ink;
       box-sizing: border-box;
       transition: background 0.2s, transform 0.2s;
