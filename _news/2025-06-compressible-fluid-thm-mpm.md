@@ -1,9 +1,9 @@
 ---
 title: THM-MPM with compressible fluid published in CMAME
 date: '2025-06-04'
-image: https://ars.els-cdn.com/content/image/1-s2.0-S0045782525X00104-cov200h.gif
+image: /images/news/2025-06-compressible-fluid-thm-mpm.png
 label: Comput. Methods Appl. Mech. Eng.
-image_fit: contain
+image_fit: cover
 headline: 'Enhancing dynamic modeling of porous media with compressible fluid: A THM material point method with improved fractional step formulation'
 summary: An improved fractional step MPM that accounts for fluid compressibility and thermal effects, published in Computer Methods in Applied Mechanics and Engineering.
 citation: '**Yu J.D.**, Liang W.J., Zhao J.D.\* (2025). *Computer Methods in Applied Mechanics and Engineering*, 444, 118100.'

@@ -1,9 +1,9 @@
 ---
 title: Multiscale THMC modeling of hydrate-bearing sediment published in JMPS
 date: '2026-01-09'
-image: https://ars.els-cdn.com/content/image/1-s2.0-S0022509626X20014-cov200h.gif
+image: /images/news/2026-01-thmc-multiscale-hydrate.png
 label: J. Mech. Phys. Solids
-image_fit: contain
+image_fit: cover
 headline: Multiscale modeling of coupled thermo-hydro-mechanical-chemical behavior in hydrate-bearing sediment
 summary: A hybrid MPM-DEM framework that links grain-scale mechanisms to the field-scale THMC response of methane hydrate-bearing sediment, published in the Journal of the Mechanics and Physics of Solids.
 citation: '**Yu J.D.**\*, Zhao J.D.\*, Liang W.J. (2026). *Journal of the Mechanics and Physics of Solids*, 210, 106512.'

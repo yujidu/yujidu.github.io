@@ -1,9 +1,9 @@
 ---
 title: Fully coupled THMC-MPM published in JMPS
 date: '2025-09-20'
-image: https://ars.els-cdn.com/content/image/1-s2.0-S0022509626X20014-cov200h.gif
+image: /images/news/2025-09-thmc-mpm-hydrate.png
 label: J. Mech. Phys. Solids
-image_fit: contain
+image_fit: cover
 headline: A fully coupled THMC-MPM framework for modeling phase transition and large deformation in methane hydrate-bearing sediment
 summary: A fully coupled thermo-hydro-mechanical-chemical MPM that follows hydrate dissociation through to large-deformation failure, published in the Journal of the Mechanics and Physics of Solids.
 citation: '**Yu J.D.**, Zhao J.D.\*, Soga K., Zhao S.W., Liang W.J. (2026). *Journal of the Mechanics and Physics of Solids*, 206, 106368.'

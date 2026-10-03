@@ -1,9 +1,9 @@
 ---
 title: Multiscale freeze-thaw modeling published in Computers and Geotechnics
 date: '2024-04-29'
-image: https://ars.els-cdn.com/content/image/1-s2.0-S0266352X24X00051-cov200h.gif
+image: /images/news/2024-04-multiscale-freeze-thaw.png
 label: Comput. Geotech.
-image_fit: contain
+image_fit: cover
 headline: Multiscale modeling of coupled thermo-hydro-mechanical behavior in ice-bonded granular media subject to freeze-thaw cycles
 summary: A hierarchical MPM-DEM framework that reveals how ice bonding and melting control the response of frozen granular soils, published in Computers and Geotechnics.
 citation: '**Yu J.D.**, Zhao J.D.\*, Liang W.J., Zhao S.W. (2024). *Computers and Geotechnics*, 171, 106349.'
