@@ -793,3 +793,47 @@ a:hover .news-thumb {
             mask-image: linear-gradient(to right, #000 88%, transparent);
   }
 }
+
+@media (max-width: 1000px) {
+  /* Phone/tablet profile: photo as tall as the name + links, using the full width */
+  .home-hero__profile {
+    width: 100%;
+    align-items: stretch;
+    gap: 1.25em;
+  }
+
+  .home-hero__avatar {
+    flex: 0 0 46%;
+    width: 46%;
+    max-width: 260px;
+    height: auto;
+    align-self: stretch;
+    object-fit: cover;
+    object-position: center 30%;
+  }
+
+  .home-hero__info {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  /* let the white behind "About" reach the left edge of the screen */
+  .masthead__inner-wrap {
+    padding-left: 0;
+  }
+
+  .greedy-nav .visible-links li:first-child {
+    padding-left: 1rem;
+    background: linear-gradient(to right,
+      rgba(255, 255, 255, 0.9) 85%,
+      rgba(255, 255, 255, 0));
+
+    a {
+      margin-left: 0;
+    }
+  }
+}
