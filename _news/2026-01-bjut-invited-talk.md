@@ -1,7 +1,7 @@
 ---
 title: Invited talk at Beijing University of Technology
 date: '2026-01-15'
-image: /images/news/bjut-invited-talk-2026.jpg
+image: /images/news/bjut-invited-talk-2026-slide.png
 label: Invited Talk · BJUT
 image_fit: cover
 summary: Jidu gave an online invited talk to the Institute of Geotechnical Engineering at Beijing University of Technology on multiphysics and multiscale large-deformation modeling of geomaterials, with frozen soils and hydrate-bearing soils as examples.
