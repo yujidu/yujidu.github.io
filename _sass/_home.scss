@@ -1562,7 +1562,7 @@ $cv-ink: #4a5a6a;
 
 /* Home page: trim the top of the banner (tower tip) so the profile sits higher */
 .home-hero:not(.home-hero--compact) .home-hero__image {
-  aspect-ratio: 1200 / 370;
+  aspect-ratio: 1200 / 343;
   object-fit: cover;
   object-position: center bottom;
 }
@@ -1571,4 +1571,29 @@ $cv-ink: #4a5a6a;
 .home-hero--news .home-hero__title {
   font-size: clamp(1.5rem, 2.3vw, 2.15rem);
   line-height: 1.25;
+}
+
+/* Wide screens, inner pages: same banner crop as the home page, but the
+   layout keeps the short-strip height so the text stays where it is.
+   The photo runs behind the content and fades out higher up. */
+@media (min-width: 1001px) {
+  .home-hero--compact .home-hero__media {
+    margin-bottom: calc(clamp(170px, 16vw, 250px) - 28.6vw);
+  }
+
+  .home-hero--compact .home-hero__image {
+    height: auto;
+    aspect-ratio: 1200 / 343;
+    object-fit: cover;
+    object-position: center bottom;
+  }
+
+  .home-hero--compact .home-hero__fade {
+    height: 85%;
+    background: linear-gradient(to bottom,
+      rgba(252, 251, 248, 0) 0%,
+      rgba(252, 251, 248, 0.6) 30%,
+      rgba(252, 251, 248, 0.92) 45%,
+      $background-color 58%);
+  }
 }
