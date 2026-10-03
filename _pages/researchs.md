@@ -6,54 +6,61 @@ author_profile: false
 hero_image: berkeley.jpg
 ---
 
-## 1. Thermo-hydro-mechanical coupled MPM for saturated porous media
-
-Jidu works on develop stablized and efficient MPM algrithms for modelling the thermo-hydro-mechanical (THM) reponses in porous media.
-
-* Four-variable *u-v-p-T* formualtion for non-isothermal saturated porous media.
-* A semi-implicit solution scheme based on fractional step method;
-* Both the incompressible and weakly compressible fluid are considered.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 700px; margin: auto;"> 
-        {% include figure.html path="images/Thermal_slope.gif" title="" class="img-fluid rounded z-depth-1" %}
-        <div class="caption center">
-            <h3> Failure of a thermal-sensitive slope.</h3>
-        </div>
+<div class="research-rows">
+  <article class="research-row">
+    <div class="research-row__media">
+      <div class="news-thumb">
+        <div class="news-thumb__frame news-thumb__frame--contain"><img src="{{ '/images/Thermal_slope.gif' | relative_url }}" alt="Failure of a thermal-sensitive slope" loading="lazy"></div>
+        <div class="news-thumb__label">Failure of a thermal-sensitive slope</div>
+      </div>
     </div>
-</div>
-
-## 2. Coupled MPM for modelling freezing and thawing of porous media
-
-Jidu develops thermo-hydro-mechanical MPM to simualte the thawing and freezing process in granualr soils.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 750px; margin: auto;"> 
-        {% include figure.html path="images/ThawingFooting.gif" title="" class="img-fluid rounded z-depth-1" %}
-        <div class="caption center">
-            <h3> Rapid penetration of strip footing on unthawed (left) and thawing (right) grounds.</h3>
-        </div>
+    <div class="research-row__body">
+      <h2 class="research-row__title">Thermo-hydro-mechanical coupled MPM for saturated porous media</h2>
+      <p>Stabilized and efficient material point method (MPM) algorithms for modelling the thermo-hydro-mechanical (THM) response of saturated porous media in large deformation.</p>
+      <ul><li>Four-variable <em>u-v-p-T</em> formulation for non-isothermal saturated porous media</li><li>Semi-implicit solution scheme based on the fractional step method</li><li>Handles both incompressible and weakly compressible pore fluids</li></ul>
+      <p class="research-row__paper">Key paper: <a href="https://doi.org/10.1016/j.cma.2023.116462" target="_blank" rel="noopener">CMAME 2024</a></p>
     </div>
-</div>
-
-## 3. Multiscale modeling of coupled THM behavior of granular media subject to freeze-thaw cycles
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 750px; margin: auto;"> 
-        {% include figure.html path="images/FT_cycles.gif" title="" class="img-fluid rounded z-depth-1" %}
-        <div class="caption center">
-            <h3> THM responses of a saturaetd porous media during Freeze-thaw cycles.</h3>
-        </div>
+  </article>
+  <article class="research-row">
+    <div class="research-row__media">
+      <div class="news-thumb">
+        <div class="news-thumb__frame news-thumb__frame--contain"><img src="{{ '/images/ThawingFooting.gif' | relative_url }}" alt="Strip footing on unthawed (left) vs. thawing (right) ground" loading="lazy"></div>
+        <div class="news-thumb__label">Strip footing on unthawed (left) vs. thawing (right) ground</div>
+      </div>
     </div>
-</div>
-
-## 4.THM Modeling of porous media with compressible fluid
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0" style="max-width: 600px; margin: auto;"> 
-        {% include figure.html path="images/Thermal_wave_E7.gif" title="" class="img-fluid rounded z-depth-1" %}
-        <div class="caption center">
-            <h3> Wave propagation caused by thermal expansion initiated from the left and bottom boundaries.</h3>
-        </div>
+    <div class="research-row__body">
+      <h2 class="research-row__title">Coupled MPM for freezing and thawing of porous media</h2>
+      <p>A three-phase THM-coupled MPM that captures phase change between ice and water and the large deformation that follows, for permafrost thaw and related geohazards.</p>
+      <ul><li>Ice treated as part of the solid skeleton, with ice-saturation-dependent strength</li><li>Captures conduction- and convection-dominated thermal regimes</li><li>Applied to rapid footing penetration and thaw-induced failure</li></ul>
+      <p class="research-row__paper">Key paper: <a href="https://doi.org/10.1002/nag.3794" target="_blank" rel="noopener">IJNAMG 2024</a></p>
     </div>
+  </article>
+  <article class="research-row">
+    <div class="research-row__media">
+      <div class="news-thumb">
+        <div class="news-thumb__frame news-thumb__frame--contain"><img src="{{ '/images/FT_cycles.gif' | relative_url }}" alt="THM response of saturated porous media during freeze-thaw cycles" loading="lazy"></div>
+        <div class="news-thumb__label">THM response of saturated porous media during freeze-thaw cycles</div>
+      </div>
+    </div>
+    <div class="research-row__body">
+      <h2 class="research-row__title">Multiscale modeling of granular media under freeze-thaw cycles</h2>
+      <p>A hierarchical MPM-DEM framework that links grain-scale ice bonding and melting to the macroscopic coupled THM behavior of frozen granular soils.</p>
+      <ul><li>DEM representative volume element embedded at each material point</li><li>Reveals how ice bonding strengthens soil and how melting reduces bearing capacity</li></ul>
+      <p class="research-row__paper">Key paper: <a href="https://doi.org/10.1016/j.compgeo.2024.106349" target="_blank" rel="noopener">Comput. Geotech. 2024</a></p>
+    </div>
+  </article>
+  <article class="research-row">
+    <div class="research-row__media">
+      <div class="news-thumb">
+        <div class="news-thumb__frame news-thumb__frame--contain"><img src="{{ '/images/Thermal_wave_E7.gif' | relative_url }}" alt="Waves from thermal expansion at the left and bottom boundaries" loading="lazy"></div>
+        <div class="news-thumb__label">Waves from thermal expansion at the left and bottom boundaries</div>
+      </div>
+    </div>
+    <div class="research-row__body">
+      <h2 class="research-row__title">THM modeling of porous media with compressible fluid</h2>
+      <p>An improved fractional step MPM that accounts for pore-fluid compressibility and thermal effects, capturing pressure shock waves under mechanical or thermal loading.</p>
+      <ul><li>Node-based implicit scheme for the intermediate variables</li><li>Extends naturally to three-phase porous media</li></ul>
+      <p class="research-row__paper">Key paper: <a href="https://doi.org/10.1016/j.cma.2025.118100" target="_blank" rel="noopener">CMAME 2025</a></p>
+    </div>
+  </article>
 </div>

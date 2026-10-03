@@ -1433,3 +1433,72 @@ $cv-ink: #4a5a6a;
   padding: 0;
   grid-template-columns: none;
 }
+
+/* Research page: picture (16:9 + caption bar) on the left, text on the right */
+.research-row {
+  display: grid;
+  grid-template-columns: minmax(260px, 42%) 1fr;
+  gap: 2.2em;
+  align-items: start;
+  padding: 1.8em 0;
+  border-bottom: 1px solid rgba(74, 90, 106, 0.15);
+
+  &:first-child {
+    padding-top: 0.5em;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.research-row__media .news-thumb__frame--contain img {
+  padding: 0;
+}
+
+.research-row__media .news-thumb__frame {
+  background: #fff;
+}
+
+.research-row__media .news-thumb__label {
+  font-weight: 500;
+  font-size: 0.72em;
+}
+
+.archive .research-row__title {
+  margin: 0 0 0.5em;
+  padding: 0;
+  border: none;
+  font-family: $serif;
+  font-size: 1.3em;
+  line-height: 1.3;
+}
+
+.research-row__body {
+  font-size: 0.95em;
+
+  p {
+    margin: 0 0 0.6em;
+  }
+
+  ul {
+    margin: 0 0 0.6em;
+    padding-left: 1.1em;
+
+    li {
+      margin: 0.15em 0;
+    }
+  }
+}
+
+.research-row__paper {
+  font-size: 0.85em;
+  color: $dark-gray;
+}
+
+@media (max-width: 800px) {
+  .research-row {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+}
