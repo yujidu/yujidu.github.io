@@ -71,8 +71,11 @@ $danger-color               : #ee5f5b;
 $info-color                 : #962570;
 
 /* links */
-$link-color                 : #1f6f78;  /* deep teal */
-$link-color-hover           : #144a50;
+$berkeley-blue              : #002676;  /* UC Berkeley brand */
+$california-gold            : #FDB515;
+$founders-rock              : #3B7EA1;
+$link-color                 : $berkeley-blue;
+$link-color-hover           : $founders-rock;
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : #000;
 $masthead-link-color-hover  : $primary-color;

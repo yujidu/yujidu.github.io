@@ -604,7 +604,8 @@ a:hover .news-thumb {
 
 .news-thumb__label {
   padding: 0.35em 0.6em;
-  background: $link-color;
+  background: $berkeley-blue;
+  border-top: 3px solid $california-gold;
   color: #fff;
   font-size: $type-size-7;
   font-weight: 600;
@@ -995,7 +996,7 @@ body {
 $cv-date-col: 10.5em;
 $cv-gap: 2.4em;
 $cv-line-x: $cv-date-col + $cv-gap / 2;
-$cv-ink: #4a5a6a;
+$cv-ink: $berkeley-blue;
 
 .cv-timeline {
   position: relative;
@@ -1043,8 +1044,9 @@ $cv-ink: #4a5a6a;
     }
 
     &:hover::before {
-      background: $cv-ink;
-      transform: scale(1.25);
+      background: $california-gold;
+      border-color: $california-gold;
+      transform: scale(1.35);
     }
   }
 }
@@ -1441,7 +1443,7 @@ $cv-ink: #4a5a6a;
   gap: 2.2em;
   align-items: start;
   padding: 1.8em 0;
-  border-bottom: 1px solid rgba(74, 90, 106, 0.15);
+  border-bottom: 1px solid rgba($berkeley-blue, 0.12);
 
   &:first-child {
     padding-top: 0.5em;
@@ -1501,4 +1503,31 @@ $cv-ink: #4a5a6a;
     grid-template-columns: 1fr;
     gap: 1em;
   }
+}
+
+/* UC Berkeley palette: Berkeley Blue for titles and links, California Gold accents */
+.page__title,
+.archive h2,
+.home-hero__title,
+.research-row__title,
+.news-detail__headline {
+  color: $berkeley-blue;
+}
+
+.archive h2:not([class]) {
+  border-bottom: 2px solid $california-gold;
+  padding-bottom: 0.25em;
+}
+
+.greedy-nav .visible-links a:before {
+  background: $california-gold;
+  height: 3px;
+}
+
+.news-item::before {
+  box-shadow: 0 0 0 3px $background-color, 0 0 0 4px rgba($california-gold, 0.9);
+}
+
+a:hover {
+  text-decoration-color: $california-gold;
 }
