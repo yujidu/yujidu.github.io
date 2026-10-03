@@ -118,7 +118,7 @@
 
 .home-hero__bio {
   color: $dark-gray;
-  margin-bottom: 0.35em !important;
+  margin-bottom: 0.8em !important;
 }
 
 .home-hero__links {
@@ -262,39 +262,34 @@
 }
 
 .pub-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5em;
-  margin-top: 0.35em;
-  font-size: $type-size-7;
+  white-space: nowrap;
 }
 
-.archive a.pub-btn,
-.pub-btn {
-  display: inline-block;
-  padding: 0.1em 0.7em;
-  border: 1px solid $link-color;
-  border-radius: 3px;
-  background: transparent;
+.archive a.pub-link,
+.pub-cite {
   color: $link-color;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: 1.6;
   text-decoration: none;
+}
+
+.pub-cite {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
   cursor: pointer;
 
-  &:hover,
   &.is-open {
-    background: $link-color;
-    color: #fff;
-    text-decoration: none;
+    font-weight: 700;
   }
+}
+
+.archive a.pub-link:hover,
+.pub-cite:hover {
+  text-decoration: underline;
 }
 
 .pub-cited {
   color: $gray;
-  margin-left: 0.25em;
 }
 
 .pub-bib {
@@ -353,4 +348,41 @@
   flex: 0 0 7.5em;
   color: $gray;
   font-variant-numeric: tabular-nums;
+}
+
+/* Footer: the same photo at the very bottom, fading in from the white page */
+body {
+  padding-bottom: 0;  /* footer now sits in normal flow below the content */
+}
+
+.page__footer {
+  position: relative;
+  bottom: auto;
+  border-top: none;
+  background-color: #fff;
+}
+
+.footer-hero {
+  position: relative;
+  margin-top: 1em;
+}
+
+.footer-hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer-hero__fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 70%;
+  background: linear-gradient(to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.55) 45%,
+    rgba(255, 255, 255, 0.9) 75%,
+    #fff 92%);
+  pointer-events: none;
 }

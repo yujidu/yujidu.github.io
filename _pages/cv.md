@@ -43,14 +43,6 @@ Work & Visiting Experience
   * Department of Civil, Environmental and Geomatic Engineering, University College London, UK
   * Host supervisor: [Prof. Yi Pik Helen Cheng](https://profiles.ucl.ac.uk/6010)
 
-Research Interests
------
-* __Particle and hybrid methods__, e.g., MPM, DEM, MPM-DEM, MPM-FVM
-* __THM/C modeling of multiphase granular media__, such as hydrate-bearing sediments and permafrost soils
-* __Climate-driven geohazards__, e.g., rainfall-induced landslides and thaw-related problems
-* __Soil behavior in extreme environments__, e.g., submarine, deep underground, and extraterrestrial settings
-* __Machine learning-aided multiscale and multiphysics modeling__ of granular media
-
 Research Projects
 -----
 * __A general-purpose multiscale, multiphysics computational platform for granular media__ (2025 – )
@@ -99,7 +91,7 @@ Teaching Assistant at HKUST:
 
 Academic Service
 -----
-__Journal reviewer__ for Advances in Engineering Software; Ain Shams Engineering Journal; Chemical Engineering Science; Computational Particle Mechanics; Computers and Geotechnics; Construction and Building Materials; Energy Technology; Finite Elements in Analysis and Design; Geoderma; International Journal of Geomechanics; International Journal of Heat and Mass Transfer; International Journal for Numerical Methods in Fluids; International Journal of Mining Science and Technology; Journal of Traffic and Transportation Engineering (English Edition); Powder Technology; Simulation Modelling Practice and Theory; Tunnelling and Underground Space Technology.
+__Journal reviewer__ for *Advances in Engineering Software*; *Ain Shams Engineering Journal*; *Chemical Engineering Science*; *Computational Particle Mechanics*; *Computer Methods in Applied Mechanics and Engineering*; *Computers and Geotechnics*; *Construction and Building Materials*; *Energy Technology*; *Engineering Geology*; *Finite Elements in Analysis and Design*; *Geoderma*; *International Journal for Numerical Methods in Fluids*; *International Journal of Geomechanics*; *International Journal of Heat and Mass Transfer*; *International Journal of Mining Science and Technology*; *Journal of Traffic and Transportation Engineering (English Edition)*; *Measurement*; *Mechanics of Materials*; *Physics and Chemistry of the Earth, Parts A/B/C*; *Powder Technology*; *Simulation Modelling Practice and Theory*; *Thin-Walled Structures*; *Tunnelling and Underground Space Technology*.
 
 __Memberships__: Chinese Society of Theoretical and Applied Mechanics (CSTAM); Hong Kong Geotechnical Society (HKGS).
 

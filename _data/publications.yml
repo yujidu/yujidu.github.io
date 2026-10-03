@@ -299,7 +299,7 @@ conference:
 - text: '**Yu J.D.**, Zhao J.D.\* (2025). A multiphysics-multiscale MPM-DEM framework for modeling climate-driven geohazards in phase-change granular media. *IX International Conference on Particle-based Methods (Particles 2025)*, 20–22 October 2025, Barcelona, Spain.'
 - text: '**Yu J.D.**, Zhao J.D.\* (2025). Hybrid explicit-implicit THMC-MPM for modeling phase transition and large deformation in hydrate-bearing sediment. *The 2nd Workshop on Material Point Method & Extreme Deformation Problems (MPM 2025)*, 12–14 September 2025, Xi''an, China.'
 - text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Thermo-hydro-mechanical coupled material point method for simulating the freeze-thaw behavior of porous media. *16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics (WCCM-PANACM 2024)*, July 2024, Vancouver, Canada.'
-- text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Multiphysics simulation of freezing and thawing granular media using material point method. *GeoShanghai International Conference 2024*, May 2024, Shanghai, China. IOP Conference Series: Earth and Environmental Science, 1330, 012035.'
+- text: '**Yu J.D.**, Zhao J.D.\*, Zhao S.W., Liang W.J. (2024). Multiphysics simulation of freezing and thawing granular media using material point method. *GeoShanghai International Conference 2024*, May 2024, Shanghai, China. *IOP Conference Series: Earth and Environmental Science*, 1330, 012035.'
   link: https://doi.org/10.1088/1755-1315/1330/1/012035
   cites: 3
   bib: |-
@@ -328,13 +328,15 @@ conference:
     }
 thesis:
 - text: '**Yu J.D.** (2025). Multiscale modeling of coupled thermo-hydro-mechanical behavior in granular media. Ph.D. thesis, The Hong Kong University of Science and Technology, Hong Kong.'
+  link: https://doi.org/10.14711/thesis-hdl152441
   bib: |-
     @phdthesis{yu2025phd,
       author = {Yu, Jidu},
       title = {Multiscale modeling of coupled thermo-hydro-mechanical behavior in granular media},
       school = {The Hong Kong University of Science and Technology},
       year = {2025},
-      address = {Hong Kong}
+      address = {Hong Kong},
+      doi = {10.14711/thesis-hdl152441}
     }
 talks:
 - text: '**Yu J.D.** (2026). Multiphysics and multiscale modeling of geomaterials in large deformation – Taking frozen soil and hydrate soil as examples. College of Architecture and Civil Engineering, Beijing University of Technology, Beijing, China. (Invited talk)'
