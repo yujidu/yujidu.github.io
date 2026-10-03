@@ -1530,7 +1530,7 @@ $cv-ink: #4a5a6a;
 }
 
 .home-hero--compact .home-hero__content {
-  bottom: 6%;
+  bottom: -1.6rem;  /* sit lower, below the tower top */
 }
 
 .home-hero--compact .home-hero__title {
@@ -1550,7 +1550,7 @@ $cv-ink: #4a5a6a;
 /* Inner pages: breathing room between the page title and the content.
    The title sits absolutely on the banner, so the space goes on #main. */
 .home-hero--compact ~ #main {
-  margin-top: 1.8rem;
+  margin-top: 3.4rem;
 }
 
 @media (max-width: 1000px) {
