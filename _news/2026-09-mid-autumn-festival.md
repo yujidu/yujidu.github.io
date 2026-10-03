@@ -9,7 +9,7 @@ summary: Jidu celebrated the Mid-Autumn Festival with colleagues and friends fro
 
 On 25 September 2026, the day of the Mid-Autumn Festival, Jidu celebrated with Chinese colleagues from Prof. Kenichi Soga's group over dinner at Wojia Hunan Cuisine.
 
-Two days later, on 27 September, Jidu and Guanlong hosted a Mid-Autumn dinner at home for colleagues and friends from UC Berkeley and Lawrence Berkeley National Laboratory, including Tianyu, Qinxin and Weijie. Jidu and Guanlong each cooked their signature dishes for the occasion. Many thanks to Weijie, Qinxin and Tianyu for bringing mooncakes with a variety of regional flavors.
+Two days later, on 27 September, Jidu and Guanlong hosted a Mid-Autumn dinner at home for colleagues and friends from UC Berkeley and Lawrence Berkeley National Laboratory, including Tianyu, Weijie, Qinxin and Guodong. Jidu and Guanlong each cooked their signature dishes for the occasion. Many thanks to our guests for bringing mooncakes with a variety of regional flavors.
 
 Far from home, it was a great joy to share the festival, traditionally a time for family reunion, with such wonderful friends.
 
