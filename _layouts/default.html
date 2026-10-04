@@ -24,12 +24,50 @@ layout: compress
         {% include footer.html %}
       </footer>
       <div class="footer-hero" aria-hidden="true">
-        <img class="footer-hero__image" src="{{ site.footer_image | default: 'berkeley-footer.jpg' | prepend: '/images/' | relative_url }}" alt="" loading="lazy">
+        <img id="footer-img" class="footer-hero__image" src="{{ site.footer_image | default: 'berkeley-footer.jpg' | prepend: '/images/' | relative_url }}" alt="" loading="lazy"><script>window.applySkinTo(document.getElementById('footer-img'), 'footer');</script>
         <div class="footer-hero__fade"></div>
       </div>
     </div>
 
     {% include scripts.html %}
+    <script>
+      /* skin switcher menu */
+      (function () {
+        var wrap = document.querySelector('.skin-switch'); if (!wrap) return;
+        var btn = wrap.querySelector('.skin-switch__btn'), menu = wrap.querySelector('.skin-switch__menu');
+        var current = window.getSkin() || '{{ site.default_skin | default: "berkeley" }}';
+        function mark() {
+          menu.querySelectorAll('[data-skin]').forEach(function (b) {
+            b.setAttribute('aria-checked', b.getAttribute('data-skin') === current);
+          });
+        }
+        function close() { menu.hidden = true; btn.setAttribute('aria-expanded', 'false'); }
+        btn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          var open = menu.hidden;
+          if (open) {
+            var r = btn.getBoundingClientRect();
+            menu.style.top = (r.bottom + 8) + 'px';
+            menu.style.right = Math.max(8, document.documentElement.clientWidth - r.right) + 'px';
+          }
+          menu.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+        });
+        document.addEventListener('click', function (e) { if (!wrap.contains(e.target)) close(); });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+        menu.addEventListener('click', function (e) {
+          var b = e.target.closest('[data-skin]'); if (!b) return;
+          current = b.getAttribute('data-skin');
+          try { localStorage.setItem('site-skin', current); } catch (err) {}
+          var s = window.SKINS[current], root = document.documentElement;
+          root.classList.toggle('skin-veil', s.veil); root.classList.toggle('skin-noveil', !s.veil);
+          var h = document.getElementById('hero-img'), f = document.getElementById('footer-img');
+          if (h) { h.src = s.banner; h.style.objectPosition = s.pos; }
+          if (f) { f.src = s.footer; }
+          mark(); close();
+        });
+        mark();
+      })();
+    </script>
     <script>
       /* top bar: transparent over the banner, solid once the page scrolls */
       (function () {

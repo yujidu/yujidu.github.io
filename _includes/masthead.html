@@ -18,6 +18,14 @@
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
+        <div class="skin-switch">
+          <button type="button" class="skin-switch__btn" aria-haspopup="true" aria-expanded="false" title="Change background" aria-label="Change background"><i class="fas fa-palette" aria-hidden="true"></i></button>
+          <div class="skin-switch__menu" role="menu" hidden>
+            <p class="skin-switch__title">Background</p>
+            <button type="button" role="menuitemradio" data-skin="berkeley"><span class="skin-switch__thumb" style="background-image:url('{{ base_path }}/images/berkeley.jpg')"></span>Berkeley Fall</button>
+            <button type="button" role="menuitemradio" data-skin="snow"><span class="skin-switch__thumb" style="background-image:url('{{ base_path }}/images/lake-banner.jpg')"></span>Snow Mountain</button>
+          </div>
+        </div>
       </nav>
     </div>
   </div>

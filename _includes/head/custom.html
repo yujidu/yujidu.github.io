@@ -3,6 +3,30 @@
 <!-- start custom head snippets -->
 
 <script>
+/* One-click banner skins (menu button next to "Research"). The choice is
+   remembered in this browser; without a choice the _config.yml banner is used. */
+window.SKINS = {
+  berkeley: { name: 'Berkeley Fall', banner: '{{ "/images/berkeley.jpg" | relative_url }}',
+              footer: '{{ "/images/berkeley-footer.jpg" | relative_url }}', pos: '', veil: false },
+  snow:     { name: 'Snow Mountain', banner: '{{ "/images/lake-banner.jpg" | relative_url }}',
+              footer: '{{ "/images/lake-footer.jpg" | relative_url }}', pos: 'center 65%', veil: true }
+};
+window.getSkin = function () {
+  try { var k = localStorage.getItem('site-skin'); return window.SKINS[k] ? k : null; } catch (e) { return null; }
+};
+window.applySkinTo = function (img, part) {
+  var k = window.getSkin(); if (!k || !img) return;
+  var s = window.SKINS[k];
+  if (img.getAttribute('src') !== s[part]) img.setAttribute('src', s[part]);
+  if (part === 'banner') img.style.objectPosition = s.pos;
+};
+(function () {
+  var k = window.getSkin(); if (!k) return;
+  document.documentElement.classList.add(window.SKINS[k].veil ? 'skin-veil' : 'skin-noveil');
+})();
+</script>
+
+<script>
 /* Wide screens: scale the whole page (text and images) so it always fills the
    window like a 1920px-wide layout; browser zoom only enlarges it once the
    window is narrower than that. --vw keeps viewport units correct under zoom. */
