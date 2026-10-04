@@ -24,7 +24,7 @@ layout: compress
         {% include footer.html %}
       </footer>
       <div class="footer-hero" aria-hidden="true">
-        <img id="footer-img" class="footer-hero__image" src="{{ site.footer_image | default: 'berkeley-footer.jpg' | prepend: '/images/' | relative_url }}" alt="" loading="lazy"><script>window.applySkinTo(document.getElementById('footer-img'), 'footer');</script>
+        <img id="footer-img" class="footer-hero__image" src="{{ site.footer_image | default: 'berkeley-footer.jpg' | prepend: '/images/' | relative_url }}" alt="" loading="lazy"><script>window.applySkinTo(document.getElementById('footer-img'), 'footer');</script><span class="skin-credit" id="skin-credit"></span><script>(function(){var k=window.getSkin(),c=document.getElementById('skin-credit');if(k&&c)c.textContent=window.SKINS[k].credit||'';})();</script>
         <div class="footer-hero__fade"></div>
       </div>
     </div>
@@ -72,6 +72,7 @@ layout: compress
           var h = document.getElementById('hero-img'), f = document.getElementById('footer-img');
           if (h) { h.src = s.banner; h.style.objectPosition = s.pos; }
           if (f) { f.src = s.footer; }
+          var cr = document.getElementById('skin-credit'); if (cr) cr.textContent = s.credit || '';
           mark(); close();
         });
         mark();
