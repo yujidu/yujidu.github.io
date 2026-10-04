@@ -1900,3 +1900,41 @@ html.skin-dark .has-hero .masthead:not(.is-scrolled) .skin-switch__btn {
   font-weight: 600;
   color: #33404d;
 }
+
+/* CV: sections with more than 5 entries fold; a button reveals the rest */
+.cv-timeline.cv-folded > li.cv-more {
+  display: none;
+}
+
+.cv-timeline.cv-folded {
+  margin-bottom: 0.4em;
+}
+
+.cv-fold-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin: 0 0 2.25em calc(#{$cv-date-col} + #{$cv-gap});
+  padding: 0.3em 0.9em;
+  border: 1px solid rgba($link-color, 0.25);
+  border-radius: 999px;
+  background: transparent;
+  color: $link-color;
+  font: inherit;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+
+  &:hover {
+    background: rgba($link-color, 0.06);
+    border-color: rgba($link-color, 0.45);
+  }
+}
+
+@media (max-width: 600px) {
+  .cv-fold-btn {
+    margin-left: 1.5em;
+  }
+}

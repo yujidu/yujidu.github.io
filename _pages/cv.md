@@ -157,3 +157,32 @@ Publications
 See the [Publications]({{ base_path }}/publications/) page.
 
 <p style="text-align:left;"><small>(Last updated: Oct. 2026)</small></p>
+
+<script>
+/* Fold any CV section with more than 5 entries; a button shows the rest. */
+(function () {
+  var LIMIT = 5;
+  document.querySelectorAll('.archive > .cv-timeline, .page__content > .cv-timeline, ul.cv-timeline').forEach(function (ul) {
+    if (ul.dataset.folded || ul.closest('.cv-timeline') !== ul) return;
+    var items = Array.prototype.filter.call(ul.children, function (li) { return li.tagName === 'LI'; });
+    if (items.length <= LIMIT) return;
+    ul.dataset.folded = '1';
+    items.slice(LIMIT).forEach(function (li) { li.classList.add('cv-more'); });
+    ul.classList.add('cv-folded');
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'cv-fold-btn';
+    var more = 'Show all ' + items.length + ' <span aria-hidden="true">▾</span>';
+    var less = 'Show less <span aria-hidden="true">▴</span>';
+    btn.innerHTML = more;
+    btn.setAttribute('aria-expanded', 'false');
+    btn.addEventListener('click', function () {
+      var open = ul.classList.toggle('cv-folded') === false;
+      btn.innerHTML = open ? less : more;
+      btn.setAttribute('aria-expanded', String(open));
+      if (!open) ul.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    });
+    ul.parentNode.insertBefore(btn, ul.nextSibling);
+  });
+})();
+</script>
