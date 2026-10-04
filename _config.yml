@@ -16,7 +16,7 @@ title_separator          : "-"
 #   Berkeley : berkeley.jpg        / berkeley-footer.jpg
 #   Seaside  : seaside-banner.jpg  / seaside-footer.jpg  (set banner_dark: true)
 #   Forest   : forest-banner.jpg   / forest-footer.jpg   (set banner_veil: true)
-#   Lake     : lake-banner.jpg     / lake-footer.jpg     (banner_position "center 65%", banner_veil: true)
+#   Lake     : lake-banner.jpg     / lake-footer.jpg     (banner_position "center 85%", banner_veil: true)
 banner_image             : berkeley.jpg
 footer_image             : berkeley-footer.jpg
 banner_position          :          # e.g. "center 65%"; empty = show the bottom of the photo
