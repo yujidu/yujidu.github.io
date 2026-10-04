@@ -1914,7 +1914,8 @@ html.skin-dark .has-hero .masthead:not(.is-scrolled) .skin-switch__btn {
   display: inline-flex;
   align-items: center;
   gap: 0.35em;
-  margin: 0 0 2.25em calc(#{$cv-date-col} + #{$cv-gap});
+  /* em here is the button's own (0.8x) size, so scale back to line up with the entry text */
+  margin: 0 0 2.8em calc((#{$cv-date-col} + #{$cv-gap}) * 1.25);
   padding: 0.3em 0.9em;
   border: 1px solid rgba($link-color, 0.25);
   border-radius: 999px;
@@ -1935,6 +1936,6 @@ html.skin-dark .has-hero .masthead:not(.is-scrolled) .skin-switch__btn {
 
 @media (max-width: 600px) {
   .cv-fold-btn {
-    margin-left: 1.5em;
+    margin-left: 1.875em;
   }
 }
