@@ -1789,7 +1789,7 @@ html.skin-noveil body.has-hero .home-hero__media::before {
   }
 }
 
-.skin-switch__menu {
+.greedy-nav .skin-switch__menu {
   position: fixed;
   z-index: 40;
   min-width: 12.5rem;
@@ -1806,6 +1806,9 @@ html.skin-noveil body.has-hero .home-hero__media::before {
   }
 
   button {
+    position: static;  /* undo the greedy-nav button styles */
+    height: auto;
+    outline: revert;
     display: flex;
     align-items: center;
     gap: 0.65rem;
