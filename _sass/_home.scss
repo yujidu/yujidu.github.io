@@ -1894,3 +1894,9 @@ html.skin-dark .has-hero .masthead:not(.is-scrolled) .skin-switch__btn {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
+
+/* award amount / selectivity in the honors list */
+.cv-honor__amt {
+  font-weight: 600;
+  color: #33404d;
+}
