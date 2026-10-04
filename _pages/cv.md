@@ -60,7 +60,7 @@ Research Projects
   <li class="cv-proj"><span class="cv-timeline__date">2026 – </span><div class="cv-timeline__body">
     <div class="cv-proj__funder">Research Grants Council of Hong Kong · General Research Fund<span class="cv-proj__grant">#16210526</span></div>
     <strong class="cv-proj__title">A multiscale digital twin for sinkhole prediction: integrating MPM, CFD-DEM, and machine learning for urban geohazard assessment</strong>
-    <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Prof. Jidong Zhao</dd></div><div><dt>Role</dt><dd>Participant</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">HK$1,014,504</dd></div></dl>
+    <dl class="cv-proj__facts"><div><dt>PI</dt><dd>Prof. Jidong Zhao</dd></div><div><dt>Role</dt><dd>Co-I</dd></div><div><dt>Funding</dt><dd class="cv-proj__amount">HK$1,014,504</dd></div></dl>
   </div></li>
   <li class="cv-proj"><span class="cv-timeline__date">2025 – </span><div class="cv-timeline__body">
     <div class="cv-proj__funder">National Natural Science Foundation of China</div>
