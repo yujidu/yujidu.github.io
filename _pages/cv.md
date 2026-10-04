@@ -109,8 +109,8 @@ Honors & Awards
   <li><span class="cv-timeline__date">2018 – 2020</span><div class="cv-timeline__body"><span class="cv-honor__name">First Class Postgraduate Scholarship</span><span class="cv-honor__by">Hohai University · <span class="cv-honor__amt">CN¥12,000 each</span></span></div></li>
   <li><span class="cv-timeline__date">2020</span><div class="cv-timeline__body"><span class="cv-honor__name">Postgraduate Research &amp; Practice Innovation Program of Jiangsu Province</span><span class="cv-honor__by">Jiangsu Province · <span class="cv-honor__amt">CN¥20,000</span></span></div></li>
   <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body"><span class="cv-honor__name">Outstanding Master Thesis Cultivation Program</span><span class="cv-honor__by">Hohai University · <span class="cv-honor__amt">CN¥20,000 · one awardee per school</span></span></div></li>
-  <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body"><span class="cv-honor__name">First Class Prize, the 9th "MathorCup" College Mathematical Modeling Challenge</span><span class="cv-honor__by">MathorCup</span></div></li>
-  <li><span class="cv-timeline__date">2018</span><div class="cv-timeline__body"><span class="cv-honor__name">Second Class Prize, the 15th "Huawei Cup" China Postgraduate Mathematical Contest in Modeling</span><span class="cv-honor__by">Huawei Cup</span></div></li>
+  <li><span class="cv-timeline__date">2019</span><div class="cv-timeline__body"><span class="cv-honor__name">First Class Prize, the 9th "MathorCup" College Mathematical Modeling Challenge</span><span class="cv-honor__by">Chinese Society of Optimization, Overall Planning and Economic Mathematics</span></div></li>
+  <li><span class="cv-timeline__date">2018</span><div class="cv-timeline__body"><span class="cv-honor__name">Second Class Prize, the 15th "Huawei Cup" China Postgraduate Mathematical Contest in Modeling</span><span class="cv-honor__by">China Academic Degrees &amp; Graduate Education Association</span></div></li>
 </ul>
 
 Teaching
