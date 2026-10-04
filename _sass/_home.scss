@@ -1712,7 +1712,8 @@ $cv-ink: #4a5a6a;
 }
 
 /* Dark banner photo: light menu text while the bar sits on the photo */
-.banner-dark.has-hero .masthead:not(.is-scrolled) {
+html:not(.skin-light) .banner-dark.has-hero .masthead:not(.is-scrolled),
+html.skin-dark .has-hero .masthead:not(.is-scrolled) {
   .greedy-nav .visible-links a,
   .greedy-nav a.masthead__home-mobile {
     color: #fff;
@@ -1725,7 +1726,8 @@ $cv-ink: #4a5a6a;
 }
 
 @media (max-width: 768px) {
-  .banner-dark.has-hero .masthead:not(.is-scrolled) .greedy-nav .visible-links li:first-child {
+  html:not(.skin-light) .banner-dark.has-hero .masthead:not(.is-scrolled) .greedy-nav .visible-links li:first-child,
+  html.skin-dark .has-hero .masthead:not(.is-scrolled) .greedy-nav .visible-links li:first-child {
     background: linear-gradient(to right,
       rgba(22, 30, 92, 0.92) 85%,
       rgba(22, 30, 92, 0));
@@ -1867,4 +1869,16 @@ html.skin-noveil body.has-hero .home-hero__media::before {
     width: 1.9rem;
     height: 1.9rem;
   }
+}
+
+/* the switcher button on a dark photo */
+html.skin-dark .has-hero .masthead:not(.is-scrolled) .skin-switch__btn {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+
+.greedy-nav .skin-switch__menu {
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
 }
