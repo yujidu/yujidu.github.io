@@ -1733,7 +1733,7 @@ $cv-ink: #4a5a6a;
 }
 
 /* Light-menu photos with busy tops (trees, clouds): a soft veil under the menu */
-body.has-hero:not(.banner-dark) .home-hero__media::before {
+body.has-hero.banner-veil:not(.banner-dark) .home-hero__media::before {
   content: "";
   position: absolute;
   left: 0;

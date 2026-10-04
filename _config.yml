@@ -12,13 +12,18 @@ locale                   : "en-US"
 title                    : "Jidu Yu"
 title_separator          : "-"
 
-# Top banner and footer photos. To switch back to the Berkeley photos use
-#   banner_image: berkeley.jpg / footer_image: berkeley-footer.jpg / banner_dark: false
-banner_image             : lake-banner.jpg   # forest-banner.jpg, seaside-banner.jpg, berkeley.jpg
-footer_image             : lake-footer.jpg   # forest-footer.jpg, seaside-footer.jpg, berkeley-footer.jpg
-banner_position          : "center 65%"  # which part of the banner shows when it is cropped (remove for the Berkeley photo)
-banner_position_inner    : "center 65%"  # same, for News/CV/Publications/Research
-banner_dark              : false  # true for a dark photo (seaside): light menu text over it
+# Top banner and footer photos (all versions are kept in /images):
+#   Berkeley : berkeley.jpg        / berkeley-footer.jpg
+#   Seaside  : seaside-banner.jpg  / seaside-footer.jpg  (set banner_dark: true)
+#   Forest   : forest-banner.jpg   / forest-footer.jpg   (set banner_veil: true)
+#   Lake     : lake-banner.jpg     / lake-footer.jpg     (banner_position "center 65%", banner_veil: true)
+banner_image             : berkeley.jpg
+footer_image             : berkeley-footer.jpg
+banner_position          :          # e.g. "center 65%"; empty = show the bottom of the photo
+banner_position_inner    :          # same, for News/CV/Publications/Research
+banner_dark              : false    # dark photo: light menu text over it
+banner_veil              : false    # busy photo top: soft light veil under the menu
+
 name                     : &name "Jidu Yu"
 description              : &description "Research Assistant Professor"
 url                      : https://yujidu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
