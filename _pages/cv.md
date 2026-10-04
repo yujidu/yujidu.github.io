@@ -91,7 +91,7 @@ Research Projects
 
 Honors & Awards
 -----
-<ul class="cv-timeline cv-honors">
+<ul class="cv-timeline cv-honors" data-fold="10">
   <li><span class="cv-timeline__date">2026</span><div class="cv-timeline__body"><span class="cv-honor__name">IJNAMG Top 10 Most-Cited Article &amp; Top Viewed Article</span><span class="cv-honor__by">Wiley</span></div></li>
   <li><span class="cv-timeline__date">2026</span><div class="cv-timeline__body"><span class="cv-honor__name">Research Travel Grant for Postdoctoral Fellow</span><span class="cv-honor__by">HKUST · <span class="cv-honor__amt">HK$20,000</span></span></div></li>
   <li><span class="cv-timeline__date">2024, 2025</span><div class="cv-timeline__body"><span class="cv-honor__name">RedBird Academic Excellence Award</span><span class="cv-honor__by">HKUST · <span class="cv-honor__amt">HK$20,000 each</span></span></div></li>
@@ -165,9 +165,10 @@ See the [Publications]({{ base_path }}/publications/) page.
   document.querySelectorAll('.archive > .cv-timeline, .page__content > .cv-timeline, ul.cv-timeline').forEach(function (ul) {
     if (ul.dataset.folded || ul.closest('.cv-timeline') !== ul) return;
     var items = Array.prototype.filter.call(ul.children, function (li) { return li.tagName === 'LI'; });
-    if (items.length <= LIMIT) return;
+    var limit = parseInt(ul.dataset.fold, 10) || LIMIT;  /* a list can set its own, e.g. data-fold="10" */
+    if (items.length <= limit) return;
     ul.dataset.folded = '1';
-    items.slice(LIMIT).forEach(function (li) { li.classList.add('cv-more'); });
+    items.slice(limit).forEach(function (li) { li.classList.add('cv-more'); });
     ul.classList.add('cv-folded');
     var btn = document.createElement('button');
     btn.type = 'button';
