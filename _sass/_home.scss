@@ -1939,3 +1939,11 @@ html.skin-dark .has-hero .masthead:not(.is-scrolled) .skin-switch__btn {
     margin-left: 1.875em;
   }
 }
+
+/* visitor counter in the footer */
+.page__footer-stats {
+  margin-top: 0.4em;
+  font-size: 0.7rem;
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+}
