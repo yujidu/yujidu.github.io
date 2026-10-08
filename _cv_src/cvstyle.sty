@@ -1,0 +1,114 @@
+% Shared look for the English and Chinese CVs (compile with XeLaTeX from this folder).
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cvstyle}
+
+\RequirePackage{fontspec}
+\RequirePackage{xcolor}
+\RequirePackage{etoolbox}
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{graphicx}
+\RequirePackage{fancyhdr}
+\RequirePackage{lastpage}
+\RequirePackage{microtype}
+\RequirePackage{needspace}
+\RequirePackage{xurl}
+\urlstyle{same}
+\RequirePackage[colorlinks=true,urlcolor=accent,linkcolor=accent,
+                pdfauthor={Jidu Yu},pdftitle={Jidu Yu - Curriculum Vitae}]{hyperref}
+
+% ---------- colours (Berkeley blue accent, like the website) ----------
+\definecolor{accent}{HTML}{002676}
+\definecolor{ink}{HTML}{1D2733}
+\definecolor{muted}{HTML}{5F6B77}
+\definecolor{hair}{HTML}{C9CFD8}
+
+% ---------- fonts: Source Serif 4 (text) and Source Sans 3 (labels) ----------
+\setmainfont{SourceSerif4}[
+  Path=fonts/, Extension=.otf,
+  UprightFont=*-Regular, ItalicFont=*-It,
+  BoldFont=*-Semibold, BoldItalicFont=*-SemiboldIt]
+\setsansfont{SourceSans3}[
+  Path=fonts/, Extension=.otf,
+  UprightFont=*-Regular, ItalicFont=*-It,
+  BoldFont=*-Semibold, BoldItalicFont=*-SemiboldIt]
+\newfontfamily\namefont{SourceSerif4}[Path=fonts/, Extension=.otf, UprightFont=*-Semibold]
+
+\color{ink}
+\setlength{\parindent}{0pt}
+\linespread{1.06}
+
+% ---------- layout: dates in a left column, content on the right ----------
+\newlength{\datecol}\setlength{\datecol}{1.08in}
+\newlength{\colsep}\setlength{\colsep}{1.1em}
+\newlength{\bodycol}
+\AtBeginDocument{\setlength{\bodycol}{\dimexpr\linewidth-\datecol-\colsep\relax}}
+
+\newcommand{\cvdate}[1]{{\sffamily\small\color{muted}#1}}
+\newcommand{\cvrow}[2]{%
+  \par\noindent\makebox[\datecol][r]{\cvdate{#1}}\hspace{\colsep}%
+  \begin{minipage}[t]{\bodycol}#2\end{minipage}\par\vspace{5.5pt}}
+
+% \cventry{date}{title}{organisation / place}{details}
+\newcommand{\cventry}[4]{\cvrow{#1}{%
+  {\bfseries #2}%
+  \ifblank{#3}{}{\\{\color{muted}\itshape #3}}%
+  \ifblank{#4}{}{\\[1.5pt]{\small #4}}}}
+
+% \cvaward{date}{award}{awarding body}{amount or selectivity}: amount in its own right-hand column
+\newlength{\amountcol}\setlength{\amountcol}{1.55in}
+\newcommand{\cvaward}[4]{\cvrow{#1}{%
+  \parbox[t]{\dimexpr\bodycol-\amountcol-0.8em}{\raggedright #2\ifblank{#3}{}{\,{\color{muted}\small\,·\,#3}}}%
+  \hfill\parbox[t]{\amountcol}{\raggedleft\sffamily\small\bfseries #4}}}
+
+% \cvproject{years}{funder and grant no.}{title}{PI / role / funding line}
+\newcommand{\cvproject}[4]{\cvrow{#1}{%
+  {\sffamily\small\color{accent}#2}\\[1pt]
+  {\bfseries #3}\\[1.5pt]
+  {\small\color{muted}#4}}}
+
+\newcommand{\fact}[2]{{\sffamily\footnotesize\color{muted}\MakeUppercase{#1}}\ {\color{ink}#2}}
+\newcommand{\factsep}{\quad}
+
+% heading inside a section, aligned with the content column
+\newcommand{\cvsub}[1]{\par\needspace{5\baselineskip}\vspace{3pt}\noindent\hspace*{\dimexpr\datecol+\colsep}%
+  {\sffamily\bfseries\small\color{ink}#1}\par\vspace{2.5pt}}
+
+% numbered publication lists with the number in the date column
+\newenvironment{publist}{%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{\dimexpr\datecol+\colsep}%
+    \setlength{\labelwidth}{\datecol}%
+    \setlength{\labelsep}{\colsep}%
+    \setlength{\itemsep}{3.2pt}\setlength{\parsep}{0pt}\setlength{\topsep}{1pt}%
+    \renewcommand{\makelabel}[1]{\hfill\cvdate{##1}}}%
+  \small}{\end{list}\vspace{2pt}}
+\newcommand{\pubdoi}[2]{\ \href{#1}{\sffamily\footnotesize\nolinkurl{#2}}}
+\newcommand{\corr}{\textsuperscript{*}}
+
+% plain bullet list in the content column
+\newenvironment{cvbullets}{%
+  \begin{itemize}[leftmargin=\dimexpr\datecol+\colsep+0.9em, label={\color{accent}\textbullet},
+                  itemsep=1.5pt, topsep=1pt, parsep=0pt]}{\end{itemize}\vspace{2pt}}
+
+% ---------- section headings ----------
+\titleformat{\section}
+  {\needspace{7\baselineskip}\sffamily\bfseries\fontsize{11.2}{13}\selectfont\color{accent}}
+  {}{0pt}{\sectionlabel}
+  [\vspace{1.5pt}{\color{hair}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{13pt}{7pt}
+\newcommand{\sectionlabel}[1]{#1}
+
+% ---------- footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\footleft}{}
+\newcommand{\footright}{}
+\fancyfoot[L]{\sffamily\scriptsize\color{muted}\footleft}
+\fancyfoot[R]{\sffamily\scriptsize\color{muted}\footright}
+\fancypagestyle{plain}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[L]{\sffamily\scriptsize\color{muted}\footleft}%
+  \fancyfoot[R]{\sffamily\scriptsize\color{muted}\footright}}
+
+\endinput

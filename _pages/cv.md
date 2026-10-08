@@ -9,6 +9,11 @@ redirect_from:
 ---
 {% include base_path %}
 
+<div class="cv-download">
+  <a class="cv-download__btn" href="{{ base_path }}/files/Jidu_Yu_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV (English)</a>
+  <a class="cv-download__btn" href="{{ base_path }}/files/Jidu_Yu_CV_zh.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> 下载简历（中文）</a>
+</div>
+
 Education
 -----
 <ul class="cv-timeline">

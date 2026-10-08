@@ -1,0 +1,186 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,margin=0.72in,bottom=0.8in,footskip=0.35in]{geometry}
+\usepackage{xeCJK}            % Chinese journal names in the reference list
+\setCJKmainfont{Noto Serif CJK SC}[ItalicFont=Noto Serif CJK SC, BoldFont=Noto Serif CJK SC SemiBold]
+\setCJKsansfont{Noto Sans CJK SC}
+\usepackage{cvstyle}
+
+\renewcommand{\sectionlabel}[1]{{\addfontfeature{LetterSpace=6}\MakeUppercase{#1}}}
+\renewcommand{\footleft}{Jidu Yu \,·\, Curriculum Vitae \,·\, Updated October 2026}
+\renewcommand{\footright}{Page \thepage\ of \pageref*{LastPage}}
+
+\input{generated/pubs.tex}
+
+\begin{document}
+
+% ======================= header =======================
+\begin{minipage}[b]{0.6\linewidth}
+  {\namefont\fontsize{30}{32}\selectfont\color{ink}Jidu Yu}\\[7pt]
+  {\sffamily\fontsize{12.5}{14}\selectfont\color{accent}Postdoctoral Researcher}\\[3pt]
+  {\sffamily\small\color{muted}Department of Civil and Environmental Engineering\\
+   University of California, Berkeley, CA 94720, USA}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.38\linewidth}\raggedleft\sffamily\small\linespread{1.25}\selectfont
+  \href{mailto:jyubu@connect.ust.hk}{jyubu@connect.ust.hk}\\
+  \href{https://yujidu.github.io}{yujidu.github.io}\\
+  \href{https://scholar.google.com/citations?user=AgtKCIIAAAAJ}{Google Scholar}\,·\,%
+  \href{https://orcid.org/0000-0002-2311-0603}{ORCID}\,·\,%
+  \href{https://github.com/yujidu}{GitHub}\\
+  {\color{muted}ORCID 0000-0002-2311-0603}
+\end{minipage}
+
+\vspace{8pt}{\color{accent}\rule{\linewidth}{1.3pt}}\vspace{-4pt}
+
+% ======================= research interests =======================
+\section{Research Interests}
+\vspace{-1pt}
+\cvrow{}{My research develops high-fidelity computational methods for geomaterials in extreme environments,
+where coupled thermal, hydraulic, mechanical and chemical (THMC) processes drive large deformation and failure.}
+\vspace{-3pt}
+\begin{cvbullets}
+  \item Particle and hybrid numerical methods: MPM, DEM, MPM-DEM, MPM-FVM
+  \item Multiphysics (THM/C) modelling of multiphase granular media, e.g., frozen soils and hydrate-bearing sediments
+  \item Climate-driven geohazards: permafrost thaw, rainfall-induced landslides, hydrate dissociation-induced instability
+  \item Geomechanics in extreme environments: submarine, deep underground and extraterrestrial
+  \item Machine learning-aided multiscale and multiphysics modelling
+  \item 3D printing of extrusion-based materials: rheology and numerical modelling
+\end{cvbullets}
+
+% ======================= appointments =======================
+\section{Academic Appointments}
+\cventry{Feb.\ 2026 -- present}{Postdoctoral Researcher}
+  {Department of Civil and Environmental Engineering, University of California, Berkeley, USA}
+  {\fact{Advisor}{Prof.\ Kenichi Soga}}
+\cventry{Sep.\ 2025 -- Jan.\ 2026}{Postdoctoral Researcher}
+  {Department of Civil and Environmental Engineering, The Hong Kong University of Science and Technology}
+  {\fact{Advisor}{Prof.\ Jidong Zhao}}
+\cventry{Nov.\ 2024 -- Apr.\ 2025}{Visiting Ph.D.\ Researcher}
+  {Department of Civil and Environmental Engineering, University of California, Berkeley, USA}
+  {\fact{Host}{Prof.\ Kenichi Soga}}
+\cventry{Jul.\ 2019 -- Oct.\ 2019}{Visiting Student}
+  {Department of Civil, Environmental and Geomatic Engineering, University College London, UK}
+  {\fact{Host}{Prof.\ Yi Pik Helen Cheng}}
+
+% ======================= education =======================
+\section{Education}
+\cventry{Aug.\ 2021 -- Aug.\ 2025}{Ph.D.\ in Civil Engineering (Geotechnical)}
+  {The Hong Kong University of Science and Technology, Hong Kong}
+  {\fact{Thesis}{Multiscale Modeling of Coupled Thermo-Hydro-Mechanical Behavior in Granular Media}\\
+   \fact{Supervisor}{Prof.\ Jidong Zhao}}
+\cventry{Sep.\ 2018 -- Jul.\ 2021}{M.Eng.\ in Hydraulic Structure Engineering}
+  {Hohai University, Nanjing, China}
+  {\fact{Dissertation}{Experimental and Theoretical Investigation of the Crushing Behavior of Granular Media}\\
+   \fact{Supervisor}{Prof.\ Sihong Liu}}
+\cventry{Sep.\ 2014 -- Jul.\ 2018}{B.Eng.\ in Water Conservancy and Hydropower Engineering}
+  {Hohai University, Nanjing, China}
+  {\fact{Dissertation}{Experimental Study on the Compression Behavior of Crushable Granular Materials}}
+
+% ======================= grants =======================
+\section{Research Grants and Projects}
+\cvproject{2026 --}{Research Grants Council of Hong Kong · General Research Fund (GRF) \#16210526}
+  {A multiscale digital twin for sinkhole prediction: integrating MPM, CFD-DEM, and machine learning for urban geohazard assessment}
+  {PI: Prof.\ Jidong Zhao \factsep Role: \textbf{\color{ink}Co-I} \factsep Funding: HK\$1,014,504}
+\cvproject{2025 --}{National Natural Science Foundation of China}
+  {A general-purpose multiscale, multiphysics computational platform for granular media}
+  {PI: Prof.\ Jidong Zhao \factsep Role: Participant \factsep Funding: CN¥2.3 million}
+\cvproject{2025 --}{Research Grants Council of Hong Kong · Theme-based Research Scheme \#T22-607/24N}
+  {A digital twin for enhancing coastal resilience against extreme storm surges in Hong Kong}
+  {Project Coordinator: Prof.\ Jidong Zhao \factsep Role: Participant \factsep Funding: HK\$62.89 million}
+\cvproject{2023 -- 2026}{California Energy Commission · GFO-22-503}
+  {Performance-based monitoring and risk assessment tool for gas pipelines under natural forces}
+  {PI: Prof.\ Kenichi Soga \factsep Role: Participant \factsep Funding: US\$4.41 million}
+\cvproject{2022 -- 2024}{Research Grants Council of Hong Kong · General Research Fund (GRF) \#16206322}
+  {A combined physics-informed deep learning and multiscale modelling framework for simulation of thaw-induced landslide in permafrost}
+  {PI: Dr.\ Shiwei Zhao (Co-PI: Prof.\ Jidong Zhao) \factsep Role: Participant \factsep Funding: HK\$802,220}
+\cvproject{2021 -- 2023}{Research Grants Council of Hong Kong · General Research Fund (GRF) \#16211221}
+  {Multiscale modeling of thermo-hydro-mechanical (THM) behavior in granular sediments for gas hydrate recovery}
+  {PI: Prof.\ Jidong Zhao \factsep Role: Participant \factsep Funding: HK\$911,317}
+
+% ======================= honours =======================
+\section{Honors and Awards}
+\cvaward{2026}{IJNAMG Top 10 Most-Cited Article \& Top Viewed Article}{Wiley}{}
+\cvaward{2026}{Research Travel Grant for Postdoctoral Fellow}{HKUST}{HK\$20,000}
+\cvaward{2024, 2025}{RedBird Academic Excellence Award}{HKUST}{HK\$20,000 each}
+\cvaward{2024, 2025}{Research Travel Grant for Postgraduate}{HKUST}{HK\$12,000 each}
+\cvaward{2024}{Overseas Research Award}{HKUST}{HK\$60,000}
+\cvaward{2021 -- 2025}{Postgraduate Studentship}{HKUST}{HK\$225,120 per year}
+\cvaward{2022}{Excellent Master's Dissertation in Hydraulic Engineering}{China Association of Hydraulic Engineering Education}{40 nationwide}
+\cvaward{2022}{Excellent Master's Dissertation of Jiangsu Province}{Jiangsu Provincial Degree Committee}{150 province-wide}
+\cvaward{2022}{Excellent Master's Dissertation}{Hohai University}{}
+\cvaward{2021}{RedBird PhD Scholarship Program}{HKUST}{HK\$40,000}
+\cvaward{2021}{Outstanding Postgraduate}{Hohai University}{}
+\cvaward{2021}{Postgraduate ``Science \& Technology Star''}{Hohai University}{CN¥2,000 · top 20}
+\cvaward{2019, 2020}{National Scholarship for Postgraduates}{Ministry of Education of China}{CN¥20,000 each}
+\cvaward{2018 -- 2020}{First Class Postgraduate Scholarship}{Hohai University}{CN¥12,000 each}
+\cvaward{2020}{Postgraduate Research \& Practice Innovation Program of Jiangsu Province}{Jiangsu Province}{CN¥20,000}
+\cvaward{2019}{Outstanding Master Thesis Cultivation Program}{Hohai University}{CN¥20,000 · one per school}
+\cvaward{2019}{First Class Prize, 9th ``MathorCup'' College Mathematical Modeling Challenge}{Chinese Society of Optimization, Overall Planning and Economic Mathematics}{}
+\cvaward{2018}{Second Class Prize, 15th ``Huawei Cup'' China Postgraduate Mathematical Contest in Modeling}{China Academic Degrees \& Graduate Education Association}{}
+
+% ======================= publications =======================
+\section{Publications}
+\cvrow{}{\small
+  \href{\GSurl}{Google Scholar}: \textbf{\GSCitations} citations \,·\, h-index \textbf{\GSh} \,·\, i10-index \textbf{\GSiten}
+  {\color{muted}(\GSupdated)}\\
+  First/corresponding-author papers in \emph{JMPS} (2), \emph{CMAME} (2), \emph{IJNME} (1), \emph{IJNAMG} (1),
+  \emph{Computers and Geotechnics} (1), \emph{Construction and Building Materials} (1) and \emph{JGGE} (1).\\
+  {\color{muted}\textbf{Bold}: Jidu Yu \quad \corr\,Corresponding author}}
+
+\cvsub{Journal Articles}
+\begin{publist}\PubsJournal\end{publist}
+
+\cvsub{Journal Articles in Chinese}
+\begin{publist}\PubsChinese\end{publist}
+
+\cvsub{Manuscripts under Review}
+\begin{publist}\PubsReview\end{publist}
+
+\cvsub{Conference Papers and Abstracts}
+\begin{publist}\PubsConference\end{publist}
+
+\cvsub{Thesis}
+\begin{publist}\PubsThesis\end{publist}
+
+% ======================= talks =======================
+\section{Invited Talks}
+\cventry{Jan.\ 2026}{Multiphysics and multiscale modeling of geomaterials in large deformation: taking frozen soil and hydrate soil as examples}
+  {College of Architecture and Civil Engineering, Beijing University of Technology, Beijing, China}{}
+\cventry{2024}{Multiscale modeling the thermo-hydro-mechanical behavior of frozen soils}
+  {College of Water Conservancy and Hydropower Engineering, Hohai University, Nanjing, China}{}
+
+% ======================= teaching =======================
+\section{Teaching Experience}
+\cvrow{}{{\color{muted}\itshape Teaching Assistant, The Hong Kong University of Science and Technology}}
+\vspace{-2pt}
+\cventry{2023 -- 2025}{Undergraduate Final-Year Projects (2023--24, 2024--25)}{}{}
+\cventry{Fall 2023}{CIVL 4750 Numerical Solutions to Geotechnical Problems}{}{}
+\cventry{Spring 2023}{CIVL 3740 Geotechnical Analysis and Design}{}{}
+\cventry{Spring 2022}{CIVL 4320 Structural Steel Design}{}{}
+
+% ======================= service =======================
+\section{Professional Service}
+\cvrow{2025 --}{\textbf{Journal reviewer}\\[1.5pt]{\small\raggedright
+  Advances in Engineering Software;
+  Ain Shams Engineering Journal;
+  Chemical Engineering Science;
+  Computational Particle Mechanics;
+  Computer Methods in Applied Mechanics and Engineering;
+  Computers and Geotechnics;
+  Construction and Building Materials;
+  Energy Technology;
+  Engineering Geology;
+  Finite Elements in Analysis and Design;
+  Geoderma;
+  International Journal for Numerical Methods in Fluids;
+  International Journal of Geomechanics;
+  International Journal of Heat and Mass Transfer;
+  International Journal of Mining Science and Technology;
+  Journal of Traffic and Transportation Engineering (English Edition);
+  Measurement;
+  Mechanics of Materials;
+  Physics and Chemistry of the Earth, Parts A/B/C;
+  Powder Technology;
+  Simulation Modelling Practice and Theory;
+  Tunnelling and Underground Space Technology\par}}
+
+\end{document}

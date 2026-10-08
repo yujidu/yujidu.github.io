@@ -1962,3 +1962,32 @@ html.skin-dark .has-hero .masthead:not(.is-scrolled) .skin-switch__btn {
   font-size: 0.8em;
   color: $dark-gray;
 }
+
+/* CV page: PDF download buttons */
+.cv-download {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin: 0 0 1.6em;
+}
+
+.archive .cv-download__btn,
+.cv-download__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.45em 1.05em;
+  border: 1px solid rgba($link-color, 0.35);
+  border-radius: 999px;
+  color: $link-color;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+
+  &:hover {
+    background: $link-color;
+    border-color: $link-color;
+    color: #fff;
+  }
+}

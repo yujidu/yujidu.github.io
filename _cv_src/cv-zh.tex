@@ -1,0 +1,189 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=18mm,bottom=20mm,footskip=9mm]{geometry}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK SC}[ItalicFont=Noto Serif CJK SC, BoldFont=Noto Serif CJK SC SemiBold]
+\setCJKsansfont{Noto Sans CJK SC}[BoldFont=Noto Sans CJK SC Medium]
+\usepackage{cvstyle}
+\xeCJKsetup{CJKspace=false}
+\linespread{1.18}
+
+\setlength{\datecol}{26mm}
+\setlength{\amountcol}{36mm}
+\renewcommand{\sectionlabel}[1]{{\addfontfeature{LetterSpace=10}#1}}
+\renewcommand{\footleft}{Jidu Yu\ 个人简历\,·\,更新于 2026 年 10 月}
+\renewcommand{\footright}{第 \thepage\ 页\,/\,共 \pageref*{LastPage} 页}
+\renewcommand{\fact}[2]{{\sffamily\footnotesize\color{muted}#1}\ {\color{ink}#2}}
+
+\input{generated/pubs.tex}
+
+\begin{document}
+
+% ======================= header with photo =======================
+\begin{minipage}[b]{0.62\linewidth}
+  {\namefont\fontsize{28}{30}\selectfont\color{ink}Jidu Yu}\\[7pt]
+  {\sffamily\fontsize{12.5}{15}\selectfont\color{accent}博士后研究员}\\[3pt]
+  {\sffamily\small\color{muted}美国加州大学伯克利分校\ 土木与环境工程系}\\[6pt]
+  {\sffamily\small
+   邮箱\ \href{mailto:jyubu@connect.ust.hk}{jyubu@connect.ust.hk}\\
+   主页\ \href{https://yujidu.github.io}{yujidu.github.io}\\
+   \href{https://scholar.google.com/citations?user=AgtKCIIAAAAJ}{Google Scholar}\,·\,%
+   \href{https://orcid.org/0000-0002-2311-0603}{ORCID 0000-0002-2311-0603}\,·\,%
+   \href{https://github.com/yujidu}{GitHub}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}\raggedleft
+  \includegraphics[width=27mm,height=33mm,keepaspectratio=false,trim=73 0 73 0,clip]{../images/Jidu_photo_2026c.jpg}
+\end{minipage}
+
+\vspace{7pt}{\color{accent}\rule{\linewidth}{1.3pt}}\vspace{-4pt}
+
+% ======================= research =======================
+\section{研究方向}
+\cvrow{}{致力于发展极端环境下岩土材料的高保真数值模拟方法，研究热–水–力–化（THMC）多场耦合作用驱动的大变形与破坏过程。}
+\vspace{-3pt}
+\begin{cvbullets}
+  \item 粒子类与混合数值方法：MPM、DEM、MPM-DEM、MPM-FVM
+  \item 多相颗粒介质多物理场（THM/C）耦合模拟，如冻土、含水合物沉积物
+  \item 气候驱动的地质灾害：冻土融化、降雨诱发滑坡、水合物分解诱发失稳
+  \item 极端环境岩土力学：海底、深地与地外环境
+  \item 机器学习辅助的多尺度、多物理场模拟
+  \item 挤出式材料 3D 打印：流变特性与数值模拟
+\end{cvbullets}
+
+% ======================= appointments =======================
+\section{工作与访问经历}
+\cventry{2026.02 -- 至今}{博士后研究员}
+  {美国加州大学伯克利分校\ 土木与环境工程系}
+  {\fact{合作导师}{Kenichi Soga 教授}}
+\cventry{2025.09 -- 2026.01}{博士后研究员}
+  {香港科技大学\ 土木及环境工程学系}
+  {\fact{合作导师}{赵吉东 教授}}
+\cventry{2024.11 -- 2025.04}{访问博士生}
+  {美国加州大学伯克利分校\ 土木与环境工程系}
+  {\fact{合作导师}{Kenichi Soga 教授}}
+\cventry{2019.07 -- 2019.10}{访问学生}
+  {英国伦敦大学学院（UCL）\ 土木、环境与测绘工程系}
+  {\fact{合作导师}{Yi Pik Helen Cheng 教授}}
+
+% ======================= education =======================
+\section{教育背景}
+\cventry{2021.08 -- 2025.08}{博士\quad 土木工程（岩土工程方向）}
+  {香港科技大学}
+  {\fact{学位论文}{颗粒介质热–水–力耦合行为的多尺度模拟（Multiscale Modeling of Coupled Thermo-Hydro-Mechanical Behavior in Granular Media）}\\
+   \fact{导师}{赵吉东 教授}}
+\cventry{2018.09 -- 2021.07}{硕士\quad 水工结构工程}
+  {河海大学}
+  {\fact{学位论文}{颗粒材料破碎特性的试验与理论研究}\\
+   \fact{导师}{刘斯宏 教授}}
+\cventry{2014.09 -- 2018.07}{学士\quad 水利水电工程}
+  {河海大学}
+  {\fact{毕业论文}{易破碎颗粒材料压缩特性试验研究}}
+
+% ======================= grants =======================
+\section{科研项目}
+\cvproject{2026 --}{香港研究资助局\ 优配研究金（GRF）\#16210526}
+  {基于 MPM、CFD-DEM 与机器学习的城市地面塌陷多尺度数字孪生预测}
+  {负责人：赵吉东 教授 \factsep 角色：\textbf{\color{ink}共同研究者（Co-I）} \factsep 经费：1,014,504 港元}
+\cvproject{2025 --}{国家自然科学基金}
+  {颗粒介质通用多尺度、多物理场计算平台}
+  {负责人：赵吉东 教授 \factsep 角色：参与 \factsep 经费：230 万元}
+\cvproject{2025 --}{香港研究资助局\ 主题研究计划（TRS）\#T22-607/24N}
+  {提升香港应对极端风暴潮海岸韧性的数字孪生}
+  {项目统筹：赵吉东 教授 \factsep 角色：参与 \factsep 经费：6,289 万港元}
+\cvproject{2023 -- 2026}{美国加州能源委员会（CEC）GFO-22-503}
+  {自然灾害作用下燃气管道基于性能的监测与风险评估工具}
+  {负责人：Kenichi Soga 教授 \factsep 角色：参与 \factsep 经费：441 万美元}
+\cvproject{2022 -- 2024}{香港研究资助局\ 优配研究金（GRF）\#16206322}
+  {结合物理信息深度学习与多尺度模拟的多年冻土融化滑坡模拟框架}
+  {负责人：Shiwei Zhao 博士（共同负责人：赵吉东 教授） \factsep 角色：参与 \factsep 经费：802,220 港元}
+\cvproject{2021 -- 2023}{香港研究资助局\ 优配研究金（GRF）\#16211221}
+  {面向天然气水合物开采的颗粒沉积物热–水–力（THM）行为多尺度模拟}
+  {负责人：赵吉东 教授 \factsep 角色：参与 \factsep 经费：911,317 港元}
+
+% ======================= honours =======================
+\section{荣誉奖励}
+\cvaward{2026}{IJNAMG 十大高被引论文、高浏览量论文}{Wiley}{}
+\cvaward{2026}{博士后科研差旅资助}{香港科技大学}{2 万港元}
+\cvaward{2024, 2025}{RedBird 学术卓越奖}{香港科技大学}{每次 2 万港元}
+\cvaward{2024, 2025}{研究生科研差旅资助}{香港科技大学}{每次 1.2 万港元}
+\cvaward{2024}{海外研究奖}{香港科技大学}{6 万港元}
+\cvaward{2021 -- 2025}{研究生全额奖学金（Postgraduate Studentship）}{香港科技大学}{每年 225,120 港元}
+\cvaward{2022}{全国水利类优秀硕士学位论文}{中国水利教育协会}{全国 40 人}
+\cvaward{2022}{江苏省优秀硕士学位论文}{江苏省学位委员会}{全省 150 人}
+\cvaward{2022}{河海大学优秀硕士学位论文}{河海大学}{}
+\cvaward{2021}{RedBird 博士奖学金}{香港科技大学}{4 万港元}
+\cvaward{2021}{优秀研究生}{河海大学}{}
+\cvaward{2021}{研究生“科技之星”}{河海大学}{2,000 元，全校 20 人}
+\cvaward{2019, 2020}{研究生国家奖学金}{教育部}{每次 2 万元}
+\cvaward{2018 -- 2020}{研究生一等学业奖学金}{河海大学}{每次 1.2 万元}
+\cvaward{2020}{江苏省研究生科研与实践创新计划}{江苏省}{2 万元}
+\cvaward{2019}{优秀硕士学位论文培育计划}{河海大学}{2 万元，每学院 1 人}
+\cvaward{2019}{第九届“MathorCup”高校数学建模挑战赛一等奖}{中国优选法统筹法与经济数学研究会}{}
+\cvaward{2018}{第十五届“华为杯”中国研究生数学建模竞赛二等奖}{中国学位与研究生教育学会}{}
+
+% ======================= publications =======================
+\section{学术论文}
+\cvrow{}{\small
+  \href{\GSurl}{Google Scholar}：总被引 \textbf{\GSCitations} 次，h 指数 \textbf{\GSh}，i10 指数 \textbf{\GSiten}
+  {\color{muted}（\GSupdated）}\\
+  以第一/通讯作者在 \emph{JMPS}（2 篇）、\emph{CMAME}（2 篇）、\emph{IJNME}、\emph{IJNAMG}、
+  \emph{Computers and Geotechnics}、\emph{Construction and Building Materials}、\emph{JGGE} 等期刊发表论文。\\
+  {\color{muted}\textbf{加粗}：本人\quad \corr\,通讯作者}}
+
+\cvsub{期刊论文}
+\begin{publist}\PubsJournal\end{publist}
+
+\cvsub{中文期刊论文}
+\begin{publist}\PubsChinese\end{publist}
+
+\cvsub{在审论文}
+\begin{publist}\PubsReview\end{publist}
+
+\cvsub{会议论文与摘要}
+\begin{publist}\PubsConference\end{publist}
+
+\cvsub{学位论文}
+\begin{publist}\PubsThesis\end{publist}
+
+% ======================= talks =======================
+\section{特邀报告}
+\cventry{2026.01}{大变形岩土材料的多物理场、多尺度模拟——以冻土和水合物土为例}
+  {北京工业大学\ 建筑与土木工程学院}{}
+\cventry{2024}{冻土热–水–力行为的多尺度模拟}
+  {河海大学\ 水利水电学院}{}
+
+% ======================= teaching =======================
+\section{教学经历}
+\cvrow{}{{\color{muted}香港科技大学\ 课程助教}}
+\vspace{-2pt}
+\cventry{2023 -- 2025}{本科毕业设计（2023–24、2024–25 学年）}{}{}
+\cventry{2023 秋}{CIVL 4750\ 岩土工程问题数值解法（Numerical Solutions to Geotechnical Problems）}{}{}
+\cventry{2023 春}{CIVL 3740\ 岩土分析与设计（Geotechnical Analysis and Design）}{}{}
+\cventry{2022 春}{CIVL 4320\ 钢结构设计（Structural Steel Design）}{}{}
+
+% ======================= service =======================
+\section{学术服务}
+\cvrow{2025 --}{\textbf{国际期刊审稿人}\\[1.5pt]{\small\raggedright
+  Advances in Engineering Software;
+  Ain Shams Engineering Journal;
+  Chemical Engineering Science;
+  Computational Particle Mechanics;
+  Computer Methods in Applied Mechanics and Engineering;
+  Computers and Geotechnics;
+  Construction and Building Materials;
+  Energy Technology;
+  Engineering Geology;
+  Finite Elements in Analysis and Design;
+  Geoderma;
+  International Journal for Numerical Methods in Fluids;
+  International Journal of Geomechanics;
+  International Journal of Heat and Mass Transfer;
+  International Journal of Mining Science and Technology;
+  Journal of Traffic and Transportation Engineering (English Edition);
+  Measurement;
+  Mechanics of Materials;
+  Physics and Chemistry of the Earth, Parts A/B/C;
+  Powder Technology;
+  Simulation Modelling Practice and Theory;
+  Tunnelling and Underground Space Technology\par}}
+
+\end{document}
