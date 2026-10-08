@@ -80,3 +80,19 @@ for src, dst in [("cv-en.tex", "Jidu_Yu_CV.pdf"), ("cv-zh.tex", "Jidu_Yu_CV_zh.p
                        cwd=HERE, check=True, stdout=subprocess.DEVNULL)
     shutil.copy(HERE / src.replace(".tex", ".pdf"), out_dir / dst)
     print("wrote", out_dir / dst)
+
+
+# ---- Overleaf packages: one self-contained zip per CV (XeLaTeX via latexmkrc) ----
+import zipfile
+for lang, tex in [("en", "cv-en.tex"), ("zh", "cv-zh.tex")]:
+    zpath = out_dir / f"Jidu_Yu_CV_{lang}_latex.zip"
+    with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
+        z.write(HERE / tex, "main.tex")
+        z.write(HERE / "cvstyle.sty", "cvstyle.sty")
+        z.write(gen / "pubs.tex", "generated/pubs.tex")
+        z.writestr("latexmkrc", "$pdf_mode = 5;  # XeLaTeX\n")
+        if lang == "zh":
+            z.write(HERE / "photo.jpg", "photo.jpg")
+        for f in sorted((HERE / "fonts").iterdir()):
+            z.write(f, f"fonts/{f.name}")
+    print("wrote", zpath)
