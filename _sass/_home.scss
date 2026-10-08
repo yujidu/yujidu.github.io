@@ -1947,3 +1947,18 @@ html.skin-dark .has-hero .masthead:not(.is-scrolled) .skin-switch__btn {
   opacity: 0.85;
   font-variant-numeric: tabular-nums;
 }
+
+/* simulation videos inside a news story */
+.news-video {
+  display: block;
+  width: 100%;
+  margin: 1.2em 0 0.4em;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.news-video__caption {
+  font-size: 0.8em;
+  color: $dark-gray;
+}

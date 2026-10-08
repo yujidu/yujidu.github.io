@@ -10,6 +10,17 @@ scholar:
   updated: Oct 2026
   url: https://scholar.google.com/citations?user=AgtKCIIAAAAJ
 journal:
+- text: 'Chen X.Y., Zhao J.D.\*, **Yu J.D.** (2026). The infiltration paradox: Pore-gas pressure controls on early slope failure during rapid hydraulic loading. *Engineering Geology*, 109124.'
+  link: https://doi.org/10.1016/j.enggeo.2026.109124
+  bib: |-
+    @article{chen2026infiltration,
+      author = {Chen, Xiaoying and Zhao, Jidong and Yu, Jidu},
+      title = {The infiltration paradox: Pore-gas pressure controls on early slope failure during rapid hydraulic loading},
+      journal = {Engineering Geology},
+      pages = {109124},
+      year = {2026},
+      doi = {10.1016/j.enggeo.2026.109124}
+    }
 - text: '**Yu J.D.**, Zhao J.D. (2026). A virtual heat flux method for simple and accurate Neumann thermal boundary imposition in the material point method. *International Journal for Numerical Methods in Engineering*, 127(12), e70371.'
   link: https://doi.org/10.1002/nme.70371
   bib: |-
