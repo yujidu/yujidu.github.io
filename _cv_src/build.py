@@ -74,18 +74,20 @@ gen.mkdir(exist_ok=True)
 
 out_dir = ROOT / "files"
 out_dir.mkdir(exist_ok=True)
-for src, dst in [("cv-en.tex", "Jidu_Yu_CV.pdf"), ("cv-zh.tex", "Jidu_Yu_CV_zh.pdf")]:
+# The Chinese CV is built inside _cv_src only (not published on the website).
+for src, dst in [("cv-en.tex", "Jidu_Yu_CV.pdf"), ("cv-zh.tex", None)]:
     for _ in range(2):  # second pass resolves "page x of y"
         subprocess.run(["xelatex", "-interaction=nonstopmode", "-halt-on-error", src],
                        cwd=HERE, check=True, stdout=subprocess.DEVNULL)
-    shutil.copy(HERE / src.replace(".tex", ".pdf"), out_dir / dst)
-    print("wrote", out_dir / dst)
+    if dst:
+        shutil.copy(HERE / src.replace(".tex", ".pdf"), out_dir / dst)
+        print("wrote", out_dir / dst)
 
 
 # ---- Overleaf packages: one self-contained zip per CV (XeLaTeX via latexmkrc) ----
 import zipfile
 for lang, tex in [("en", "cv-en.tex"), ("zh", "cv-zh.tex")]:
-    zpath = out_dir / f"Jidu_Yu_CV_{lang}_latex.zip"
+    zpath = (out_dir if lang == "en" else HERE) / f"Jidu_Yu_CV_{lang}_latex.zip"
     with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
         z.write(HERE / tex, "main.tex")
         z.write(HERE / "cvstyle.sty", "cvstyle.sty")
