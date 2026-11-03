@@ -145,9 +145,14 @@ Academic Service
 -----
 <ul class="cv-timeline">
   <li class="cv-card"><span class="cv-timeline__date">2026 –</span><div class="cv-timeline__body">
+    <div class="cv-card__eyebrow">Grant review</div>
+    <strong class="cv-card__title">Ad Hoc Reviewer</strong>
+    <ul class="cv-journals"><li>U.S. National Science Foundation (NSF)</li></ul>
+  </div></li>
+  <li class="cv-card"><span class="cv-timeline__date">2026 –</span><div class="cv-timeline__body">
     <div class="cv-card__eyebrow">Peer review</div>
     <strong class="cv-card__title">Journal Reviewer</strong>
-    <ul class="cv-journals"><li>Advances in Engineering Software</li><li>Computer Methods in Applied Mechanics and Engineering</li><li>Construction and Building Materials</li><li>Engineering Geology</li><li>Finite Elements in Analysis and Design</li><li>Geoderma</li><li>International Journal of Heat and Mass Transfer</li><li>International Journal of Mining Science and Technology</li><li>Journal of Traffic and Transportation Engineering (English Edition)</li><li>Measurement</li><li>Mechanics of Materials</li><li>Physics and Chemistry of the Earth, Parts A/B/C</li><li>Simulation Modelling Practice and Theory</li><li>Tunnelling and Underground Space Technology</li></ul>
+    <ul class="cv-journals"><li>Advances in Engineering Software</li><li>Computer Methods in Applied Mechanics and Engineering</li><li>Construction and Building Materials</li><li>Engineering Geology</li><li>Finite Elements in Analysis and Design</li><li>Geoderma</li><li>International Journal of Heat and Mass Transfer</li><li>International Journal of Mining Science and Technology</li><li>Journal of Rock Mechanics and Geotechnical Engineering</li><li>Journal of Traffic and Transportation Engineering (English Edition)</li><li>Measurement</li><li>Mechanics of Materials</li><li>Physics and Chemistry of the Earth, Parts A/B/C</li><li>Simulation Modelling Practice and Theory</li><li>Thin-Walled Structures</li><li>Transportation Geotechnics</li><li>Tunnelling and Underground Space Technology</li></ul>
   </div></li>
   <li class="cv-card"><span class="cv-timeline__date">2025 –</span><div class="cv-timeline__body">
     <div class="cv-card__eyebrow">Peer review</div>
@@ -160,7 +165,7 @@ Publications
 -----
 See the [Publications]({{ base_path }}/publications/) page.
 
-<p style="text-align:left;"><small>(Last updated: Oct. 2026)</small></p>
+<p style="text-align:left;"><small>(Last updated: Nov. 2026)</small></p>
 
 <script>
 /* Fold any CV section with more than 5 entries; a button shows the rest. */
